@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+.vscode/
+.idea/
+*.tmp
+generate_batch.js
+generate_all.js
