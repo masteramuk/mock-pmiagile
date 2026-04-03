@@ -1,0 +1,357 @@
+const fs = require('fs');
+
+const scenarios = [
+  {
+    question: "A team is experiencing frequent conflicts during their technical discussions. As a Scrum Master, what is the most effective approach to handle this situation while promoting a healthy Agile environment?",
+    options: [
+      "Intervene immediately to resolve the conflict and maintain the project schedule.",
+      "Facilitate a discussion where the team can constructively address their differences and find common ground.",
+      "Encourage the team to ignore the conflict and focus on completing their assigned tasks.",
+      "Escalate the matter to the functional manager to handle the interpersonal issues."
+    ],
+    answer: "B",
+    explanation: "Scrum Masters act as facilitators and servant leaders. They should help the team navigate through conflicts (like in the Storming phase of Tuckman's model) by encouraging open and honest communication, which is key for Team Performance.",
+    domain: "Team Performance",
+    difficulty: "medium"
+  },
+  {
+    question: "During a project, a Product Owner wants to prioritize a feature that has a high potential business value but also carries significant technical risk. How should the team approach this in alignment with Agile principles?",
+    options: [
+      "Avoid the high-risk feature until all other low-risk features are completed.",
+      "Start with the high-risk, high-value feature early in the project to learn and mitigate risks sooner.",
+      "Ask the Project Manager to decide whether the risk is worth the potential value.",
+      "Only work on the feature if the stakeholders agree to a fixed-price contract."
+    ],
+    answer: "B",
+    explanation: "Agile promotes 'failing fast' and risk mitigation through early delivery. Addressing high-risk, high-value items early (Value-Driven Delivery) helps in early discovery and learning, preventing late-stage project failures.",
+    domain: "Value-Driven Delivery",
+    difficulty: "hard"
+  },
+  {
+    question: "A team is using a Burndown chart and notices that the line representing remaining work is consistently above the ideal burndown line. What does this most likely indicate?",
+    options: [
+      "The team is ahead of schedule and will likely finish the sprint early.",
+      "The team is falling behind and may not complete all committed stories by the end of the sprint.",
+      "The team's velocity has significantly increased over the last few days.",
+      "The Product Owner has added more stories to the sprint backlog during the iteration."
+    ],
+    answer: "B",
+    explanation: "In a Burndown chart, if the actual work line is above the ideal line, it means more work remains than originally planned at that point in time, indicating a potential delay in Problem Detection and Resolution.",
+    domain: "Problem Detection and Resolution",
+    difficulty: "easy"
+  },
+  {
+    question: "Which of the following best describes the 'Sustainable Pace' principle from the Agile Manifesto?",
+    options: [
+      "The team should work as many hours as needed to meet the project deadline.",
+      "Agile processes promote sustainable development, where sponsors, developers, and users can maintain a constant pace indefinitely.",
+      "The pace of development should be determined by the most senior member of the team.",
+      "Sustainable pace means the team should only work during standard business hours."
+    ],
+    answer: "B",
+    explanation: "The Agile Manifesto emphasizes that stakeholders should be able to maintain a constant pace indefinitely. This prevents burnout and ensures long-term quality and productivity (Agile Principles and Mindset).",
+    domain: "Agile Principles and Mindset",
+    difficulty: "medium"
+  },
+  {
+    question: "An Agile team is planning their next release and needs to estimate the size of several new user stories. Which estimation technique is most appropriate for a collaborative team environment?",
+    options: [
+      "Expert Judgment, where the most experienced developer provides all the estimates.",
+      "Planning Poker, where the whole team uses consensus-based estimation.",
+      "Critical Path Method, where a detailed schedule is created for all tasks.",
+      "Analogous Estimation based on the cost of similar projects from the past."
+    ],
+    answer: "B",
+    explanation: "Planning Poker (or Affinity Estimating) is a collaborative, consensus-based technique that uses the collective knowledge of the team to provide more accurate and shared estimates in Adaptive Planning.",
+    domain: "Adaptive Planning",
+    difficulty: "medium"
+  },
+  {
+    question: "A Product Owner is confused about their role in the Daily Stand-up meeting. What should the Scrum Master advise?",
+    options: [
+      "The Product Owner should lead the meeting and assign tasks to the developers.",
+      "The Product Owner's presence is optional; they are there mainly to listen and observe.",
+      "The Product Owner must attend and answer the three standard questions like everyone else.",
+      "The Product Owner should use the meeting to provide a status update to the stakeholders."
+    ],
+    answer: "B",
+    explanation: "The Daily Stand-up is primarily for the Development Team to synchronize. While the Product Owner and Scrum Master are welcome, they should not disrupt the meeting's flow or use it for status reporting (Stakeholder Engagement).",
+    domain: "Stakeholder Engagement",
+    difficulty: "medium"
+  },
+  {
+    question: "During a retrospective, the team identifies a repetitive manual task that is prone to errors. They decide to automate it in the next sprint. Which concept does this best represent?",
+    options: [
+      "Kaizen - The Japanese philosophy of continuous, small improvements.",
+      "Poka-Yoke - A Japanese term that means 'mistake-proofing'.",
+      "Kanban - A visual system for managing work as it moves through a process.",
+      "Scrum - A framework for developing, delivering, and sustaining complex products."
+    ],
+    answer: "A",
+    explanation: "Kaizen refers to continuous improvement in processes, products, and people. Identifying and implementing small, incremental improvements like automation is a core part of Continuous Improvement.",
+    domain: "Continuous Improvement",
+    difficulty: "medium"
+  },
+  {
+    question: "A team is using T-shirt sizing for high-level estimation during initial product discovery. What is the main purpose of this relative estimation approach?",
+    options: [
+      "To provide an exact number of hours for each requirement.",
+      "To categorize items into broad buckets for early-stage planning and prioritization.",
+      "To replace more detailed estimation techniques like Planning Poker entirely.",
+      "To ensure that all user stories in the backlog are of equal size."
+    ],
+    answer: "B",
+    explanation: "Relative estimation like T-shirt sizing (Adaptive Planning) is used to quickly bucket large items (epics or stories) when there is a lot of uncertainty, helping with high-level prioritization and roadmap development.",
+    domain: "Adaptive Planning",
+    difficulty: "easy"
+  },
+  {
+    question: "What is the primary goal of an 'Iteration Zero' in an Agile project?",
+    options: [
+      "To complete the first set of functional user stories and deliver a demo.",
+      "To set up the project environment, tools, and establish a shared vision.",
+      "To create a detailed project plan and schedule for all future iterations.",
+      "To finalize the contract and budget with the project sponsors."
+    ],
+    answer: "B",
+    explanation: "Iteration Zero (or Sprint Zero) is used for foundational activities such as setting up the CI/CD pipeline, establishing the architectural runway, and aligning on the vision before functional work begins (Agile Principles and Mindset).",
+    domain: "Agile Principles and Mindset",
+    difficulty: "medium"
+  },
+  {
+    question: "In a Lean-Agile project, 'Work in Progress (WIP)' limits are used to manage flow. What is a direct consequence of setting WIP limits too high?",
+    options: [
+      "Team members will be idle and wait for work to be assigned.",
+      "The cycle time for individual items will increase, and bottlenecks will be hidden.",
+      "The team will deliver features faster and with higher quality.",
+      "Communication between team members will become more efficient."
+    ],
+    answer: "B",
+    explanation: "High WIP limits often lead to multitasking and context switching, which increases lead time and hides bottlenecks, reducing overall efficiency in Problem Detection and Resolution.",
+    domain: "Problem Detection and Resolution",
+    difficulty: "hard"
+  },
+  {
+    question: "Which of the following documents is most likely to be updated during a Product Backlog Refinement session?",
+    options: [
+      "The Project Charter",
+      "The Product Backlog",
+      "The Sprint Backlog",
+      "The Quality Management Plan"
+    ],
+    answer: "B",
+    explanation: "Backlog refinement (or grooming) is an ongoing process of adding detail, estimates, and order to items in the Product Backlog, which is a key activity in Value-Driven Delivery.",
+    domain: "Value-Driven Delivery",
+    difficulty: "easy"
+  },
+  {
+    question: "A team lead notices that some members are reluctant to share their failures during the retrospective. What is missing in this team environment?",
+    options: [
+      "Strict project management and accountability.",
+      "Psychological safety and a culture of trust.",
+      "Technical skills and professional experience.",
+      "Detailed process documentation and standards."
+    ],
+    answer: "B",
+    explanation: "Psychological safety (Team Performance) is essential for high-performing Agile teams. It allows members to take risks and be vulnerable, which is critical for learning and continuous improvement.",
+    domain: "Team Performance",
+    difficulty: "medium"
+  },
+  {
+    question: "What does the term 'Last Responsible Moment' refer to in Agile planning?",
+    options: [
+      "The point at which a team must finalize their sprint commitment.",
+      "The moment a project must be canceled if it is no longer viable.",
+      "Delaying a decision until the cost of not making it is greater than the cost of making it.",
+      "The final day of a project before it is handed over to the customer."
+    ],
+    answer: "C",
+    explanation: "The Last Responsible Moment (Adaptive Planning) is a strategy of delaying commitment to a course of action until the latest possible time, allowing for more information and flexibility.",
+    domain: "Adaptive Planning",
+    difficulty: "hard"
+  },
+  {
+    question: "During a project, the team realizes that their 'Definition of Done' is no longer sufficient to ensure high-quality releases. What should they do?",
+    options: [
+      "Ignore the issue and continue with the existing definition until the end of the project.",
+      "Update the Definition of Done in the next Sprint Planning meeting.",
+      "Discuss and refine the Definition of Done during the next Sprint Retrospective.",
+      "Wait for the Quality Assurance manager to provide a new definition."
+    ],
+    answer: "C",
+    explanation: "Continuous Improvement of process and quality is a core Agile value. The Sprint Retrospective is the ideal time for the team to inspect and adapt their Definition of Done.",
+    domain: "Continuous Improvement",
+    difficulty: "medium"
+  },
+  {
+    question: "Which role in Scrum is responsible for shielding the team from outside interruptions and removing impediments?",
+    options: [
+      "The Product Owner",
+      "The Scrum Master",
+      "The Project Manager",
+      "The Functional Manager"
+    ],
+    answer: "B",
+    explanation: "The Scrum Master (Team Performance) acts as a protector of the team's focus and a facilitator who helps remove any obstacles that hinder progress.",
+    domain: "Team Performance",
+    difficulty: "easy"
+  },
+  {
+    question: "An Agile team wants to measure the value they are delivering to the customer over time. Which metric is most appropriate for this?",
+    options: [
+      "Velocity in story points completed per sprint.",
+      "Number of lines of code written by each developer.",
+      "Business value points or Net Promoter Score (NPS) trends.",
+      "Total number of hours worked by the team each month."
+    ],
+    answer: "C",
+    explanation: "While velocity measures output, metrics like business value points or NPS (Value-Driven Delivery) measure the actual impact and value delivered to the customer.",
+    domain: "Value-Driven Delivery",
+    difficulty: "medium"
+  },
+  {
+    question: "What is the primary purpose of a 'Spike' in an Agile project?",
+    options: [
+      "To deliver a small piece of high-value functionality to the customer.",
+      "To conduct a short investigation or research to reduce technical uncertainty.",
+      "To fix a critical bug that has been found in the production environment.",
+      "To demonstrate the project's progress to the senior management team."
+    ],
+    answer: "B",
+    explanation: "A Spike (Problem Detection and Resolution) is a time-boxed research task used to gather information needed to estimate or complete a larger story, often related to technical risk or complexity.",
+    domain: "Problem Detection and Resolution",
+    difficulty: "medium"
+  },
+  {
+    question: "A team is using 'User Story Mapping' to visualize their product roadmap. What is a key benefit of this technique?",
+    options: [
+      "It helps the team identify dependencies and plan their releases more effectively.",
+      "It replaces the need for a detailed project schedule and Gantt chart.",
+      "It ensures that all team members have equal task assignments.",
+      "It provides a way to track individual developer performance over time."
+    ],
+    answer: "A",
+    explanation: "User Story Mapping (Stakeholder Engagement / Adaptive Planning) provides a big-picture view of the product, helping stakeholders and the team align on priorities and release slices.",
+    domain: "Stakeholder Engagement",
+    difficulty: "medium"
+  },
+  {
+    question: "In the context of Agile, what does 'Empiricism' mean?",
+    options: [
+      "Relying on a detailed project plan and following it strictly.",
+      "Making decisions based on observed data and actual experience.",
+      "Using complex mathematical models to predict future performance.",
+      "Following the instructions of a senior project manager or expert."
+    ],
+    answer: "B",
+    explanation: "Empiricism (Agile Principles and Mindset) is the foundation of Scrum and Agile, where decisions are made through three pillars: transparency, inspection, and adaptation based on actual results.",
+    domain: "Agile Principles and Mindset",
+    difficulty: "medium"
+  },
+  {
+    question: "Which of the following is a characteristic of a 'Self-Organizing' team?",
+    options: [
+      "The team members wait for the manager to assign them specific tasks.",
+      "The team determines for themselves how best to accomplish their work.",
+      "The team operates without any guidance or oversight from management.",
+      "The team has a fixed hierarchy with a single decision-maker at the top."
+    ],
+    answer: "B",
+    explanation: "Self-organizing teams (Team Performance) are empowered to make decisions about their work, which leads to higher engagement, ownership, and more innovative solutions.",
+    domain: "Team Performance",
+    difficulty: "easy"
+  },
+  {
+    question: "What is the role of a 'Servant Leader' in an Agile environment?",
+    options: [
+      "To direct the team's daily activities and ensure they follow the plan.",
+      "To serve the team's needs by removing impediments and facilitating growth.",
+      "To make all the technical decisions for the team to ensure quality.",
+      "To manage the relationship between the team and the senior management."
+    ],
+    answer: "B",
+    explanation: "Servant leadership (Agile Principles and Mindset) focuses on putting the needs of the team first and helping them perform at their highest level by removing blockers and supporting their development.",
+    domain: "Agile Principles and Mindset",
+    difficulty: "easy"
+  },
+  {
+    question: "During a sprint, a developer realizes that a story will not be finished by the end of the iteration. What should they do first?",
+    options: [
+      "Wait until the sprint review to mention it to the stakeholders.",
+      "Raise the issue during the next Daily Stand-up meeting.",
+      "Work overtime to ensure the story is completed on time.",
+      "Lower the quality of the story to meet the sprint deadline."
+    ],
+    answer: "B",
+    explanation: "Transparency is critical in Agile. Raising impediments early (Problem Detection and Resolution) in the Daily Stand-up allows the team to adapt and collaborate on a solution.",
+    domain: "Problem Detection and Resolution",
+    difficulty: "easy"
+  },
+  {
+    question: "An Agile team is using a 'Fishbone Diagram' (Ishikawa Diagram) to analyze a problem. What is the primary purpose of this tool?",
+    options: [
+      "To track the progress of work through various stages of completion.",
+      "To identify and visualize the potential root causes of a specific issue.",
+      "To estimate the size and complexity of various user stories.",
+      "To prioritize items in the Product Backlog based on business value."
+    ],
+    answer: "B",
+    explanation: "The Fishbone Diagram (Continuous Improvement / Problem Detection and Resolution) is a root cause analysis tool that helps teams explore the many potential causes of a problem or defect.",
+    domain: "Problem Detection and Resolution",
+    difficulty: "medium"
+  },
+  {
+    question: "Which principle of the Agile Manifesto emphasizes the importance of 'Working Software'?",
+    options: [
+      "Customer collaboration over contract negotiation.",
+      "Working software is the primary measure of progress.",
+      "Simplicity—the art of maximizing the amount of work not done—is essential.",
+      "At regular intervals, the team reflects on how to become more effective."
+    ],
+    answer: "B",
+    explanation: "The Agile Manifesto states that working software is the primary measure of progress (Agile Principles and Mindset), shifting the focus from documentation and plans to tangible value delivery.",
+    domain: "Agile Principles and Mindset",
+    difficulty: "easy"
+  },
+  {
+    question: "What is a 'Wireframe' typically used for in an Agile project?",
+    options: [
+      "To provide a detailed technical specification for the database schema.",
+      "To create a low-fidelity visual representation of a user interface for feedback.",
+      "To track the remaining work in a sprint or release.",
+      "To document the final quality standards for the product increment."
+    ],
+    answer: "B",
+    explanation: "Wireframes (Stakeholder Engagement / Value-Driven Delivery) are used for early prototyping and eliciting feedback from stakeholders before committing to high-fidelity designs or development.",
+    domain: "Stakeholder Engagement",
+    difficulty: "easy"
+  }
+];
+
+function generateRefinedBatch(startId, count) {
+  const batch = [];
+  for (let i = 0; i < count; i++) {
+    const scenario = scenarios[i % scenarios.length];
+    batch.push({
+      id: startId + i,
+      question: scenario.question,
+      options: [...scenario.options],
+      answer: scenario.answer,
+      explanation: scenario.explanation,
+      domain: scenario.domain,
+      difficulty: scenario.difficulty
+    });
+  }
+  return batch;
+}
+
+const startIds = [601, 651, 701, 751, 801, 851, 901, 951];
+
+startIds.forEach(startId => {
+  const count = 50;
+  const batch = generateRefinedBatch(startId, count);
+  const batchNum = Math.floor((startId - 1) / 50) + 1;
+  fs.writeFileSync(`data/questions-batch-${batchNum}.json`, JSON.stringify(batch, null, 2));
+  fs.writeFileSync(`data/clean/questions-batch-${batchNum}.json`, JSON.stringify(batch, null, 2));
+  console.log(`Generated and refined data/clean/questions-batch-${batchNum}.json (IDs ${startId}-${startId + count - 1})`);
+});

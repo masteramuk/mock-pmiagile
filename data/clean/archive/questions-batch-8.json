@@ -1,0 +1,702 @@
+[
+  {
+    "id": 351,
+    "question": "A team member is struggling with a technical roadblock that is preventing them from finishing a task. As a Servant Leader, what is the most appropriate first action?",
+    "options": [
+      "Assign the task to a more experienced developer.",
+      "Tell the team member to work overtime to figure it out.",
+      "Ask the team member what specific obstacles are in their way and offer to help remove them.",
+      "Escalate the issue to the functional manager."
+    ],
+    "answer": "C",
+    "explanation": "Servant Leadership, as defined by Robert Greenleaf and adopted in Agile, focuses on removing impediments to the team's progress. The first step is to identify the specific obstacle through active listening and then provide support to remove it, empowering the team member rather than bypassing them.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 352,
+    "question": "An Agile Coach notices that a team member is becoming visibly frustrated during a heated technical debate. The coach recognizes this emotion and decides to pause the meeting for a short break. Which component of Emotional Intelligence (EQ) is the coach primarily demonstrating?",
+    "options": [
+      "Self-Regulation",
+      "Social Awareness (Empathy)",
+      "Motivation",
+      "Self-Awareness"
+    ],
+    "answer": "B",
+    "explanation": "According to Daniel Goleman's EQ model, Social Awareness (or Empathy) is the ability to sense others' emotions and understand their perspective. By recognizing the frustration of a team member and taking action to de-escalate, the coach is applying social awareness to maintain a healthy team environment.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 353,
+    "question": "An organization is transitioning to Agile. Some stakeholders are worried that 'Agile means no planning.' How should an Agile Leader respond to best represent the Agile Mindset?",
+    "options": [
+      "Agree that planning is minimized to save time.",
+      "Explain that Agile involves continuous and iterative planning at multiple levels rather than a single upfront plan.",
+      "State that the team only plans for the next 24 hours during the Daily Stand-up.",
+      "Explain that documentation replaces the need for planning in Agile environments."
+    ],
+    "answer": "B",
+    "explanation": "The Agile Mindset values 'Responding to change over following a plan.' This does not mean an absence of planning; rather, planning is continuous (Daily, Sprint, Release, Product Roadmap). It is an iterative process that allows the team to adapt based on empirical feedback.",
+    "domain": "Agile Mindset & Principles",
+    "difficulty": "easy"
+  },
+  {
+    "id": 354,
+    "question": "A distributed team is spread across three continents. What is the most critical factor for the Scrum Master to establish to ensure effective collaboration?",
+    "options": [
+      "Ensuring all team members utilize the exact same hardware specifications.",
+      "Establishing clear communication protocols and 'core hours' for synchronous interaction.",
+      "Requiring all team members to work on a single centralized time zone.",
+      "Eliminating all forms of asynchronous communication to prevent delays."
+    ],
+    "answer": "B",
+    "explanation": "The Agile Practice Guide emphasizes that for distributed teams, the lack of face-to-face interaction is a major risk. Establishing 'core hours'—a window where all time zones overlap—and clear protocols for tools like video conferencing is essential for successful ceremony execution and collaboration.",
+    "domain": "Distributed Teams",
+    "difficulty": "easy"
+  },
+  {
+    "id": 355,
+    "question": "In the Scaled Agile Framework (SAFe), who is primarily responsible for facilitating Program Increment (PI) Planning and serving as the servant leader for the Agile Release Train (ART)?",
+    "options": [
+      "Product Management",
+      "System Architect",
+      "Release Train Engineer (RTE)",
+      "Epic Owner"
+    ],
+    "answer": "C",
+    "explanation": "The Release Train Engineer (RTE) is a servant leader and coach for the ART. Their role is analogous to a 'Super Scrum Master' who facilitates ART-level events (like PI Planning), manages risks, and helps drive continuous improvement across multiple teams.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "easy"
+  },
+  {
+    "id": 356,
+    "question": "A project uses Waterfall for the hardware manufacturing phase and Scrum for the software development phase. This approach is best categorized as:",
+    "options": [
+      "Pure Agile",
+      "Predictive Project Management",
+      "Hybrid Agile",
+      "Disciplined Agile"
+    ],
+    "answer": "C",
+    "explanation": "Hybrid Agile refers to the combination of predictive (Waterfall) and adaptive (Agile) methodologies. This is often necessary when certain project components have fixed physical requirements or long lead times, while others are highly exploratory and require iterative development.",
+    "domain": "Hybrid Agile/Waterfall environments",
+    "difficulty": "easy"
+  },
+  {
+    "id": 357,
+    "question": "An Agile Coach is helping a developer improve their skills by sharing personal career experiences and providing specific technical advice. In this capacity, the coach is acting as a:",
+    "options": [
+      "Coach",
+      "Mentor",
+      "Facilitator",
+      "Consultant"
+    ],
+    "answer": "B",
+    "explanation": "Mentoring involves a more experienced individual sharing their specific knowledge and 'how-to' expertise to guide a mentee's growth. Professional coaching, by contrast, focuses on asking powerful questions to help the individual discover their own solutions.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 358,
+    "question": "According to the first principle of the Agile Manifesto, what is the highest priority for an Agile team?",
+    "options": [
+      "Following the processes and tools defined in the Sprint.",
+      "Satisfying the customer through early and continuous delivery of valuable software.",
+      "Creating comprehensive documentation to ensure long-term maintenance.",
+      "Negotiating contract terms that protect the team from scope creep."
+    ],
+    "answer": "B",
+    "explanation": "The first principle of the Agile Manifesto states: 'Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.' This emphasizes that customer value and frequent delivery are the primary measures of progress.",
+    "domain": "Agile Mindset & Principles",
+    "difficulty": "easy"
+  },
+  {
+    "id": 359,
+    "question": "In the Nexus framework, which role or body is accountable for ensuring that a 'Done' Integrated Increment is produced at least once every Sprint?",
+    "options": [
+      "The Product Owner",
+      "The Nexus Integration Team",
+      "The individual Scrum Teams",
+      "The Project Management Office (PMO)"
+    ],
+    "answer": "B",
+    "explanation": "In Nexus (Scaled Scrum), the Nexus Integration Team is accountable for ensuring that an Integrated Increment is produced. They coordinate, coach, and supervise the integration of work from multiple teams to address technical and process dependencies.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "easy"
+  },
+  {
+    "id": 360,
+    "question": "In Large-Scale Scrum (LeSS), how many Product Backlogs should exist for a single product being developed by multiple teams?",
+    "options": [
+      "One",
+      "One per Scrum Team",
+      "Two (one for features, one for defects)",
+      "Variable, based on the number of stakeholders"
+    ],
+    "answer": "A",
+    "explanation": "A core principle of LeSS is 'One Product, One Product Backlog, One Product Owner.' This maintains a single source of truth for all teams, ensures alignment with the product vision, and prevents the creation of organizational silos.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "easy"
+  },
+  {
+    "id": 361,
+    "question": "A team has members in London and Tokyo (a 9-hour time difference). What is the primary risk to their Agile effectiveness?",
+    "options": [
+      "The high cost of international infrastructure.",
+      "Delayed feedback loops due to a lack of overlapping working hours.",
+      "Different languages making technical documentation impossible.",
+      "The inability to use physical kanban boards."
+    ],
+    "answer": "B",
+    "explanation": "Agile relies on rapid feedback. With a 9-hour difference, a query sent by one member might not be answered until the next day, significantly increasing 'wait time' and slowing the Sprint velocity. This is a primary challenge in distributed Agile teams.",
+    "domain": "Distributed Teams",
+    "difficulty": "easy"
+  },
+  {
+    "id": 362,
+    "question": "An Agile Leader wants to foster a culture of high performance. Which approach is most consistent with the servant leadership model?",
+    "options": [
+      "Implementing individual performance-based bonuses.",
+      "Creating an environment of trust where teams are empowered to self-organize.",
+      "Micromanaging the daily tasks of junior developers to minimize errors.",
+      "Centralizing decision-making to ensure consistency across the project."
+    ],
+    "answer": "B",
+    "explanation": "Agile leadership focuses on empowerment and trust. By allowing teams to self-organize and make their own decisions, leaders increase engagement and ownership, which are prerequisites for high-performing Agile teams.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 363,
+    "question": "Which scaling framework is characterized by the philosophy of 'Choose your WoW' (Way of Working) and provides a toolkit of options rather than a prescriptive methodology?",
+    "options": [
+      "SAFe",
+      "LeSS",
+      "Disciplined Agile (DA)",
+      "Scrum at Scale"
+    ],
+    "answer": "C",
+    "explanation": "Disciplined Agile (DA) is a 'process-decision toolkit.' It recognizes that every team is unique and operates in a unique context ('Context Counts'). It provides guided options to help teams choose the most effective way of working for their specific situation.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "easy"
+  },
+  {
+    "id": 364,
+    "question": "A team conducts a small experiment to test a feature hypothesis. The experiment fails, and the feature is discarded. How should the Agile Leader respond?",
+    "options": [
+      "Reprimand the team for the loss of Sprint velocity.",
+      "Encourage the team to hide the failure to protect stakeholder confidence.",
+      "Celebrate the 'fast failure' and the learning that prevented further waste.",
+      "Prohibit future experiments to ensure project stability."
+    ],
+    "answer": "C",
+    "explanation": "The Agile Mindset encourages 'failing fast.' Discovering that a feature lacks value early in the process saves significant resources. An Agile leader treats failures as learning opportunities and vital data for future iterations.",
+    "domain": "Agile Mindset & Principles",
+    "difficulty": "easy"
+  },
+  {
+    "id": 365,
+    "question": "During a coaching session, an Agile Coach is practicing active listening. This technique primarily involves:",
+    "options": [
+      "Formulating a rebuttal while the speaker is talking.",
+      "Interrupting the speaker to clarify every technical detail.",
+      "Focusing fully on the speaker, acknowledging emotions, and paraphrasing to confirm understanding.",
+      "Summarizing the speaker's points while multitasking on a laptop."
+    ],
+    "answer": "C",
+    "explanation": "Active listening is a foundational skill for servant leaders. It involves being fully present, reflecting back what was heard to ensure accuracy, and acknowledging the underlying feelings of the speaker, which builds trust and clarity.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 366,
+    "question": "In a SAFe environment, what is the primary objective of the two-day Program Increment (PI) Planning event?",
+    "options": [
+      "To provide a forum for executive leadership to announce next year's budget.",
+      "To create a detailed, fixed-scope Gantt chart for the next four months.",
+      "To align all teams on the Agile Release Train (ART) to a shared mission and identify cross-team dependencies.",
+      "To conduct individual performance appraisals for all developers on the ART."
+    ],
+    "answer": "C",
+    "explanation": "PI Planning is the central event of the Agile Release Train in SAFe. It brings together all teams to understand the vision, identify dependencies, manage risks, and commit to a set of PI Objectives for the next 8-12 weeks.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 367,
+    "question": "In a Hybrid project, an Agile software team depends on a Waterfall hardware team that has a fixed delivery date 6 months away. What is the MOST appropriate way for the Agile team to manage this dependency?",
+    "options": [
+      "Direct the hardware team to adopt Scrum immediately to match the software cycle.",
+      "Utilize stubs, mocks, or simulations to develop software iteratively while waiting for the hardware.",
+      "Suspend the software development until the hardware is delivered to avoid rework.",
+      "Proceed with development and hope that the hardware requirements do not change."
+    ],
+    "answer": "B",
+    "explanation": "In hybrid environments, Agile teams must decouple their progress from predictive components. Using architectural techniques like stubs or mocks allows the Agile team to continue delivering value and testing software logic before the physical component is available.",
+    "domain": "Hybrid Agile/Waterfall environments",
+    "difficulty": "medium"
+  },
+  {
+    "id": 368,
+    "question": "An Agile Coach is mediating a conflict between two developers. By remaining calm, listening to both perspectives, and facilitating a collaborative resolution, which EQ skill is the coach primarily exercising?",
+    "options": [
+      "Self-Awareness",
+      "Self-Regulation",
+      "Social Skills (Conflict Management)",
+      "Internal Motivation"
+    ],
+    "answer": "C",
+    "explanation": "While self-regulation is necessary to stay calm, the specific act of managing a conflict and guiding others toward a solution falls under the 'Social Skills' component of Emotional Intelligence. This involves the ability to manage relationships and build networks.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 369,
+    "question": "Which of the following is an example of a 'Powerful Question' that an Agile Coach might use during a retrospective?",
+    "options": [
+      "Who was responsible for the failure of this user story?",
+      "Why didn't the team follow the established process documentation?",
+      "What would need to change for us to feel 100% confident in our next deployment?",
+      "Did you complete all your assigned tasks for the Sprint?"
+    ],
+    "answer": "C",
+    "explanation": "Powerful questions are open-ended, non-judgmental, and intended to provoke thought or discovery. Question C focuses on the future and improvement, whereas the other options are closed-ended or focused on blame/compliance.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 370,
+    "question": "What is the primary distinction between Coaching and Mentoring for an Agile professional?",
+    "options": [
+      "Mentoring is intended for junior staff, while coaching is for executives.",
+      "Coaching focuses on helping others find their own solutions; mentoring involves sharing specific knowledge and experience.",
+      "Coaching is always performed in a group setting; mentoring is strictly one-on-one.",
+      "In Agile, the two terms are functionally identical and used interchangeably."
+    ],
+    "answer": "B",
+    "explanation": "Agile Coaching is non-directive; the coach facilitates the person's own discovery process. Mentoring is directive; the mentor acts as an expert who provides advice and specific guidance based on their own professional history.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 371,
+    "question": "A distributed team is conducting a retrospective. Which tool would be MOST effective for ensuring equitable participation from all remote members?",
+    "options": [
+      "A conference call with a shared text document for minutes.",
+      "An asynchronous email thread where everyone submits their thoughts.",
+      "A collaborative virtual whiteboard with anonymous sticky-note capabilities.",
+      "A formal status report compiled by the Scrum Master after the meeting."
+    ],
+    "answer": "C",
+    "explanation": "Virtual whiteboards (like Miro or Mural) provide a visual and interactive environment. Anonymity allows team members to share honest feedback without fear of retribution, which is crucial for psychological safety in a retrospective.",
+    "domain": "Distributed Teams",
+    "difficulty": "medium"
+  },
+  {
+    "id": 372,
+    "question": "In Large-Scale Scrum (LeSS), what occurs during 'Sprint Planning One'?",
+    "options": [
+      "Each individual team defines the specific tasks for their Sprint Backlog.",
+      "A joint session where representatives from all teams and the Product Owner select items from the Product Backlog.",
+      "The Product Owner assigns specific features to the highest-performing teams.",
+      "The teams conduct a joint retrospective for the previous integrated increment."
+    ],
+    "answer": "B",
+    "explanation": "LeSS Sprint Planning is a two-part event. Part 1 is a common meeting where representatives from all teams meet with the PO to decide which teams take which items. Part 2 is held separately by each team to plan their execution.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 373,
+    "question": "In the SAFe framework, how are the roles of 'Product Management' and 'Product Owner' differentiated?",
+    "options": [
+      "Product Management owns the Team Backlog; the PO owns the Solution Backlog.",
+      "Product Management owns the ART Vision and Program Backlog; the PO owns the Team Backlog.",
+      "There is no functional difference; they are the same role at different tiers.",
+      "Product Management is a technical architecture role; the PO is a business-only role."
+    ],
+    "answer": "B",
+    "explanation": "In SAFe, Product Management (PM) works at the Program level (ART), focusing on features and market needs. The Product Owner (PO) works at the Team level, focusing on user stories and guiding the execution of a single Scrum team.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 374,
+    "question": "Disciplined Agile (DA) introduces 'Process Blades'. To what does this concept refer?",
+    "options": [
+      "The specific software tools used for CI/CD pipelines.",
+      "Specific organizational capabilities (e.g., Agile HR, Agile Finance) that must be addressed for enterprise agility.",
+      "The set of mandatory rules that a team must follow to be considered Agile.",
+      "The different phases of the Waterfall-Agile hybrid lifecycle."
+    ],
+    "answer": "B",
+    "explanation": "A 'Process Blade' in DA represents a specific area of the organization. Each blade provides a set of process goals and decision points to help that area (like Finance or Procurement) become more agile and lean.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 375,
+    "question": "A developer states, 'I've never been good at refactoring; I'm just not a technical person.' This reflects a ___ mindset. An Agile Coach should help them transition to a ___ mindset.",
+    "options": [
+      "Agile; Waterfall",
+      "Fixed; Growth",
+      "Negative; Positive",
+      "Technical; Business"
+    ],
+    "answer": "B",
+    "explanation": "Carol Dweck's 'Growth Mindset' is vital for Agile. A fixed mindset assumes abilities are static. A growth mindset believes that skills like refactoring or testing can be learned through persistence and effort, which is essential for continuous improvement.",
+    "domain": "Agile Mindset & Principles",
+    "difficulty": "medium"
+  },
+  {
+    "id": 376,
+    "question": "A distributed team requires a digital equivalent of a physical 'Information Radiator'. What is the MOST effective solution?",
+    "options": [
+      "A shared spreadsheet stored in a protected cloud folder.",
+      "A physical board located in the headquarters' main hallway.",
+      "A persistent, live-updating dashboard accessible to all via a web link.",
+      "A weekly PDF status report distributed via email."
+    ],
+    "answer": "C",
+    "explanation": "Information radiators must be 'at-a-glance' and easily accessible without active searching. For remote teams, a persistent digital dashboard that updates in real-time ensures that everyone has an identical view of the project's health.",
+    "domain": "Distributed Teams",
+    "difficulty": "medium"
+  },
+  {
+    "id": 377,
+    "question": "An organization uses a Hybrid approach. Finance requires a fixed budget for the year, while the team uses Scrum. Which contract or budgeting strategy helps bridge this gap?",
+    "options": [
+      "Using a 'Fixed Price' contract with a 20% contingency fund.",
+      "Using 'Money for Nothing, Change for Free' or 'Graduated Fixed Price' contract types.",
+      "Abandoning Agile and reverting to Waterfall budgeting.",
+      "Delaying budget discussions until the end of the project."
+    ],
+    "answer": "B",
+    "explanation": "Agile contracting (like 'Money for Nothing, Change for Free') allows for the flexibility of Agile (scope changes) while providing the financial predictability required by traditional finance departments. These models encourage collaboration and early termination if value is achieved sooner than expected.",
+    "domain": "Hybrid Agile/Waterfall environments",
+    "difficulty": "medium"
+  },
+  {
+    "id": 378,
+    "question": "In a Nexus (Scaled Scrum), what is the primary focus of the 'Nexus Daily Scrum'?",
+    "options": [
+      "Individual team members reporting their status to the Product Owner.",
+      "Identifying and managing cross-team dependencies and potential integration issues.",
+      "Providing a replacement for the Daily Scrum of the individual teams.",
+      "A formal demonstration of the daily work to stakeholders."
+    ],
+    "answer": "B",
+    "explanation": "The Nexus Daily Scrum is an event where representatives from each team meet to discuss integration issues or dependencies that might prevent the Nexus from delivering a 'Done' Integrated Increment at the end of the Sprint.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 379,
+    "question": "An Agile team is in the 'Ri' stage of the Shu-Ha-Ri model. What behavior is characteristic of this stage?",
+    "options": [
+      "The team strictly follows the Scrum Guide and requires coaching on basic rules.",
+      "The team experiments with small deviations from the standard process.",
+      "The team has internalized the principles so deeply that they adapt their process instinctively to the situation.",
+      "The team is still struggling to form and define their basic working agreement."
+    ],
+    "answer": "C",
+    "explanation": "Shu (Follow), Ha (Break), Ri (Transcend). At the 'Ri' stage, the team no longer needs to refer to rules. They understand the underlying principles so well that their actions are naturally aligned with Agile values, allowing for fluid adaptation.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 380,
+    "question": "In the SAFe framework, what is meant by the 'Architectural Runway'?",
+    "options": [
+      "The specific timeframe allocated for a hardware data center migration.",
+      "The technical infrastructure and code foundations needed to support the continuous delivery of future business features.",
+      "A metaphorical term for the project's final deadline.",
+      "The total financial budget reserved for third-party software licensing."
+    ],
+    "answer": "B",
+    "explanation": "Architectural Runway consists of the technical work (enablers) that allows a team to build features without hitting technical debt or performance walls. Keeping the runway 'ahead' of the business needs is critical for maintaining velocity in SAFe.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 381,
+    "question": "An Agile Coach is using the GROW model. After defining the 'Goal' and discussing the current 'Reality', what is the next logical step?",
+    "options": [
+      "Documenting the session in a formal coaching log.",
+      "Exploring 'Options' (or Obstacles) to determine how to move forward.",
+      "Ending the session to allow for reflection before the next Sprint.",
+      "Providing the individual with the specific answer to their problem."
+    ],
+    "answer": "B",
+    "explanation": "The GROW model (Goal, Reality, Options/Obstacles, Way forward) is a coaching framework. Once the goal is set and reality is understood, the coach facilitates a brainstorming phase (Options) to identify potential paths to the goal.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 382,
+    "question": "A distributed team with members from Japan, Germany, and Brazil is experiencing friction regarding 'timeliness' and 'commitment.' What should the Scrum Master do?",
+    "options": [
+      "Enforce the cultural norms of the headquarters location on all members.",
+      "Facilitate a session to discuss cultural dimensions and establish a shared 'Team Working Agreement.'",
+      "Assign a project manager to oversee each site individually.",
+      "Remove team members who do not conform to a single cultural standard."
+    ],
+    "answer": "B",
+    "explanation": "Cultural intelligence (CQ) is vital. Different cultures have different views on time (linear vs. multi-active) and communication (high-context vs. low-context). A shared 'Working Agreement' allows the team to negotiate a 'third culture' that works for everyone.",
+    "domain": "Distributed Teams",
+    "difficulty": "medium"
+  },
+  {
+    "id": 383,
+    "question": "A PMO manager asks an Agile team for a 'percent complete' report. How should the Scrum Master respond to ensure transparency and accuracy?",
+    "options": [
+      "Decline the request, stating that Agile teams do not report to a PMO.",
+      "Explain that 'percent complete' is often misleading and provide a Burnup Chart based on 'Done' software.",
+      "Provide a percentage based on the number of hours worked versus the total budget.",
+      "Estimate the percentage based on the current size of the Product Backlog."
+    ],
+    "answer": "B",
+    "explanation": "In hybrid environments, the Scrum Master must 'bridge' metrics. 'Percent complete' is often a '90% done' trap. A Burnup chart shows the total scope vs. actually completed work, providing a more empirical and honest view of progress.",
+    "domain": "Hybrid Agile/Waterfall environments",
+    "difficulty": "medium"
+  },
+  {
+    "id": 384,
+    "question": "In 'LeSS Huge', what is the primary responsibility of an 'Area Product Owner' (APO)?",
+    "options": [
+      "Managing the administrative and HR needs of the teams in their area.",
+      "Acting as the PO for a customer-centric 'Requirement Area' while coordinating with the overall Product Owner.",
+      "Overseeing the technical architecture and DevOps pipelines for the entire product.",
+      "Handling the external marketing and sales strategies for the product."
+    ],
+    "answer": "B",
+    "explanation": "In LeSS Huge (for 8+ teams), the product is split into Requirement Areas. Each area has an APO who manages that specific backlog. This prevents the overall PO from becoming a bottleneck while maintaining a customer-centric view.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 385,
+    "question": "Disciplined Agile (DA) emphasizes 'Guided Continuous Improvement' (GCI). How does GCI differ from a standard Sprint Retrospective?",
+    "options": [
+      "GCI is a mandatory daily event, whereas Retrospectives occur at the end of a Sprint.",
+      "GCI uses the DA toolkit to identify proven strategies that are likely to work, potentially speeding up the team's improvement.",
+      "GCI is a management-led audit of the team's processes.",
+      "GCI is an automated software tool that identifies bugs in the team's code."
+    ],
+    "answer": "B",
+    "explanation": "Instead of relying solely on 'trial and error' (Kaizen), GCI leverages the DA toolkit to find specific techniques that have worked in similar contexts. This helps teams make better process decisions and improve faster (Kaizen-Loop).",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 386,
+    "question": "The Agile principle of 'Sustainable Development' primarily suggests that:",
+    "options": [
+      "The team should be willing to work intense overtime during the end of a project.",
+      "Sponsors, developers, and users should be able to maintain a constant pace indefinitely.",
+      "The project should focus exclusively on long-term environmental sustainability.",
+      "The team should take frequent, long breaks to avoid any form of stress."
+    ],
+    "answer": "B",
+    "explanation": "A 'sustainable pace' is crucial for long-term quality and productivity. Overworked teams accumulate technical debt and suffer from burnout. Agile promotes a pace that can be maintained without sacrificing the health of the individuals or the product.",
+    "domain": "Agile Mindset & Principles",
+    "difficulty": "medium"
+  },
+  {
+    "id": 387,
+    "question": "As a Servant Leader, the concept of 'Stewardship' implies:",
+    "options": [
+      "Acting as the primary authority figure for the project team.",
+      "Taking responsibility for the well-being of the team and the long-term health of the organization.",
+      "Managing the project's financial resources with strict oversight.",
+      "Performing the administrative tasks that the team finds boring."
+    ],
+    "answer": "B",
+    "explanation": "Stewardship is a key tenet of Servant Leadership. It involves the commitment to serving the needs of others and the organization. It emphasizes long-term value and the ethical responsibility of the leader to the community and environment.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 388,
+    "question": "In the SAFe framework, Weighted Shortest Job First (WSJF) is calculated by which formula?",
+    "options": [
+      "Job Size / Cost of Delay",
+      "Cost of Delay / Job Size",
+      "Cost of Delay + Business Value",
+      "Relative Priority * Duration"
+    ],
+    "answer": "B",
+    "explanation": "WSJF is used in SAFe to prioritize the Program Backlog. It is calculated by dividing the Cost of Delay (Business Value + Time Criticality + RR/OE) by the Job Size. This ensures the highest-value, shortest-duration items are prioritized.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "medium"
+  },
+  {
+    "id": 389,
+    "question": "What is the primary benefit of a 'Social Contract' or 'Working Agreement' for a distributed team?",
+    "options": [
+      "It provides a legal framework for performance-based termination.",
+      "It allows the Scrum Master to enforce strict discipline for late arrivals.",
+      "It makes implicit expectations explicit, which reduces cultural friction and misunderstandings.",
+      "It serves as a replacement for the formal Project Charter."
+    ],
+    "answer": "C",
+    "explanation": "A working agreement is a set of rules the team creates for themselves (e.g., 'always use video', 'core hours are 1-4 PM'). For distributed teams, this is critical to establish norms and prevent the friction that comes from different working styles.",
+    "domain": "Distributed Teams",
+    "difficulty": "medium"
+  },
+  {
+    "id": 390,
+    "question": "In a Hybrid environment, what is the MOST effective way to manage project-wide risk?",
+    "options": [
+      "Maintain a Waterfall Risk Register and an Agile Risk-Adjusted Backlog separately.",
+      "Utilize only the Waterfall Risk Register to ensure executive visibility.",
+      "Integrate all risks into a single, transparent radiator that is accessible to both Agile and Waterfall stakeholders.",
+      "Rely on the self-organizing nature of the Agile team to resolve all project risks."
+    ],
+    "answer": "C",
+    "explanation": "Risk management must be holistic. In hybrid projects, a delay in an Agile Sprint can impact a Waterfall milestone. A single 'Information Radiator' for risks ensures that dependencies are managed across the entire project lifecycle.",
+    "domain": "Hybrid Agile/Waterfall environments",
+    "difficulty": "medium"
+  },
+  {
+    "id": 391,
+    "question": "A SAFe organization is prioritizing two Features. Feature A has a high Cost of Delay (CoD) but requires 4 Sprints. Feature B has a lower CoD but can be completed in 1 Sprint. How should the organization apply the SAFe Economic Framework?",
+    "options": [
+      "Always select the feature with the absolute highest Cost of Delay.",
+      "Always select the feature with the smallest Job Size first.",
+      "Apply Weighted Shortest Job First (WSJF) to determine which feature provides the best economic return on time.",
+      "Allow the Product Management team to decide based on stakeholder intuition."
+    ],
+    "answer": "C",
+    "explanation": "SAFe uses WSJF (CoD / Duration) to sequence work. This model prioritizes items that deliver the most value in the shortest time. A lower-value feature that is much faster to deliver might have a higher WSJF score and should be done first to maximize flow.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "hard"
+  },
+  {
+    "id": 392,
+    "question": "In 'LeSS Huge', what is the fundamental architectural requirement for a 'Requirement Area'?",
+    "options": [
+      "It must be based on a technical component layer (e.g., Database, UI, API).",
+      "It must be a customer-centric category of requirements that can be developed by feature teams independently.",
+      "It must be aligned with the physical geographic location of the development teams.",
+      "It must be organized around the individual technical skills of the developers."
+    ],
+    "answer": "B",
+    "explanation": "In LeSS Huge, Requirement Areas are 'customer-centric,' not 'component-centric.' This allows teams within an area to remain 'Feature Teams'—able to deliver an end-to-end customer requirement without relying on other areas, which reduces coordination overhead.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "hard"
+  },
+  {
+    "id": 393,
+    "question": "A Disciplined Agile (DA) team is initiating a project with extreme market uncertainty. They are unsure if the product concept itself is viable. Which DA lifecycle should they choose?",
+    "options": [
+      "Agile (Scrum-based)",
+      "Lean (Kanban-based)",
+      "Exploratory (Lean Startup-based)",
+      "Program (Large scale)"
+    ],
+    "answer": "C",
+    "explanation": "The Exploratory lifecycle in DA is based on Lean Startup principles (Build-Measure-Learn). It is designed for situations where the goal is to test a business hypothesis using a Minimum Viable Product (MVP) before committing to a full delivery lifecycle.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "hard"
+  },
+  {
+    "id": 394,
+    "question": "In a Hybrid project, the Waterfall PMO demands a 'detailed project schedule' for the next 12 months. The Agile team knows requirements will change. What is the BEST approach for the Agile Leader?",
+    "options": [
+      "Provide a placeholder schedule and update it manually every week.",
+      "Negotiate to provide a 'Rolling Wave' plan: detailed for the near term and a high-level roadmap for the long term.",
+      "Formally refuse to provide a schedule, citing Agile principles.",
+      "Escalate the issue to the sponsor to prove why the PMO's request is invalid."
+    ],
+    "answer": "B",
+    "explanation": "Rolling Wave planning is a predictive technique that fits well with Agile. It provides the 'future view' the PMO needs while acknowledging that detail is only possible for the immediate future (next few Sprints). This balances predictability with flexibility.",
+    "domain": "Hybrid Agile/Waterfall environments",
+    "difficulty": "hard"
+  },
+  {
+    "id": 395,
+    "question": "An Agile leader is managing an organization where middle managers feel threatened by Agile transparency. Which EQ-driven strategy would be MOST effective?",
+    "options": [
+      "Using 'Social Skills' to build alliances and 'Empathy' to address the underlying fears of the managers.",
+      "Using 'Self-Regulation' to ignore the resistance and push forward with the transformation.",
+      "Using 'Internal Motivation' to work harder and demonstrate the superiority of Agile metrics.",
+      "Applying 'Authority' to mandate compliance with the new Agile processes."
+    ],
+    "answer": "A",
+    "explanation": "Organizational change is often met with emotional resistance. A high-EQ leader uses Empathy to understand that managers fear a loss of control. Social Skills (influence and negotiation) are then used to show how Agile can benefit them (e.g., better predictability).",
+    "domain": "Agile Leadership",
+    "difficulty": "hard"
+  },
+  {
+    "id": 396,
+    "question": "A distributed team has developed a 'Us vs. Them' mentality between two sites. What is the MOST effective Agile intervention to rebuild team cohesion?",
+    "options": [
+      "Assigning simple, low-risk tasks to the offshore site to build their confidence.",
+      "Rotating team members between sites (where possible) and creating cross-functional teams that include members from both locations.",
+      "Implementing a common performance leaderboard to encourage competition between sites.",
+      "Splitting the Product Backlog so that the two sites never have to collaborate on the same feature."
+    ],
+    "answer": "B",
+    "explanation": "Sub-grouping is a major risk in distributed teams. Creating 'One Team' requires breaking down geographic silos. Cross-site teams and member rotation (physical or virtual) build empathy and shared ownership of the entire product.",
+    "domain": "Distributed Teams",
+    "difficulty": "hard"
+  },
+  {
+    "id": 397,
+    "question": "In SAFe, the 'Solution Train' level is specifically designed for which scenario?",
+    "options": [
+      "Managing small teams of fewer than 50 people.",
+      "Coordinating the development of massive, complex solutions that require multiple Agile Release Trains (ARTs) and Suppliers.",
+      "Providing a specialized training curriculum for new Scrum Masters.",
+      "Centralizing the organization's IT support and helpdesk operations."
+    ],
+    "answer": "B",
+    "explanation": "The 'Large Solution' level in SAFe uses the Solution Train to align multiple ARTs. This is used for projects like building an airplane or a satellite system, where the complexity exceeds what a single ART (up to 125 people) can handle.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "hard"
+  },
+  {
+    "id": 398,
+    "question": "During a critical production outage, a Scrum Master switches from a coaching stance to a directive, 'command and control' stance to resolve the crisis. This behavior is BEST described as:",
+    "options": [
+      "A failure of Servant Leadership principles.",
+      "Situational Leadership: Adapting the leadership style to the needs of a high-pressure, high-risk situation.",
+      "A sign that the Scrum Master is losing their emotional self-regulation.",
+      "Inappropriate behavior that should be addressed in the next retrospective."
+    ],
+    "answer": "B",
+    "explanation": "Situational Leadership (Hersey-Blanchard) suggests that leaders must adapt their style to the context. In a crisis ('The building is on fire'), a directive approach is often necessary. Once the crisis is resolved, the leader should return to a coaching stance.",
+    "domain": "Agile Leadership",
+    "difficulty": "hard"
+  },
+  {
+    "id": 399,
+    "question": "An organization is applying Agile principles to its HR department. What change is MOST characteristic of an 'Agile HR' approach?",
+    "options": [
+      "HR teams using Waterfall to plan the annual hiring cycle with fixed quotas.",
+      "Shifting from individual annual performance reviews to continuous, team-based feedback and iterative service delivery.",
+      "Eliminating the HR department entirely and letting teams handle all legal and compliance issues.",
+      "Strictly following Scrum events but maintaining all existing predictive HR policies."
+    ],
+    "answer": "B",
+    "explanation": "Agile HR involves applying the Agile mindset to people operations. This includes transparency, iterative delivery of HR services, and aligning incentives with Agile values like team collaboration rather than individual competition.",
+    "domain": "Agile Mindset & Principles",
+    "difficulty": "hard"
+  },
+  {
+    "id": 400,
+    "question": "In a Nexus of three teams, Team A depends on a component from Team B. How should this be addressed during Nexus Sprint Planning to ensure a 'Done' increment?",
+    "options": [
+      "Team A should delay their work until Team B has fully completed the component in a future Sprint.",
+      "The teams should identify the dependency and sequence the work (potentially across teams) to ensure integration within the current Sprint.",
+      "The Product Owner should remove the dependent stories from the Product Backlog to simplify the Sprint.",
+      "Team A should build a temporary version of the component and hope Team B's version matches later."
+    ],
+    "answer": "B",
+    "explanation": "Nexus (Scaled Scrum) is focused on integration. Nexus Sprint Planning is used to visualize and manage dependencies. By sequencing the work and potentially having teams swarm on the dependency, they ensure an Integrated Increment is produced.",
+    "domain": "Scaling Frameworks",
+    "difficulty": "hard"
+  }
+]

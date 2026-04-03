@@ -1,0 +1,702 @@
+[
+  {
+    "id": 301,
+    "question": "An Agile team notices that their iteration Burndown Chart shows a flat line for several days during the middle of the sprint. What is the most likely cause of this observation?",
+    "options": [
+      "The team has completed all tasks ahead of schedule.",
+      "The team is working on multiple tasks but has not moved any stories to 'Done' status.",
+      "The Product Owner has added more scope to the current sprint.",
+      "The team's velocity has increased significantly due to pair programming."
+    ],
+    "answer": "B",
+    "explanation": "A flat line on a Burndown Chart indicates that the remaining work (typically measured in story points or hours) is not decreasing. In Agile, work is only 'burned down' when a story meets the team's shared 'Definition of Done' (DoD). If a team works on many items simultaneously without finishing them, the chart will not reflect progress, which is why limiting Work in Progress (WIP) is critical.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 302,
+    "question": "A team identifies a project risk with a 20% probability of occurrence and a potential financial impact of $10,000. What is the Expected Monetary Value (EMV) that should be recorded in the risk adjusted backlog?",
+    "options": [
+      "$2,000",
+      "$10,000",
+      "$5,000",
+      "$2,500"
+    ],
+    "answer": "A",
+    "explanation": "Expected Monetary Value (EMV) is a statistical concept used to quantify risks. It is calculated by multiplying the probability of the risk (20% or 0.20) by its impact ($10,000). EMV = 0.20 * $10,000 = $2,000. This helps the Product Owner prioritize risk-reduction stories based on their 'risk-value'.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 303,
+    "question": "At the conclusion of each iteration, an Agile team meets to reflect on their process, celebrate successes, and identify areas for improvement. Which ceremony are they performing?",
+    "options": [
+      "Iteration Review",
+      "Daily Stand-up",
+      "Iteration Retrospective",
+      "Backlog Refinement"
+    ],
+    "answer": "C",
+    "explanation": "The Iteration Retrospective is the primary vehicle for continuous improvement (Kaizen) in Agile. It follows the Five Stages: Set the Stage, Gather Data, Generate Insights, Decide What to Do, and Close the Retrospective. Its goal is to improve the team's performance and process for the next iteration.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 304,
+    "question": "Which Lean concept focuses on small, incremental, and continuous improvements involving every member of the team, from developers to stakeholders?",
+    "options": [
+      "Kaizen",
+      "Kamban",
+      "Poka-yoke",
+      "Muda"
+    ],
+    "answer": "A",
+    "explanation": "Kaizen is a Japanese term meaning 'change for the better'. In an Agile context, it refers to the philosophy of continuous improvement where the team seeks to eliminate waste and improve efficiency through frequent, small adjustments rather than infrequent, massive overhauls.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 305,
+    "question": "A customer wants to know the total duration from the time they submit a feature request until it is deployed in the production environment. Which metric should the team provide?",
+    "options": [
+      "Cycle Time",
+      "Lead Time",
+      "Response Time",
+      "Velocity"
+    ],
+    "answer": "B",
+    "explanation": "Lead Time measures the total time from a customer request (entry into the backlog) to final delivery. In contrast, Cycle Time only measures the time from when work actually starts on the item until it is completed.",
+    "domain": "Agile Metrics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 306,
+    "question": "Which metric specifically tracks the number of work items (e.g., user stories or features) a team successfully completes within a specific time interval, such as a week or a month?",
+    "options": [
+      "Velocity",
+      "Lead Time",
+      "Throughput",
+      "Latency"
+    ],
+    "answer": "C",
+    "explanation": "Throughput is a Kanban metric that counts the number of items finished per unit of time. While Velocity measures 'size' (points), Throughput focuses on the 'count' of items, providing a different perspective on the team's delivery rate.",
+    "domain": "Agile Metrics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 307,
+    "question": "While reviewing a Cumulative Flow Diagram (CFD), the team notices that the vertical distance between the 'In Progress' and 'Done' lines is increasing. What does this indicate?",
+    "options": [
+      "The team's cycle time is decreasing.",
+      "Work in Progress (WIP) is increasing.",
+      "Throughput is exceeding the arrival rate.",
+      "The team is effectively swarming on tasks."
+    ],
+    "answer": "B",
+    "explanation": "On a CFD, the vertical distance between two bands representing different stages (e.g., 'To Do' and 'Done') represents the amount of Work in Progress (WIP). A widening gap indicates that more work is entering the system than is being finished, which typically leads to longer cycle times.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 308,
+    "question": "Which information radiator is most effective for demonstrating the impact of scope changes on a project's projected completion date?",
+    "options": [
+      "Burndown Chart",
+      "Burnup Chart",
+      "Velocity Trend",
+      "Control Chart"
+    ],
+    "answer": "B",
+    "explanation": "A Burnup Chart tracks two lines: 'Total Scope' and 'Completed Work'. This makes it easy for stakeholders to see if a project is delayed because the team is slow or because the Product Owner added more scope. A Burndown chart masks scope changes by showing only 'remaining' work.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 309,
+    "question": "During a root cause analysis, an Agile team repeatedly asks 'Why?' to uncover the underlying cause of a defect. Which technique are they utilizing?",
+    "options": [
+      "The 5 Whys",
+      "Fishbone Diagram",
+      "Brainstorming",
+      "SPIDR"
+    ],
+    "answer": "A",
+    "explanation": "The '5 Whys' is a root cause analysis technique. By asking 'Why?' five times (or as many as needed), the team moves past symptoms to find the actual source of a problem, preventing it from recurring in future iterations.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 310,
+    "question": "An Agile Lead initiates a Value Stream Mapping session with the team. What is the primary objective of this activity?",
+    "options": [
+      "To map out the organizational hierarchy.",
+      "To identify and eliminate non-value-added activities (waste) in a process.",
+      "To assign individual story points to developers.",
+      "To create a Gantt chart for the next release."
+    ],
+    "answer": "B",
+    "explanation": "Value Stream Mapping (VSM) is a Lean technique used to analyze the flow of materials and information required to bring a product to a customer. It helps identify delays, bottlenecks, and waste (Muda), allowing the team to optimize the entire system.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 311,
+    "question": "A Product Owner is drafting user stories and wants to ensure they are high quality. Which acronym represents the standard criteria for well-formed user stories?",
+    "options": [
+      "SMART",
+      "INVEST",
+      "ADKAR",
+      "SPIDR"
+    ],
+    "answer": "B",
+    "explanation": "INVEST stands for Independent, Negotiable, Valuable, Estimable, Small, and Testable. Following these criteria ensures that stories are manageable and provide clear value, which is essential for accurate planning and steady velocity.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "easy"
+  },
+  {
+    "id": 312,
+    "question": "A team of 6 members is planning a 2-week iteration. They each have 40 hours of availability per week, but they dedicate 20% of their time to meetings and administration. What is their total net capacity in hours?",
+    "options": [
+      "480 hours",
+      "384 hours",
+      "240 hours",
+      "400 hours"
+    ],
+    "answer": "B",
+    "explanation": "Gross Capacity = 6 members * 40 hours/week * 2 weeks = 480 hours. Net Capacity = 480 * (1 - 0.20) = 480 * 0.80 = 384 hours. Understanding net capacity prevents over-commitment during planning.",
+    "domain": "Agile Metrics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 313,
+    "question": "Which of the following describes a defect that was missed by the team's internal quality assurance processes and discovered by an end-user in production?",
+    "options": [
+      "Technical Debt",
+      "Legacy Defect",
+      "Escaped Defect",
+      "Refactoring Opportunity"
+    ],
+    "answer": "C",
+    "explanation": "An Escaped Defect is a bug found in production. High rates of escaped defects indicate issues with the 'Definition of Done' or a lack of automated testing (like TDD). Monitoring these helps teams improve their quality gates.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 314,
+    "question": "An Agile team suggests skipping the face-to-face retrospective in favor of a shared document where members can type comments. Why should the Scrum Master discourage this?",
+    "options": [
+      "It violates the principle of 'Individuals and interactions over processes and tools'.",
+      "Scrum guidelines mandate the use of physical sticky notes.",
+      "The Product Owner cannot attend digital meetings.",
+      "It increases the cost of the project."
+    ],
+    "answer": "A",
+    "explanation": "The Agile Manifesto prioritizes 'Individuals and interactions over processes and tools'. A synchronous, face-to-face (or video) retrospective allows for nuance, emotional intelligence, and collaborative brainstorming that is often lost in asynchronous text-based communication.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 315,
+    "question": "In a Kanban system, what does 'Cycle Time' specifically track?",
+    "options": [
+      "The time a story spends in the backlog before being selected.",
+      "The time from when work begins on a task until it reaches the 'Done' state.",
+      "The frequency of product releases to customers.",
+      "The duration of the daily stand-up meeting."
+    ],
+    "answer": "B",
+    "explanation": "Cycle Time is the internal measure of a team's efficiency. It tracks the time an item spends 'in progress'. Reducing cycle time is a key goal in Lean/Agile to ensure faster feedback loops.",
+    "domain": "Agile Metrics",
+    "difficulty": "easy"
+  },
+  {
+    "id": 316,
+    "question": "An Agile team's Burndown Chart shows they are consistently finishing all sprint work several days before the iteration ends. What is the most likely underlying issue that the Scrum Master should investigate?",
+    "options": [
+      "The team is achieving hyper-productivity.",
+      "The team is under-committing or 'sandbagging' their estimates.",
+      "The Product Owner is not providing enough requirements.",
+      "The team's velocity is calculated incorrectly."
+    ],
+    "answer": "B",
+    "explanation": "Consistently finishing early often indicates that a team is under-committing to avoid failure or 'padding' their estimates. This results in sub-optimal throughput. A Servant Leader should encourage the team to take on more work or investigate why they are playing it too safe.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 317,
+    "question": "A Product Owner wants to prioritize a technical task that addresses a major security vulnerability, even though it provides no new user features. This is an example of:",
+    "options": [
+      "Kano Model analysis",
+      "Risk-Adjusted Backlog management",
+      "MoSCoW prioritization",
+      "Technical Debt accumulation"
+    ],
+    "answer": "B",
+    "explanation": "A Risk-Adjusted Backlog contains both value-generating features and risk-reduction tasks. By prioritizing the security fix, the Product Owner is balancing the 'positive value' of features with the 'negative value' (avoidance of loss) of risk mitigation.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 318,
+    "question": "On a Cumulative Flow Diagram (CFD), the band representing 'Quality Assurance' is noticeably widening while the 'Development' band remains stable. What is the most appropriate action for the team?",
+    "options": [
+      "Hire more developers to increase throughput.",
+      "Stop development and swarm to assist the QA process.",
+      "Ignore the CFD as it is a lagging indicator.",
+      "Decrease the WIP limit for the development stage."
+    ],
+    "answer": "B",
+    "explanation": "A widening band in a CFD indicates a bottleneck. According to Little's Law and the Theory of Constraints, adding more work to the system (more development) will only increase lead time. The team should 'stop starting and start finishing' by swarming to clear the QA bottleneck.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 319,
+    "question": "During a retrospective, the team is analyzing data to look for patterns and root causes before deciding on improvements. Which phase of the Retrospective (Derby/Larsen) are they in?",
+    "options": [
+      "Set the Stage",
+      "Gather Data",
+      "Generate Insights",
+      "Decide What to Do"
+    ],
+    "answer": "C",
+    "explanation": "The 'Generate Insights' phase follows 'Gather Data'. This is where the team asks 'Why?' and looks for trends to understand the underlying causes of their performance issues before moving to 'Decide What to Do'.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 320,
+    "question": "A team calculates that a typical user story has a Lead Time of 10 days. Of those, only 2 days are spent on actual development and testing, while 8 days are spent waiting in queues. What is the Process Efficiency?",
+    "options": [
+      "25%",
+      "20%",
+      "80%",
+      "10%"
+    ],
+    "answer": "B",
+    "explanation": "Process Efficiency = (Value-Added Time / Total Lead Time) * 100. Value-Added (Touch) Time = 2 days. Total Lead Time = 10 days. Efficiency = (2 / 10) * 100 = 20%. In Lean, the goal is to increase efficiency by reducing the non-value-added wait time.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 321,
+    "question": "A team's velocity is declining. An audit reveals that the team is spending 40% of their time fixing bugs from previous iterations. This is a clear indicator of high:",
+    "options": [
+      "Throughput",
+      "Failure Demand (Technical Debt)",
+      "Velocity Variance",
+      "Little's Law constant"
+    ],
+    "answer": "B",
+    "explanation": "Spending time on rework or fixing bugs instead of new features is 'Failure Demand'. It is often a result of 'Technical Debt'—shortcuts taken earlier that now require 'interest' payments in the form of maintenance. This must be addressed through refactoring.",
+    "domain": "Agile Metrics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 322,
+    "question": "According to Little's Law, if a team wants to reduce their average Cycle Time while maintaining a constant Throughput, what MUST they do?",
+    "options": [
+      "Increase their Work in Progress (WIP) limits.",
+      "Decrease their Work in Progress (WIP) limits.",
+      "Increase their velocity by 20%.",
+      "Add more members to the team."
+    ],
+    "answer": "B",
+    "explanation": "Little's Law states: Cycle Time = WIP / Throughput. To reduce Cycle Time (the numerator's result) while keeping Throughput (the denominator) constant, you must reduce WIP. Lowering WIP limits is the most effective way to speed up delivery flow.",
+    "domain": "Agile Metrics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 323,
+    "question": "A team uses the ROAM technique during a planning session. A specific risk is identified, and the team decides to implement a redundant server to reduce the impact of a potential crash. This risk is now:",
+    "options": [
+      "Resolved",
+      "Owned",
+      "Accepted",
+      "Mitigated"
+    ],
+    "answer": "D",
+    "explanation": "In ROAM (Resolved, Owned, Accepted, Mitigated), 'Mitigated' means the team has taken active steps to reduce the probability or impact of the risk. Redundancy reduces the impact of a crash, thus it is mitigated.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 324,
+    "question": "A Burnup Chart shows that the 'Total Scope' line is trending upwards at a similar rate to the 'Work Completed' line. What is the most likely consequence for the project?",
+    "options": [
+      "The project will finish early due to high velocity.",
+      "The project completion date will remain fixed.",
+      "The project completion date will keep slipping (Scope Creep).",
+      "The quality of the final product will be superior."
+    ],
+    "answer": "C",
+    "explanation": "If the 'Total Scope' increases as fast as work is completed, the 'gap' to the finish line never closes. This is a visual representation of scope creep. The Product Owner must manage the backlog to ensure the most valuable items are finished within the desired timeframe.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 325,
+    "question": "During the 'Decide What to Do' phase of a retrospective, the team identifies 12 potential process improvements. What should the Scrum Master suggest?",
+    "options": [
+      "Add all 12 items to the next sprint backlog to maximize improvement.",
+      "Use dot-voting to select 1 or 2 high-impact items to focus on.",
+      "Assign one improvement to each team member as a personal KPI.",
+      "Wait until the end of the project to implement all changes at once."
+    ],
+    "answer": "B",
+    "explanation": "Agile focuses on sustainable improvement. Attempting 12 changes at once will likely fail and make it impossible to know which change worked. Selecting 1-2 items (Kaizen) ensures the team can focus and actually achieve the improvement.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 326,
+    "question": "An organization decides to move from a Waterfall model to a Scrum framework across all departments simultaneously. This radical, breakthrough change is known as:",
+    "options": [
+      "Kaizen",
+      "Kaikaku",
+      "Kanban",
+      "Poka-yoke"
+    ],
+    "answer": "B",
+    "explanation": "While Kaizen is continuous incremental improvement, Kaikaku refers to a revolutionary, radical change to a process or system. A full organizational transformation is an example of Kaikaku.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 327,
+    "question": "A team is struggling with over-commitment during planning. They decide to use the 'Yesterday's Weather' guideline. What does this entail?",
+    "options": [
+      "Adjusting the sprint goal based on the local weather forecast.",
+      "Planning the next sprint's capacity based on the actual velocity achieved in the previous sprint.",
+      "Averaging the velocity of the last 12 months.",
+      "Setting an aspirational velocity 10% higher than the previous one."
+    ],
+    "answer": "B",
+    "explanation": "'Yesterday's Weather' is a planning heuristic that suggests the best predictor of a team's future performance is their most recent performance. If they finished 20 points last sprint, they should plan for 20 points this sprint.",
+    "domain": "Agile Metrics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 328,
+    "question": "Which tool would be most effective for an Agile Coach to use to help a team visualize the stability and predictability of their delivery process over time?",
+    "options": [
+      "Velocity Chart",
+      "Control Chart (tracking Cycle Time)",
+      "Burndown Chart",
+      "Fishbone Diagram"
+    ],
+    "answer": "B",
+    "explanation": "A Control Chart (or Process Behavior Chart) plots cycle times for individual stories. If the data points stay within a predictable range (the control limits), the process is stable. High variance indicates an unpredictable process that needs investigation.",
+    "domain": "Agile Metrics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 329,
+    "question": "A Kanban practitioner tells the team to 'Stop Starting and Start Finishing'. Which specific problem is this advice intended to solve?",
+    "options": [
+      "Low team morale.",
+      "High Work in Progress (WIP) and frequent context switching.",
+      "Lack of enough items in the product backlog.",
+      "The Product Owner being too busy to attend meetings."
+    ],
+    "answer": "B",
+    "explanation": "This is a core Kanban slogan. When a team starts many tasks without finishing them, WIP rises, lead times increase, and context switching (waste) destroys productivity. Limiting WIP forces the team to 'finish' items before 'starting' new ones.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 330,
+    "question": "How should a Product Owner determine the 'Value' of a risk-reduction story when comparing it to a new feature story in a Risk-Adjusted Backlog?",
+    "options": [
+      "The value is always zero because it doesn't add features.",
+      "The value is the Expected Monetary Value (EMV) of the risk it prevents or mitigates.",
+      "The value is equal to the developer's hourly rate.",
+      "Risk stories are always higher priority than feature stories."
+    ],
+    "answer": "B",
+    "explanation": "To compare apples to apples, the 'value' of a risk-reduction task is the 'risk exposure' it removes. Risk Exposure = Probability * Impact (EMV). This allows the PO to prioritize a $10k EMV risk fix over a $5k feature.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 331,
+    "question": "An Agile team is splitting a large, complex story into smaller ones. They use techniques like 'Paths', 'Interface', and 'Data' variations. What is the name of this splitting framework?",
+    "options": [
+      "INVEST",
+      "SPIDR",
+      "SMART",
+      "MOSCOW"
+    ],
+    "answer": "B",
+    "explanation": "SPIDR is an acronym for Mike Cohn's story-splitting techniques: Spikes, Paths, Interfaces, Data, and Rules. Using SPIDR helps teams take a 'Large' story and make it 'Small' (following INVEST criteria) so it can fit within a single iteration.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 332,
+    "question": "During a Value Stream Map analysis, the team identifies that work sits in an 'Approval' queue for 48 hours for every 2 hours of actual work. In Lean, this 48-hour period is called:",
+    "options": [
+      "Value-Added Time",
+      "Non-Value-Added Time (Waste)",
+      "Productive Latency",
+      "Cycle Time Buffer"
+    ],
+    "answer": "B",
+    "explanation": "Wait time, queues, and approvals that do not transform the product in a way the customer is willing to pay for are 'Non-Value-Added' time, also known as 'Muda' or waste. Lean aims to eliminate or minimize these periods.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 333,
+    "question": "What is the most reliable way to forecast a project's completion date using Agile metrics?",
+    "options": [
+      "Use the team's theoretical maximum capacity.",
+      "Use a rolling average of the team's velocity over the last several iterations.",
+      "Ask the developers to provide a commit date for every item in the backlog.",
+      "Multiply the number of stories by 2 days."
+    ],
+    "answer": "B",
+    "explanation": "Velocity fluctuates due to various factors. Using a rolling average (e.g., last 3-5 sprints) provides a 'yesterday's weather' perspective that is more realistic and grounded in actual performance than a single data point or an ideal estimate.",
+    "domain": "Agile Metrics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 334,
+    "question": "A developer has finished their task, but the 'In Testing' column has reached its WIP limit. According to Kanban principles, what should the developer do?",
+    "options": [
+      "Start a new task to stay busy and productive.",
+      "Pull a new item from the backlog into development.",
+      "Swarm to help the testers finish their work and clear the bottleneck.",
+      "Take a break until the limit is cleared."
+    ],
+    "answer": "C",
+    "explanation": "In Kanban, the goal is flow, not individual utilization. Starting new work when there is a downstream bottleneck only increases WIP and lead time. 'Swarming' helps resolve the constraint and ensures the work already in progress actually gets to 'Done'.",
+    "domain": "Agile Metrics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 335,
+    "question": "A team identifies that a specific third-party API is unstable. This is currently a ___; if the API actually goes down during the sprint, it becomes a ___.",
+    "options": [
+      "Risk; Issue",
+      "Issue; Risk",
+      "Threat; Opportunity",
+      "Bottleneck; Constraint"
+    ],
+    "answer": "A",
+    "explanation": "A 'Risk' is an uncertain future event. An 'Issue' is a risk that has occurred or a problem that is currently affecting the project. Risks are managed proactively; issues are managed reactively.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 336,
+    "question": "On a CFD, you see a 'stair-step' pattern in the 'Done' line, with long horizontal stretches. What does this likely indicate about the team's delivery?",
+    "options": [
+      "The team is delivering value continuously every day.",
+      "The team is working in large batches or having trouble meeting the Definition of Done.",
+      "The team's velocity is increasing exponentially.",
+      "The project scope is being reduced."
+    ],
+    "answer": "B",
+    "explanation": "A horizontal 'Done' line means no items are being completed. A stair-step pattern suggests that items are all being finished at once at the end of a long period (big batch), which increases risk and delays feedback.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 337,
+    "question": "An Agile Manager practices 'Gemba Walks'. What is the primary purpose of this activity?",
+    "options": [
+      "To check if employees are sitting in their assigned desks.",
+      "To observe the 'actual place' where work happens to understand the reality of the process.",
+      "To hold a secret meeting with the Product Owner.",
+      "To distribute rewards for the highest velocity."
+    ],
+    "answer": "B",
+    "explanation": "Gemba is Japanese for 'the real place'. In Lean, leaders go to the Gemba to see the work firsthand, identify waste, and support the team, rather than relying solely on reports and metrics.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 338,
+    "question": "A feature has a Cycle Time of 4 days but waited in the backlog for 16 days before work started. What percentage of the total Lead Time was spent in a 'Wait' state?",
+    "options": [
+      "25%",
+      "80%",
+      "20%",
+      "75%"
+    ],
+    "answer": "B",
+    "explanation": "Total Lead Time = Wait Time (16) + Cycle Time (4) = 20 days. Wait Percentage = (16 / 20) * 100 = 80%. This highlights that 80% of the customer's delay was due to queueing, not slow development.",
+    "domain": "Agile Metrics",
+    "difficulty": "medium"
+  },
+  {
+    "id": 339,
+    "question": "A team is forced to work 60-hour weeks for three consecutive months to meet an aggressive deadline. In Lean terms, this is an example of ___ which leads to ___.",
+    "options": [
+      "Muda; Waste",
+      "Muri; Overburden",
+      "Mura; Unevenness",
+      "Kaizen; Improvement"
+    ],
+    "answer": "B",
+    "explanation": "Muri is the Lean term for 'overburdening' people or equipment. It is unsustainable and leads to burnout, low quality, and eventually a 'death march' where productivity drops significantly.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 340,
+    "question": "What is the primary function of a 'Risk Radar' or 'Risk Radiator' on an Agile team?",
+    "options": [
+      "To automatically detect bugs in the code.",
+      "To make the probability, impact, and status of risks highly visible to all stakeholders.",
+      "To replace the need for a Scrum Master.",
+      "To calculate the final project budget."
+    ],
+    "answer": "B",
+    "explanation": "An information radiator like a Risk Radar ensures that risks are not hidden in a document. By making them visible (usually on a wall or shared dashboard), the team and PO are reminded to address them continuously.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 341,
+    "question": "A CEO is frustrated that features take months to go from 'idea' to 'live'. The team has high velocity and low cycle times for individual tasks. Which Lean metric should the Agile Coach focus on to diagnose this system-wide delay?",
+    "options": [
+      "Individual Velocity",
+      "End-to-End Lead Time",
+      "Code Coverage Percentage",
+      "Story Point Accuracy"
+    ],
+    "answer": "B",
+    "explanation": "If velocity and cycle times are good but the CEO is unhappy, the delay is likely in the 'fuzzy front end' (planning, approvals) or the 'back end' (deployment). End-to-End Lead Time tracks the entire journey, exposing delays outside of the development team's immediate control.",
+    "domain": "Agile Metrics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 342,
+    "question": "A Product Owner is evaluating two risks. Risk X: 5% probability, $200,000 impact. Risk Y: 40% probability, $30,000 impact. Using EMV, which risk represents a higher 'Risk Exposure' and should likely be addressed first?",
+    "options": [
+      "Risk X",
+      "Risk Y",
+      "They are equal.",
+      "Neither, as both have low probability."
+    ],
+    "answer": "B",
+    "explanation": "EMV X = 0.05 * 200,000 = $10,000. EMV Y = 0.40 * 30,000 = $12,000. Risk Y has a higher Expected Monetary Value (Risk Exposure) and should be prioritized in the Risk-Adjusted Backlog.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 343,
+    "question": "According to the properties of a Cumulative Flow Diagram (CFD), the horizontal distance between the 'Backlog' line and the 'Done' line at any given point on the vertical axis represents:",
+    "options": [
+      "Current Work in Progress (WIP)",
+      "Average Lead Time for an item",
+      "Average Throughput of the system",
+      "Total Project Scope"
+    ],
+    "answer": "B",
+    "explanation": "On a CFD, vertical distance represents WIP (amount of work), while horizontal distance represents the average Lead Time (time taken for an item to traverse the system). This allows teams to see how WIP levels impact delivery speed.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 344,
+    "question": "An Agile team implements Test-Driven Development (TDD) and continuous refactoring. What is the most significant long-term technical impact of these practices on the project?",
+    "options": [
+      "They increase the total number of lines of code.",
+      "They flatten the 'Cost of Change' curve, making later changes less expensive.",
+      "They eliminate the need for a Product Owner.",
+      "They guarantee the project will be finished under budget."
+    ],
+    "answer": "B",
+    "explanation": "In traditional development, the cost of change increases exponentially as the project progresses. TDD and Refactoring ensure high internal quality and low technical debt, which 'flattens' this curve, allowing the team to respond to changes late in the project without massive rework costs.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 345,
+    "question": "A large organization is struggling with an Agile transformation. Leaders are using the ADKAR model to manage the change. A team is willing to work in Scrum but lacks the technical skills for TDD. Which ADKAR element is currently missing?",
+    "options": [
+      "Awareness",
+      "Desire",
+      "Knowledge / Ability",
+      "Reinforcement"
+    ],
+    "answer": "C",
+    "explanation": "ADKAR stands for Awareness, Desire, Knowledge, Ability, and Reinforcement. If the team is willing (Desire) but lacks the skills, the 'Knowledge' (how to do it) and 'Ability' (performing the skill) elements must be addressed through training and coaching.",
+    "domain": "Continuous Improvement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 346,
+    "question": "A team identifies that their 'Production Deployment' step is the slowest part of their Value Stream, and work is piling up before it. According to the Theory of Constraints (TOC), what is the most effective way to improve total system throughput?",
+    "options": [
+      "Add more developers to write more code.",
+      "Optimize the 'Design' phase to be 20% faster.",
+      "Focus all improvement efforts on 'elevating' and optimizing the Production Deployment step.",
+      "Increase the WIP limits for the entire team."
+    ],
+    "answer": "C",
+    "explanation": "The Theory of Constraints states that a system is only as fast as its slowest point (the bottleneck). Improving any other part of the process is an 'illusion' of progress and will only increase WIP. The constraint must be the focus of all optimization efforts.",
+    "domain": "Continuous Improvement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 347,
+    "question": "During a retrospective, the team realizes that their frequent 'escaped defects' are caused by a fundamental misunderstanding of the customer's quality expectations. They decide to redefine their entire quality strategy. This is an example of:",
+    "options": [
+      "Single-Loop Learning",
+      "Double-Loop Learning",
+      "Triple-Loop Learning",
+      "Kaizen Blitz"
+    ],
+    "answer": "B",
+    "explanation": "Single-loop learning is fixing a specific problem. Double-loop learning involves questioning the underlying assumptions, values, and policies (the 'why' and 'how') that led to the problem. Redefining the quality strategy is a fundamental shift in the team's mental model.",
+    "domain": "Continuous Improvement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 348,
+    "question": "Using Little's Law, if a team has an average Throughput of 5 stories per week and they currently have 20 stories in progress, what is their expected average Cycle Time for a new item entering the system?",
+    "options": [
+      "100 days",
+      "4 weeks",
+      "0.25 weeks",
+      "1 week"
+    ],
+    "answer": "B",
+    "explanation": "Little's Law: Cycle Time = WIP / Throughput. Cycle Time = 20 stories / 5 stories per week = 4 weeks. This illustrates how high WIP directly delays the delivery of any single item.",
+    "domain": "Agile Metrics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 349,
+    "question": "A Product Owner insists on skipping refactoring to meet a deadline. The Scrum Master shows a graph where Velocity is steadily dropping as the number of 'Open Bugs' increases. This visualizes the impact of:",
+    "options": [
+      "Negative Velocity",
+      "The 'Strangle' effect of Technical Debt on delivery capacity.",
+      "The Law of Diminishing Returns.",
+      "Parkinson's Law."
+    ],
+    "answer": "B",
+    "explanation": "Technical debt acts like interest on a loan. As it accumulates, more and more of the team's capacity is spent on maintenance (paying interest) rather than new features (principal). Eventually, velocity drops toward zero, 'strangling' the product's growth.",
+    "domain": "Agile Metrics",
+    "difficulty": "hard"
+  },
+  {
+    "id": 350,
+    "question": "In a DevOps and Agile environment, a team decides to 'Shift Left' on Security and Compliance. What is the primary tactical change they will make?",
+    "options": [
+      "Move all security audits to the very last week of the project.",
+      "Hire a separate team to handle security at the end of the release.",
+      "Integrate automated security scans and compliance checks into the daily build and CI/CD pipeline.",
+      "Ignore compliance until the customer specifically asks for it."
+    ],
+    "answer": "C",
+    "explanation": "'Shifting Left' means moving activities earlier in the development lifecycle. By integrating security and compliance into the daily work (CI/CD), the team finds issues immediately when they are cheap to fix, rather than discovering them as 'project-stoppers' at the end.",
+    "domain": "Continuous Improvement",
+    "difficulty": "hard"
+  }
+]

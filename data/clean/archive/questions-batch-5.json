@@ -1,0 +1,702 @@
+[
+  {
+    "id": 201,
+    "question": "An Agile team is in its first sprint and is struggling with how to make decisions. The Scrum Master notices that the team is looking for a leader to tell them what to do. Which stage of Tuckman's model is the team most likely in?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "answer": "A",
+    "explanation": "In the 'Forming' stage of Tuckman's model, team members are typically polite but look to a leader for direction. They are getting to know each other and the project goals, often lacking clarity on their specific roles and looking for external guidance.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 202,
+    "question": "A Product Owner is prioritizing the product backlog and wants to ensure that the most important features are developed first. Which technique uses the categories Must have, Should have, Could have, and Won't have this time?",
+    "options": [
+      "Kano Model",
+      "MoSCoW",
+      "Relative Prioritization",
+      "Monopoly Money"
+    ],
+    "answer": "B",
+    "explanation": "MoSCoW is a prioritization technique (often associated with DSDM but widely used in Scrum) that categorizes requirements into Must have, Should have, Could have, and Won't have (this time). This helps stakeholders reach consensus on the Minimum Viable Product (MVP).",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "easy"
+  },
+  {
+    "id": 203,
+    "question": "A team is new to Scrum and is frequently skipping the Daily Scrum. Who should intervene to ensure the team understands and follows Scrum values and practices?",
+    "options": [
+      "The Product Owner",
+      "The Development Team",
+      "The Scrum Master",
+      "The Project Manager"
+    ],
+    "answer": "C",
+    "explanation": "The Scrum Master is a servant-leader responsible for promoting and supporting Scrum. They help everyone understand Scrum theory, practices, rules, and values, and ensure the team adheres to the agreed-upon process.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 204,
+    "question": "A Kanban team notices that work is piling up in the 'Testing' column, causing a bottleneck. Which of the following is the most direct way to address this using Kanban principles?",
+    "options": [
+      "Increase the WIP limit for the Testing column.",
+      "Reduce the WIP limit for the Development column to slow down the flow into Testing.",
+      "Hire more testers immediately.",
+      "Ignore the bottleneck and continue working on new features."
+    ],
+    "answer": "B",
+    "explanation": "Lowering the WIP (Work in Progress) limit for upstream activities (like Development) prevents overburdening the bottleneck (Testing) and encourages the team to collaborate on resolving the bottleneck (swarming) rather than creating more partially finished work.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 205,
+    "question": "An XP (Extreme Programming) team practices writing an automated test for a small piece of functionality before writing any functional code. What is this practice called?",
+    "options": [
+      "Continuous Integration",
+      "Refactoring",
+      "Test-Driven Development",
+      "Simple Design"
+    ],
+    "answer": "C",
+    "explanation": "Test-Driven Development (TDD) is an XP practice involving a 'Red-Green-Refactor' cycle: write a failing test (Red), write just enough code to make it pass (Green), and then improve the code structure (Refactor). This ensures high code quality and testability.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 206,
+    "question": "During a Daily Scrum, a team member mentions they are having trouble accessing a database needed for their task. What should the Scrum Master do?",
+    "options": [
+      "Tell the team member to wait until the next sprint to fix the issue.",
+      "Note the impediment and work to resolve it as soon as possible after the meeting.",
+      "Ask the Product Owner to change the user story to avoid using the database.",
+      "Tell the team member to find someone else on the team to help them."
+    ],
+    "answer": "B",
+    "explanation": "A primary role of a Scrum Master is to remove impediments that prevent the team from making progress. By resolving issues quickly, the Scrum Master enables the team to maintain its flow and focus on the Sprint Goal.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 207,
+    "question": "During a sprint, the team realizes their communication is breaking down and causing delays. At which event will they formally address this and plan specific process improvements for the next sprint?",
+    "options": [
+      "Sprint Planning",
+      "Sprint Review",
+      "Sprint Retrospective",
+      "Daily Scrum"
+    ],
+    "answer": "C",
+    "explanation": "The Sprint Retrospective is specifically designed for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint. It focuses on people, relationships, process, and tools.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 208,
+    "question": "A team is transitioning to Agile and is learning about 'Value-Driven Delivery.' What is the primary focus of this principle?",
+    "options": [
+      "Delivering all requirements listed in the original project charter.",
+      "Delivering the most valuable features to the customer as early as possible.",
+      "Ensuring that the project stays within the initial budget and timeline.",
+      "Minimizing the number of defects found in the final product."
+    ],
+    "answer": "B",
+    "explanation": "Value-Driven Delivery focuses on maximizing ROI by delivering high-value features early and often. This allows the organization to realize value sooner and gather early feedback to guide future development.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "easy"
+  },
+  {
+    "id": 209,
+    "question": "An Agile team has decided to use 'Planning Poker' to estimate the effort for their user stories. What is the primary reason for using this technique?",
+    "options": [
+      "To ensure that the Scrum Master's estimate is the one used.",
+      "To reach a consensus estimate while avoiding 'anchoring' by other team members.",
+      "To make the estimation process as fast as possible by avoiding discussion.",
+      "To provide a precise estimate in hours for each task."
+    ],
+    "answer": "B",
+    "explanation": "Planning Poker, a variation of Wideband Delphi, uses simultaneous reveal of estimates to avoid 'anchoring' (where individuals are influenced by the first number called out). It encourages discussion and leads to a consensus-based estimate.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 210,
+    "question": "A Kanban team is looking to improve their flow and decides to limit the number of items they work on at any given time. What is the standard Agile term for this limitation?",
+    "options": [
+      "Work in Process",
+      "Weekly Improvement Plan",
+      "Workflow Integration Program",
+      "Work in Progress (WIP) Limits"
+    ],
+    "answer": "D",
+    "explanation": "WIP (Work in Progress) limits are a core component of Kanban. By limiting the amount of work started but not finished, teams can reduce cycle time, identify bottlenecks, and avoid the waste associated with context switching.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 211,
+    "question": "A team is in the 'Norming' stage of Tuckman's model. What behavior would you expect to see?",
+    "options": [
+      "High conflict as members fight for influence and power.",
+      "Members starting to resolve their differences and appreciating each other's strengths.",
+      "High performance with minimal supervision needed.",
+      "Polite interactions but lack of commitment to common goals."
+    ],
+    "answer": "B",
+    "explanation": "In the 'Norming' stage, team members begin to resolve conflicts, develop closer relationships, and establish norms for working together. They start to appreciate the diverse strengths of the team and move toward collective goals.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 212,
+    "question": "An organization is restructuring for a Scrum project. Which of the following roles is essential to the Scrum framework?",
+    "options": [
+      "Project Manager",
+      "Business Analyst",
+      "Product Owner",
+      "Quality Assurance Lead"
+    ],
+    "answer": "C",
+    "explanation": "The three core roles in Scrum are the Product Owner, the Scrum Master, and the Development Team. Traditional roles like Project Manager or QA Lead are not defined roles within the Scrum framework, as their responsibilities are absorbed by the Scrum roles.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 213,
+    "question": "A team uses a 'Big Visible Chart' to show the amount of work remaining in a sprint. What is this chart usually called?",
+    "options": [
+      "Gantt Chart",
+      "Burn-up Chart",
+      "Burndown Chart",
+      "Control Chart"
+    ],
+    "answer": "C",
+    "explanation": "A Burndown Chart shows the amount of work remaining (usually in story points or hours) versus time. It is an Information Radiator that helps the team track their progress toward the Sprint Goal in real-time.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 214,
+    "question": "A development team wants to reduce the 'integration hell' they experience at the end of every release. Which Agile practice would most directly help them by merging code multiple times a day?",
+    "options": [
+      "Incremental Delivery",
+      "Continuous Integration",
+      "Refactoring",
+      "Simple Design"
+    ],
+    "answer": "B",
+    "explanation": "Continuous Integration (CI) involves merging code changes into a shared repository frequently, followed by automated builds and tests. This practice catches integration errors early, reducing risk and keeping the product in a deployable state.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 215,
+    "question": "Which XP practice involves two programmers working together at one workstation to improve code quality and knowledge sharing?",
+    "options": [
+      "Collective Code Ownership",
+      "Pair Programming",
+      "Sustainable Pace",
+      "Whole Team"
+    ],
+    "answer": "B",
+    "explanation": "Pair Programming involves two developers (the Driver and the Navigator) working on the same task. It improves code quality through real-time review and facilitates knowledge sharing across the team.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 216,
+    "question": "A Scrum team is consistently failing to meet its Sprint Commitment because they are often interrupted by stakeholders asking for 'quick fixes.' What is the best course of action for the Scrum Master?",
+    "options": [
+      "Ask the team to work overtime to handle both the sprint work and the interruptions.",
+      "Tell the stakeholders to go through the Product Owner for all requests and protect the team from interruptions.",
+      "Allow the team to decide which interruptions to handle based on their capacity.",
+      "Add a 'buffer' of 20% to every sprint to account for these interruptions."
+    ],
+    "answer": "B",
+    "explanation": "The Scrum Master must protect the team from outside interruptions. Stakeholders should be directed to the Product Owner, who can then prioritize these requests in the product backlog. This ensures the team can focus on the Sprint Goal.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 217,
+    "question": "A Product Owner is struggling with a large number of stakeholders who have conflicting priorities. Which Innovation Game would be most effective for involving stakeholders in a collaborative decision-making process?",
+    "options": [
+      "Speedboat",
+      "Prune the Product Tree",
+      "Buy a Feature",
+      "Product Box"
+    ],
+    "answer": "C",
+    "explanation": "'Buy a Feature' is an Innovation Game where stakeholders are given a limited budget to 'buy' features. This forces them to collaborate, prioritize, and make trade-offs, making it easier to reach consensus on the most valuable items.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 218,
+    "question": "An Agile team has a stable velocity of 30 story points per sprint. The product backlog has 150 points remaining. How many sprints will it likely take to complete the project, assuming the velocity remains constant?",
+    "options": [
+      "3 sprints",
+      "4 sprints",
+      "5 sprints",
+      "6 sprints"
+    ],
+    "answer": "C",
+    "explanation": "Forecasting in Agile is often done by dividing the total remaining work by the average velocity (150 / 30 = 5). This provides an empirical estimate based on the team's actual past performance.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 219,
+    "question": "A Kanban team has a WIP limit of 3 for the 'Development' column. There are currently 3 items in Development. A team member finishes one item and moves it to 'Testing.' What should they do next in this 'pull' system?",
+    "options": [
+      "Pull the next highest priority item from the 'To Do' column into 'Development.'",
+      "Start a new task that isn't on the board yet to stay busy.",
+      "Help a teammate finish an item in the 'Testing' column if it's blocked.",
+      "Wait for the Scrum Master to assign them a new task."
+    ],
+    "answer": "A",
+    "explanation": "In a Kanban 'pull' system, capacity is created when an item moves to the next stage. Since the WIP limit for Development is 3 and only 2 items remain after the move, the team member should pull the next highest priority item from the backlog.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 220,
+    "question": "A team is in the 'Storming' stage of Tuckman's model and members are arguing about the technical approach to a problem. How should the Scrum Master handle this situation?",
+    "options": [
+      "Intervene immediately and decide on the technical approach for them.",
+      "Let the team work through the conflict themselves, providing coaching and facilitation as needed.",
+      "Ignore the conflict and hope it goes away on its own.",
+      "Reassign the conflicting members to different teams."
+    ],
+    "answer": "B",
+    "explanation": "The 'Storming' stage is a natural part of team development where members test boundaries. The Scrum Master should facilitate the process and coach the team on conflict resolution, helping them grow into a self-organizing unit.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 221,
+    "question": "An XP team is concerned about their 'Sustainable Pace' after working 50-hour weeks for three consecutive sprints. What is the most likely long-term consequence of this?",
+    "options": [
+      "Increased velocity and faster delivery of the project.",
+      "Higher quality code because more time is being spent on it.",
+      "Decreased quality, increased burnout, and an eventual drop in velocity.",
+      "Greater stakeholder satisfaction due to the extra effort."
+    ],
+    "answer": "C",
+    "explanation": "Sustainable pace is a core Agile principle. Working excessive hours lead to fatigue, which increases defects and leads to burnout. This eventually decreases the team's capacity and velocity, harming the project in the long run.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 222,
+    "question": "A Product Owner wants to calculate the 'Return on Investment' (ROI) for a new feature to justify its development. How is ROI typically calculated?",
+    "options": [
+      "Total Benefit - Total Cost",
+      "(Total Benefit - Total Cost) / Total Cost",
+      "Total Cost / Total Benefit",
+      "Velocity * Story Points"
+    ],
+    "answer": "B",
+    "explanation": "ROI is a financial metric used to evaluate the efficiency of an investment. In Agile, it helps the Product Owner prioritize features that provide the highest value relative to their cost (Net Profit / Investment Cost).",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 223,
+    "question": "During a Sprint Review, a stakeholder suggests a major change to a feature that was just demonstrated. How should the Product Owner respond to maintain Agile flexibility?",
+    "options": [
+      "Reject the change because the sprint is already over.",
+      "Accept the change and tell the team to start working on it in the next sprint immediately.",
+      "Capture the change as a new user story in the product backlog for future prioritization.",
+      "Ask the team to work overtime to incorporate the change before the release."
+    ],
+    "answer": "C",
+    "explanation": "The Sprint Review is an inspection and adaptation event. Feedback should be captured as new backlog items. The Product Owner then assesses their value and prioritizes them against other work for future sprints.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 224,
+    "question": "A team using Story Points finds that one '8-point' story took twice as long as another '8-point' story. What is the best forum to address this and improve future estimations?",
+    "options": [
+      "Change the points for the first story immediately.",
+      "Ignore the discrepancy as it will even out over time.",
+      "Discuss the reasons for the discrepancy during the Sprint Retrospective.",
+      "Stop using story points and switch to estimating in hours."
+    ],
+    "answer": "C",
+    "explanation": "The Sprint Retrospective is the time to inspect the process and tools. Discussing estimation discrepancies helps the team align their understanding of story size and complexity, leading to more accurate planning in the future.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 225,
+    "question": "What is the primary goal of implementing 'WIP Limits' in a Kanban system?",
+    "options": [
+      "To ensure that every team member is busy at all times.",
+      "To limit the total amount of work the team can take on in a year.",
+      "To expose bottlenecks and improve the flow of work by preventing multitasking.",
+      "To provide a way for management to track individual performance."
+    ],
+    "answer": "C",
+    "explanation": "WIP limits restrict the number of active tasks. This forces the team to finish work before starting new work, which highlights bottlenecks (where work piles up) and reduces the waste of context switching.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 226,
+    "question": "An Agile team is facing high technical uncertainty regarding a new database technology. They decide to conduct a 'Spike' in the next sprint. What is the most appropriate goal for this Spike?",
+    "options": [
+      "Develop a fully functional version of a complex feature.",
+      "Perform research or prototyping to reduce technical risk or gain knowledge.",
+      "Fix all the bugs that were found in the previous sprint.",
+      "Complete all the documentation for the project."
+    ],
+    "answer": "B",
+    "explanation": "A Spike is a time-boxed research activity used to reduce uncertainty. It helps the team gain enough knowledge to estimate and plan future user stories effectively, either through technical research (Architectural Spike) or prototyping (Risk-reduction Spike).",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 227,
+    "question": "Which of the following best describes 'Servant Leadership' as practiced by a Scrum Master?",
+    "options": [
+      "The Scrum Master does all the administrative work so the team can focus on coding.",
+      "The Scrum Master makes all the decisions but tells the team they are self-organizing.",
+      "The Scrum Master focuses on the needs of the team, removes obstacles, and helps them reach their full potential.",
+      "The Scrum Master acts as a traditional project manager, assigning tasks and monitoring progress."
+    ],
+    "answer": "C",
+    "explanation": "Servant leadership is about supporting the team. The Scrum Master serves the team by removing impediments, facilitating events, and coaching them on Agile values, rather than directing their daily work.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 228,
+    "question": "A large organization is transitioning to Agile. The Agile Coach notices that while employees understand the need for change, they lack the specific skills to perform their roles in a Scrum framework. According to the ADKAR model, which element should the coach focus on next?",
+    "options": [
+      "Awareness",
+      "Desire",
+      "Knowledge",
+      "Reinforcement"
+    ],
+    "answer": "C",
+    "explanation": "ADKAR (Awareness, Desire, Knowledge, Ability, Reinforcement) is a change management model. If employees have Awareness (of the need) and Desire (to change), the next step is Knowledge (learning the skills required to change).",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 229,
+    "question": "During a Daily Scrum, two team members start a long, technical discussion about a specific bug. What is the Scrum Master's best course of action?",
+    "options": [
+      "Let them continue so the bug can be fixed as quickly as possible.",
+      "Interrupt and ask them to move the discussion to a separate 'side-bar' meeting after the Daily Scrum.",
+      "Ask the other team members for their input on the technical issue.",
+      "Take notes on the discussion and send them to the entire team later."
+    ],
+    "answer": "B",
+    "explanation": "The Daily Scrum is a 15-minute synchronization event. Detailed technical discussions (side-baring) should be moved outside the meeting to keep it focused and respect the time of the other team members.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 230,
+    "question": "An XP team is practicing 'Collective Code Ownership.' What is a primary benefit of this practice?",
+    "options": [
+      "Every piece of code is owned by the person who originally wrote it.",
+      "Only the senior developers are allowed to change the core modules.",
+      "Any team member can change any part of the codebase to improve it or fix a bug, reducing silos.",
+      "The Product Owner must approve every code change before it is committed."
+    ],
+    "answer": "C",
+    "explanation": "Collective Code Ownership means the entire team is responsible for the codebase. It encourages knowledge sharing, prevents individual 'silos' of knowledge, and allows the team to move faster as anyone can fix a bug or refactor code.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 231,
+    "question": "A Product Owner is using the 'Kano Model' to categorize features. A feature that users expect as a standard requirement, and whose absence would cause extreme dissatisfaction, is classified as a:",
+    "options": [
+      "Delighter (Excitement)",
+      "Satisfier (Performance)",
+      "Basic Need (Must-be)",
+      "Indifferent"
+    ],
+    "answer": "C",
+    "explanation": "In the Kano Model, 'Basic Needs' or 'Must-be' features are expected. Their presence doesn't increase satisfaction significantly, but their absence causes major dissatisfaction (e.g., a phone's ability to make calls).",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 232,
+    "question": "A team is measuring the time it takes for a single work item to move from the 'In Progress' column to 'Done.' What metric are they calculating?",
+    "options": [
+      "Lead Time",
+      "Cycle Time",
+      "Wait Time",
+      "Throughput"
+    ],
+    "answer": "B",
+    "explanation": "Cycle Time measures the time a work item spends in the 'In Progress' state until it is completed. It is a key metric for understanding the efficiency of the team's internal process.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 233,
+    "question": "Which of the following is an example of an 'Information Radiator' that supports transparency in an Agile workspace?",
+    "options": [
+      "A private spreadsheet on the Scrum Master's laptop.",
+      "A large, physical task board in a common area where everyone can see it.",
+      "A weekly email report sent to stakeholders.",
+      "A password-protected wiki page with the project's technical specifications."
+    ],
+    "answer": "B",
+    "explanation": "Information Radiators (like Kanban boards or Burndown charts) are large, visible displays that provide up-to-date information at a glance. They promote transparency and keep everyone informed without requiring manual status requests.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 234,
+    "question": "A Scrum team is updating their 'Definition of Done' (DoD). Who is primarily responsible for establishing and maintaining the DoD for the team's increments?",
+    "options": [
+      "The Product Owner",
+      "The Scrum Master",
+      "The Development Team",
+      "The Project Manager"
+    ],
+    "answer": "C",
+    "explanation": "The Development Team is responsible for the quality of the increment and thus defines the DoD. If the organization has a standard DoD, the team must follow it as a minimum, but they can make it more stringent if needed.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 235,
+    "question": "What is the primary goal of the 'Sprint Review' in a Scrum framework?",
+    "options": [
+      "To demo the work and get feedback from stakeholders to adapt the product backlog.",
+      "To provide a detailed status report to the Project Management Office (PMO).",
+      "To decide which team members deserve a bonus for the sprint.",
+      "To plan the tasks for the next sprint in detail."
+    ],
+    "answer": "A",
+    "explanation": "The Sprint Review is an inspection of the Increment and adaptation of the Product Backlog. Feedback from stakeholders is critical to ensure the team is still building the right product and delivering maximum value.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 236,
+    "question": "A team is using 'Escaped Defects' as a quality metric. What does this measure accurately reflect?",
+    "options": [
+      "The number of bugs found by the team during development.",
+      "The number of bugs found by users after the product has been released to production.",
+      "The number of user stories that were not finished in the sprint.",
+      "The number of times the Scrum Master had to remove an impediment."
+    ],
+    "answer": "B",
+    "explanation": "Escaped Defects are bugs that 'escaped' the team's internal testing and were found by customers. This metric is a key indicator of the effectiveness of the team's 'Definition of Done' and quality assurance practices.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 237,
+    "question": "An Agile team is working on a project with a fixed budget. How should the Product Owner effectively manage scope in this environment?",
+    "options": [
+      "They don't allow any scope changes to prevent budget overruns.",
+      "They ask for additional funding every time a new feature is requested.",
+      "They use 'fixed-price, variable-scope' by swapping out lower-priority items for new, higher-priority requests.",
+      "They extend the project timeline indefinitely to include all requests."
+    ],
+    "answer": "C",
+    "explanation": "In Agile, when cost and time are fixed, scope must be the variable. The Product Owner manages this by constantly prioritizing the backlog, ensuring the team always works on the most valuable items within the fixed constraints.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 238,
+    "question": "In Scrum, what happens to user stories that are not finished by the end of a sprint?",
+    "options": [
+      "They are automatically moved to the next sprint.",
+      "They are marked as 'half-done' and their points are counted toward velocity.",
+      "They return to the product backlog for the Product Owner to re-evaluate and re-prioritize.",
+      "They are deleted because the sprint is over."
+    ],
+    "answer": "C",
+    "explanation": "Unfinished work is not 'done' and should not be counted in velocity. These items go back to the product backlog. The Product Owner then decides if they are still a priority for the next sprint or if other items are more important.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 239,
+    "question": "Which of the following is a key characteristic of a 'Self-Organizing Team' in an Agile context?",
+    "options": [
+      "The team waits for the manager to assign daily tasks.",
+      "The team decides for itself how to best accomplish its work rather than being directed by others.",
+      "The team has no leader and makes all decisions by unanimous vote.",
+      "The team can change the project's scope without consulting the Product Owner."
+    ],
+    "answer": "B",
+    "explanation": "Self-organizing teams are empowered to manage their own work. They decide who does what and how it gets done, fostering ownership, accountability, and better technical decision-making.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 240,
+    "question": "A team is using a 'Cumulative Flow Diagram' (CFD). A widening gap between the 'In Progress' and 'Done' lines most likely indicates which issue?",
+    "options": [
+      "The team is working faster than expected.",
+      "A bottleneck is forming or work is being started faster than it can be finished.",
+      "The project is about to finish ahead of schedule.",
+      "The team's velocity is increasing."
+    ],
+    "answer": "B",
+    "explanation": "In a CFD, the vertical distance between 'In Progress' and 'Done' represents WIP. If this gap widens, it means WIP is increasing, which often indicates a bottleneck or that the team is over-committing and not finishing work.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 241,
+    "question": "A company is comparing two potential projects. Project A has an expected Net Present Value (NPV) of $150,000 and a duration of 6 months. Project B has an expected NPV of $200,000 and a duration of 12 months. Based strictly on NPV, which project should be prioritized?",
+    "options": [
+      "Project A, because it finishes sooner and provides faster ROI.",
+      "Project B, because it has a higher NPV.",
+      "Neither, as NPV is not a valid metric for project selection in Agile.",
+      "The project with the higher anticipated velocity."
+    ],
+    "answer": "B",
+    "explanation": "NPV (Net Present Value) accounts for the time value of money. When selecting projects based strictly on NPV, the one with the higher value is preferred as it represents a greater overall return on investment, regardless of duration.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "hard"
+  },
+  {
+    "id": 242,
+    "question": "A Scrum team's velocity has dropped significantly. The team reports they are spending 40% of their time fixing bugs in legacy code. What is the most likely root cause, and how should it be addressed?",
+    "options": [
+      "The team is losing focus; the Scrum Master should demand higher productivity.",
+      "Technical Debt has accumulated; the team should dedicate time to refactoring and improving code quality in the DoD.",
+      "The Product Owner is adding too many features; the team should stop all new development for two sprints.",
+      "The velocity drop is natural as projects get more complex; the team should adjust their story point scale."
+    ],
+    "answer": "B",
+    "explanation": "A drop in velocity due to high maintenance effort is a classic sign of Technical Debt. The team should address this by prioritizing refactoring and improving their 'Definition of Done' to prevent further debt from accumulating.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "hard"
+  },
+  {
+    "id": 243,
+    "question": "In a highly regulated environment, a team is struggling to balance Agile flexibility with strict compliance requirements. What is the most 'Agile' way for the team to handle this challenge?",
+    "options": [
+      "Ignore the regulations to maintain speed, addressing them during a final 'hardening' phase.",
+      "Incorporate the compliance requirements into the 'Definition of Done' and the product backlog as tasks or stories.",
+      "Use Waterfall for the compliance-related components and Agile for the development components.",
+      "Wait until the end of the project to perform all compliance audits at once."
+    ],
+    "answer": "B",
+    "explanation": "Agile teams should integrate constraints (like compliance) into their regular flow. By making compliance part of the DoD, the team ensures that every increment is fully compliant and 'shippable', reducing the risk of a late-stage failure.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "hard"
+  },
+  {
+    "id": 244,
+    "question": "A Kanban team notices that their 'Lead Time' is significantly higher than their 'Cycle Time.' What does this data point suggest about their overall value stream?",
+    "options": [
+      "The team is working very efficiently once they start a task.",
+      "Work items are spending a significant amount of time waiting in the backlog or 'ready' queue before work begins.",
+      "The team has too many WIP limits, causing items to move too slowly.",
+      "The developers are much faster than the testers, creating an imbalance."
+    ],
+    "answer": "B",
+    "explanation": "Lead Time is the total time from request to delivery. Cycle Time is the time spent working on the item. A large gap indicates 'wait time' in the queue, suggesting that the team's capacity is much lower than the demand (backlog).",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 245,
+    "question": "An Agile team is in the 'Performing' stage of Tuckman's model. A new, highly skilled specialist is added to the team. What is the most likely immediate effect on the team's development stage?",
+    "options": [
+      "The team will immediately achieve even higher levels of performance.",
+      "The team will likely regress to the 'Forming' or 'Storming' stage as they integrate the new member.",
+      "Nothing will change; the team is already high-performing and self-organizing.",
+      "The team will skip directly to the 'Adjourning' stage."
+    ],
+    "answer": "B",
+    "explanation": "Tuckman's model is dynamic. Adding or removing a member changes the team's social structure and dynamics, typically causing them to regress to an earlier stage (Forming or Storming) as they renegotiate roles and relationships.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 246,
+    "question": "A Product Owner is trying to decide between two features. Feature A has a high ROI but benefits only a small user group. Feature B has lower ROI but is urgent for a high-power stakeholder. Which technique provides the most objective prioritization?",
+    "options": [
+      "Always choose the highest ROI (Feature A).",
+      "Always choose the feature requested by the powerful stakeholder (Feature B).",
+      "Use 'Weighted Shortest Job First' (WSJF) to calculate the Cost of Delay divided by the job size.",
+      "Let the Development Team decide through a blind vote."
+    ],
+    "answer": "C",
+    "explanation": "WSJF is a prioritization model used to sequence jobs by considering the 'Cost of Delay' (value, time criticality, and risk reduction) relative to the size of the job. It helps maximize value delivery over time.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "hard"
+  },
+  {
+    "id": 247,
+    "question": "An XP team is practicing 'Simple Design.' They are tempted to add an extra layer of abstraction now to support potential future features. Which Agile principle are they most at risk of violating?",
+    "options": [
+      "Sustainable Pace",
+      "YAGNI (You Ain't Gonna Need It)",
+      "Collective Code Ownership",
+      "Continuous Integration"
+    ],
+    "answer": "B",
+    "explanation": "YAGNI is an XP principle that states you should not add functionality or complexity until it is actually required. Adding 'just-in-case' code leads to 'gold plating' and increased maintenance costs for features that may never be used.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 248,
+    "question": "A team is struggling to fit a large user story into a single sprint. The Scrum Master suggests using the SPIDR framework to break it down. If the team decides to split the story based on the different ways a user can navigate to a feature, which SPIDR element are they using?",
+    "options": [
+      "Small",
+      "Path",
+      "Interface",
+      "Data"
+    ],
+    "answer": "B",
+    "explanation": "SPIDR (Spikes, Paths, Interface, Data, Rules) is a framework for story splitting. Splitting by 'Path' involves identifying the various ways a user might interact with the system to achieve the same result and breaking them into separate stories.",
+    "domain": "Adaptive Planning",
+    "difficulty": "hard"
+  },
+  {
+    "id": 249,
+    "question": "A company is using 'Internal Rate of Return' (IRR) to compare two Agile projects. What is the primary implication of a higher IRR in this context?",
+    "options": [
+      "The project will take longer to complete but deliver more value.",
+      "The project is expected to be more profitable and will recover its costs more quickly.",
+      "The project has a higher level of technical risk and uncertainty.",
+      "The team's velocity must be higher to justify the investment."
+    ],
+    "answer": "B",
+    "explanation": "IRR is the discount rate at which the NPV of a project equals zero. A higher IRR indicates a more financially attractive project that delivers value faster, which is highly compatible with Agile's focus on early value delivery.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "hard"
+  },
+  {
+    "id": 250,
+    "question": "A company is transitioning from a traditional model where employees were rewarded for individual performance. What change to the reward system would best support a high-performing Agile culture?",
+    "options": [
+      "Continue rewarding individuals to maintain internal competition.",
+      "Shift to rewarding the whole team based on collective outcomes and value delivered to customers.",
+      "Stop providing any rewards or recognition to avoid bias.",
+      "Reward only the Scrum Master and Product Owner for successful deliveries."
+    ],
+    "answer": "B",
+    "explanation": "Agile emphasizes collective responsibility and teamwork. Reward systems that focus on individuals can destroy team cohesion. Rewarding the whole team for shared goals encourages collaboration and alignment with customer value.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "hard"
+  }
+]

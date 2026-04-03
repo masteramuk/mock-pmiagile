@@ -1,0 +1,702 @@
+[
+  {
+    "id": 101,
+    "question": "A large organization is adopting the Scaled Agile Framework (SAFe) to coordinate 10 Agile teams. During a PI Planning session, the Release Train Engineer (RTE) emphasizes that 'transparency' is one of the four core values of SAFe. Why is transparency considered a foundational pillar for successful scaling in this context?",
+    "options": [
+      "It allows the RTE to assign specific tasks to individual developers across all teams to ensure maximum utilization.",
+      "It ensures that everyone, from developers to executives, has a shared understanding of the facts, progress, and impediments, enabling faster decision-making.",
+      "It prevents individual teams from making their own architectural decisions without the express approval of the System Architect.",
+      "It guarantees that the project will be finished on the exact date predicted in the multi-year roadmap by exposing deviations early."
+    ],
+    "answer": "B",
+    "explanation": "Transparency is a core value of SAFe because, in a scaled environment, trust and alignment depend on all stakeholders having access to the same 'source of truth.' Without transparency, empiricism (inspection and adaptation) cannot function effectively at the Program or Portfolio level. It allows for decentralized decision-making based on real-time data rather than assumptions.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 102,
+    "question": "A company is drafting a contract to hire an external Agile team for a project with high market uncertainty and evolving requirements. They decide to utilize 'Fixed-Price Work Packages.' How does this specific contract structure align with Agile values compared to traditional fixed-price contracts?",
+    "options": [
+      "It fixes the entire project scope and total price at the outset to prevent any deviation or 'scope creep' during execution.",
+      "It allows the customer to re-prioritize the backlog and adjust the scope of future work packages at the end of each iteration or milestone.",
+      "It mandates that the vendor team work overtime without additional compensation if they fail to deliver a package within the fixed price.",
+      "It minimizes the need for ongoing collaboration and negotiation between the customer and the vendor once the initial packages are defined."
+    ],
+    "answer": "B",
+    "explanation": "Fixed-Price Work Packages (or 'Incremental Delivery' contracts) support Agile by providing a balance of predictability and flexibility. While a specific sprint or milestone (the 'work package') might have a fixed price and scope, the customer retains the right to change the contents of the *next* package based on feedback and changing market needs, adhering to the principle of 'Responding to Change over Following a Plan.'",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 103,
+    "question": "An Agile team is using a Cumulative Flow Diagram (CFD) to monitor their workflow stability. They notice that the vertical distance between the 'In Progress' line and the 'Done' line is steadily widening. What is the most accurate interpretation of this metric?",
+    "options": [
+      "The total Lead Time for the project is decreasing as the team gains experience.",
+      "The Work in Progress (WIP) at that point in time is increasing, indicating a potential bottleneck.",
+      "The team's average Velocity is increasing because more work is being started simultaneously.",
+      "The number of defects found in production is increasing, requiring more 'In Progress' work for fixes."
+    ],
+    "answer": "B",
+    "explanation": "In a CFD, the vertical distance between any two lines represents the number of items currently in that stage (or set of stages). A widening gap between 'In Progress' and 'Done' indicates that WIP is growing—work is entering the system faster than it is being completed—which often signals a bottleneck or inefficiencies in the flow.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 104,
+    "question": "A customer submits a request for a new high-priority feature on Monday morning. The team pulls the story into 'In Progress' on Wednesday and completes all tasks, including deployment, by Friday afternoon. From a 'Value-Driven Delivery' perspective, what is the Lead Time for this feature?",
+    "options": [
+      "2 days (Wednesday to Friday)",
+      "3 days (Wednesday, Thursday, and Friday)",
+      "5 days (Monday through Friday)",
+      "4 days (Monday through Thursday)"
+    ],
+    "answer": "C",
+    "explanation": "Lead Time is measured from the moment a request is initiated/received (Monday) until it is fully delivered and available to the customer (Friday). In this scenario, the total duration is 5 days. Cycle Time, by contrast, would be the time from when work actually started (Wednesday) to completion (Friday), which would be 3 days.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 105,
+    "question": "A Project Lead maintains a Risk Burndown Chart to visualize the project's risk profile. During a monthly stakeholder review, the chart shows a consistent downward trend. What does this trend signify to the stakeholders?",
+    "options": [
+      "The project is exhausting its contingency budget and will soon require additional funding.",
+      "The cumulative risk exposure (Probability x Impact) of the project is decreasing due to successful mitigation and resolution.",
+      "The team is failing to identify new risks as the project moves into more complex phases.",
+      "The project schedule is slipping because the team is spending too much time on risk management instead of feature development."
+    ],
+    "answer": "B",
+    "explanation": "A Risk Burndown Chart tracks the aggregate 'Risk Severity' or 'Risk Exposure' (Probability multiplied by Impact for all active risks) over time. A downward trend indicates that the team's risk response strategies (Avoid, Mitigate, Transfer, or Accept) are effectively reducing the overall uncertainty and potential negative impact on the project.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "easy"
+  },
+  {
+    "id": 106,
+    "question": "In the Large-Scale Scrum (LeSS) framework, the concept of 'Descaling' is prioritized over simply adding layers of management. What is the primary organizational goal of this 'Descaling' philosophy?",
+    "options": [
+      "To reduce the headcount of the development organization to lower operational costs.",
+      "To simplify the organizational structure and minimize cross-team dependencies and coordination overhead.",
+      "To replace multiple Scrum Masters with a single 'Director of Agile' to ensure consistency.",
+      "To eliminate the Product Owner role in favor of a centralized Project Management Office (PMO)."
+    ],
+    "answer": "B",
+    "explanation": "LeSS emphasizes 'descaling' organizational complexity. Instead of adding 'scaling' roles (like managers of managers), LeSS seeks to simplify the structure so that multiple teams can work on one product with one Product Owner. The goal is to maximize agility by reducing the communication and coordination 'tax' that typically comes with large organizations.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 107,
+    "question": "A vendor and a customer agree on a 'Graduated Fixed Price' contract. The contract specifies that if the vendor finishes the project early, they are paid a higher hourly rate; if they finish late, they receive a lower rate. What is the primary benefit of this incentive structure in an Agile project?",
+    "options": [
+      "It ensures the vendor makes the maximum possible profit regardless of the quality of the final product.",
+      "It provides a direct financial incentive for the vendor to prioritize efficiency and early value delivery.",
+      "It guarantees that the total project cost will remain exactly the same, regardless of when it is completed.",
+      "It allows the customer to withhold all payments if the vendor does not meet the 'early' deadline."
+    ],
+    "answer": "B",
+    "explanation": "Graduated Fixed Price contracts align the incentives of the vendor and the customer. By rewarding early delivery with a higher rate, the vendor is encouraged to focus on 'Value-Driven Delivery' and efficient processes, while the customer benefits from getting the product to market sooner (ROI).",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 108,
+    "question": "A Nexus comprising four Scrum teams is working on a complex financial application. During the Sprint, the teams encounter frequent integration conflicts that prevent a 'Done' increment. According to the Nexus framework, which group is specifically accountable for ensuring a 'Done' Integrated Increment is produced?",
+    "options": [
+      "The Nexus Integration Team",
+      "The Chief Product Owner",
+      "A centralized DevOps team outside the Nexus",
+      "The Scrum Masters from each individual team"
+    ],
+    "answer": "A",
+    "explanation": "The Nexus Integration Team is a core part of the Nexus framework. They are accountable for ensuring that a 'Done' Integrated Increment is produced at least once every Sprint. They provide leadership and coordination to help the individual Scrum teams resolve technical and process issues that hinder integration.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 109,
+    "question": "A project is being executed under a 'Cost-Plus-Incentive-Fee' (CPIF) contract. The target cost is $100,000 with a target fee of $10,000. The sharing ratio is 80/20 (Customer/Vendor). If the vendor completes the work at an actual cost of $80,000, what is the final fee paid to the vendor?",
+    "options": [
+      "$10,000",
+      "$14,000",
+      "$20,000",
+      "$6,000"
+    ],
+    "answer": "B",
+    "explanation": "In a CPIF contract, the vendor receives the target fee plus a portion of the cost savings. Savings = Target Cost ($100k) - Actual Cost ($80k) = $20,000. Vendor's share of savings = 20% of $20,000 = $4,000. Final Fee = Target Fee ($10k) + Incentive ($4k) = $14,000.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 110,
+    "question": "While analyzing a Cumulative Flow Diagram (CFD), an Agile Coach observes that the 'Testing' band has been steadily widening over the last three iterations, while the 'Development' band has remained narrow. What should the coach suggest to the team?",
+    "options": [
+      "The developers are working too slowly; the team should consider hiring more developers to increase throughput.",
+      "Testing has become a bottleneck; the team should 'swarm' to assist the testers or investigate improvements to the automation suite.",
+      "The team is performing exceptionally well because 'In Progress' work is increasing, showing high activity.",
+      "The Product Owner should stop refining the backlog until the 'Testing' band narrows to a specific pixel width."
+    ],
+    "answer": "B",
+    "explanation": "A widening band in a CFD indicates that work is accumulating in that specific stage faster than it is being moved out. This is a clear indicator of a bottleneck. In the spirit of 'Stop Starting, Start Finishing,' the team should swarm to resolve the backlog in Testing to restore flow and reduce Lead Time.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 111,
+    "question": "A team calculates their Process Cycle Efficiency and finds it is 10%. Their Lead Time is 20 days, and their Cycle Time (Value-Add Time) is 2 days. To improve overall delivery speed, which area of improvement will yield the highest ROI?",
+    "options": [
+      "Training developers to write code faster to reduce the 2-day Cycle Time by 50%.",
+      "Implementing more rigorous unit testing to ensure fewer bugs are created during the Active phase.",
+      "Analyzing and reducing the 'Non-Value-Add' wait times and queue times that account for 18 days of the Lead Time.",
+      "Increasing the team size to allow more stories to be worked on in parallel (increasing WIP)."
+    ],
+    "answer": "C",
+    "explanation": "Process Cycle Efficiency = (Value-Add Time / Total Lead Time). Here, it is 2/20 = 10%. This means 90% of the time (18 days) is spent in wait states or queues. Reducing the 2-day work time has limited impact compared to addressing the massive 18-day delay. Focus on flow and queue management provides the most significant improvement in Lead Time.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 112,
+    "question": "A Product Owner is managing a 'Risk-Adjusted Backlog.' They identify a high-impact technical uncertainty that could invalidate the project's core architecture. The team suggests a 'Risk Mitigation Spike.' Where should the Product Owner place this spike in the backlog?",
+    "options": [
+      "At the bottom of the backlog, as it does not provide immediate user-visible functionality.",
+      "In the current or next sprint to 'Fail Fast' and validate the architectural assumptions early.",
+      "In the middle of the project once the team has established a stable velocity with easier features.",
+      "As a background task for the developers to work on only when they have finished all other sprint items."
+    ],
+    "answer": "B",
+    "explanation": "Agile emphasizes 'Fail Fast' and risk-first development. High-impact risks (technical or market) should be addressed early to ensure project viability. By prioritizing a spike early, the Product Owner can either mitigate the risk or pivot/cancel the project before significant investment is wasted on a flawed foundation.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 113,
+    "question": "In the Scaled Agile Framework (SAFe), the 'Program Predictability Measure' is a key metric. How is this metric typically calculated and what does it indicate about the Agile Release Train (ART)?",
+    "options": [
+      "It is the ratio of planned vs. actual story points delivered; it indicates the team's estimation accuracy.",
+      "It compares the 'Planned Business Value' of PI Objectives against the 'Actual Business Value' delivered; it indicates the ART's reliability.",
+      "It tracks the number of defects found in production; it indicates the 'Built-in Quality' of the release.",
+      "It measures the turnover rate of team members; it indicates the stability of the ART's culture."
+    ],
+    "answer": "B",
+    "explanation": "The Program Predictability Measure is the ratio of actual business value delivered to the planned business value for the PI Objectives. It is a key indicator of an ART's maturity and ability to meet its commitments. A predictable ART typically scores between 80% and 100%.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 114,
+    "question": "A customer and a vendor are operating under a 'Money for Nothing, Change for Free' contract. The customer realizes that a feature currently in the backlog is no longer needed and wants to replace it with a new, equally complex feature. How does this contract facilitate this change?",
+    "options": [
+      "The customer must pay a 'change request' fee for any modification to the originally agreed-upon backlog.",
+      "The customer can swap the items for free, provided the new item is of similar size and they have not exceeded the total contract hours.",
+      "The vendor can legally refuse the change because the original scope was 'locked in' at the start of the project.",
+      "The customer must wait until all original features are completed before adding any new requirements."
+    ],
+    "answer": "B",
+    "explanation": "'Change for Free' allows customers to swap scope items of equal size at the end of an iteration without additional cost. This supports the Agile principle of 'Responding to Change' while maintaining the vendor's budget and timeline constraints.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "question": "On a stable Cumulative Flow Diagram where the 'Work Started' and 'Work Completed' lines are roughly parallel, what does the horizontal distance between these two lines represent?",
+    "options": [
+      "The average Throughput of the team over a given period.",
+      "The average Cycle Time (or Lead Time) for work items in the system.",
+      "The total amount of Technical Debt accumulated by the team.",
+      "The remaining scope of the project in terms of story points."
+    ],
+    "answer": "B",
+    "explanation": "On a CFD, the vertical distance represents WIP (Work in Progress), while the horizontal distance between the 'Start' and 'Finish' lines for a specific point in time represents the average time an item stayed in the system (Cycle Time/Lead Time). Parallel lines indicate a stable system where throughput and lead time are predictable.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "question": "A large-scale project is utilizing the LeSS (Large-Scale Scrum) framework with six development teams. How is the Product Owner role structured in this environment?",
+    "options": [
+      "Each of the six teams has its own dedicated Product Owner to ensure clear local priorities.",
+      "There is one Product Owner for the entire product who manages the single Product Backlog.",
+      "There are two Product Owners: one 'Technical PO' and one 'Business PO' to balance requirements.",
+      "The Scrum Masters from each team collectively fulfill the Product Owner responsibilities."
+    ],
+    "answer": "B",
+    "explanation": "LeSS is based on the principle of 'one product, one Product Backlog, one Product Owner.' This structure ensures a single, unified vision and prevents the sub-optimization that often occurs when multiple POs manage different parts of the same product. For much larger scales (LeSS Huge), Area Product Owners may be added, but they still report to the overall PO.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "question": "A team identifies a risk that has a 40% probability of causing a $10,000 delay. They also have a feature with a potential business value of $5,000. Using the Expected Monetary Value (EMV) for the 'Risk-Adjusted Backlog,' how should these items be compared?",
+    "options": [
+      "The feature should be prioritized because $5,000 is higher than the $4,000 risk EMV.",
+      "The risk mitigation should be prioritized because its EMV of $4,000 represents a high potential loss relative to the feature's value.",
+      "Both should be ignored because EMV is a traditional PM tool not used in Agile.",
+      "The risk and feature should be combined into a single story with a value of $9,000."
+    ],
+    "answer": "B",
+    "explanation": "EMV = Probability x Impact. Here, $10,000 x 0.40 = $4,000. In a Risk-Adjusted Backlog, the Product Owner compares the value of delivering a feature ($5,000) against the value of *avoiding* a risk ($4,000). While the feature value is higher, the high risk exposure often warrants early mitigation (Spikes) to protect the overall project ROI.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "question": "In the Nexus framework, what is the primary purpose and sequence of the 'Nexus Daily Scrum' relative to the individual Scrum teams' Daily Scrums?",
+    "options": [
+      "It is a management status meeting held after all teams have finished their individual Daily Scrums.",
+      "It is held before the individual teams' Daily Scrums to identify and communicate cross-team integration issues.",
+      "It replaces the individual Daily Scrums to save time for the development teams.",
+      "It is an optional meeting held once a week to review the Integrated Increment."
+    ],
+    "answer": "B",
+    "explanation": "The Nexus Daily Scrum is held before the individual Scrum teams' Daily Scrums. Representatives from each team meet to identify any integration issues or dependencies that have arisen. This information is then brought back to the individual teams' Daily Scrums so they can adjust their plans for the day accordingly.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "question": "A Kanban team notices that their Lead Time is highly variable, making it difficult to commit to delivery dates for stakeholders. According to Little's Law and Lean principles, what is the most effective way to stabilize their Lead Time?",
+    "options": [
+      "Remove all WIP limits to allow team members to start work as soon as they are available.",
+      "Establish and strictly enforce WIP limits to ensure the team focuses on finishing work before starting new items.",
+      "Increase the number of items in the 'Ready' queue to ensure the team never runs out of work.",
+      "Double the length of the 'Cycle Time' measurement period to smooth out the data."
+    ],
+    "answer": "B",
+    "explanation": "Little's Law (Lead Time = WIP / Throughput) demonstrates that as WIP increases, Lead Time also increases. By limiting WIP, the team reduces multitasking, minimizes 'wait time' in queues, and creates a more predictable flow, which stabilizes and eventually reduces Lead Time.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 120,
+    "question": "Under a 'Fixed-Price Work Packages' contract, a vendor discovers a much simpler and cheaper technical approach that still meets the customer's 'Definition of Done' and acceptance criteria. What is the most 'Agile' course of action for the vendor?",
+    "options": [
+      "Implement the simpler solution but bill for the full original amount to maximize profit.",
+      "Collaborate with the customer to explain the simpler solution, potentially delivering value earlier and freeing up budget for other features.",
+      "Build the original, more complex solution to ensure the customer feels they are getting their 'money's worth.'",
+      "Wait until the next contract negotiation to mention the simpler approach."
+    ],
+    "answer": "B",
+    "explanation": "Agile values 'Customer Collaboration over Contract Negotiation.' Transparency about a more efficient solution builds trust and allows the customer to maximize their Return on Investment (ROI) by either getting the feature sooner or using the saved funds for other high-value items in the backlog.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "question": "A Product Management team is using Weighted Shortest Job First (WSJF) to prioritize the Program Backlog. They have two competing features:\nFeature A: Cost of Delay (CoD) = 80, Job Size = 20.\nFeature B: Cost of Delay (CoD) = 60, Job Size = 10.\nWhich feature should be prioritized, and why?",
+    "options": [
+      "Feature A, because it has a higher absolute Cost of Delay.",
+      "Feature B, because it has a higher WSJF score (6 vs 4).",
+      "Feature A, because larger jobs should be started earlier to ensure completion.",
+      "Feature B, because smaller jobs always take priority regardless of value."
+    ],
+    "answer": "B",
+    "explanation": "WSJF is calculated as Cost of Delay divided by Job Size. Feature A: 80 / 20 = 4. Feature B: 60 / 10 = 6. Higher WSJF scores indicate higher priority. Feature B provides more 'value per unit of effort' and reduces the total cost of delay for the organization more effectively than Feature A.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "hard"
+  },
+  {
+    "id": 122,
+    "question": "A team's CFD shows that the 'Done' line and the 'Work Started' line are both sloping upwards at the same angle (parallel), but the vertical distance between them is steadily increasing over several months. Based on Little's Law, what is happening to the system?",
+    "options": [
+      "Throughput is increasing, which is causing the Lead Time to decrease proportionally.",
+      "The system is becoming less efficient; Lead Time is increasing because WIP is growing while the completion rate (Throughput) remains constant.",
+      "The system is in a stable state because the slopes of 'Started' and 'Done' are equal.",
+      "The team is becoming 'Expert' level because they are able to handle more WIP without decreasing their throughput."
+    ],
+    "answer": "B",
+    "explanation": "If the lines are parallel, the rate of starting work equals the rate of finishing work (Throughput is constant). However, if the vertical distance (WIP) is increasing, then according to Little's Law (Lead Time = WIP / Throughput), the Lead Time must be increasing. This indicates a 'clogged' system where items are spending more time waiting, even though the team is finishing work at a steady rate.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 123,
+    "question": "A vendor and customer agree on a 'Graduated Fixed Price' contract where the vendor's rate increases for early delivery and decreases for late delivery. How does this specifically change the vendor's approach to 'Technical Debt' compared to a traditional Fixed-Price contract?",
+    "options": [
+      "The vendor is more likely to ignore technical debt to ensure they hit the 'early' bonus.",
+      "The vendor is incentivized to minimize technical debt early, as high quality reduces rework and 'drag,' making early delivery more achievable and protecting the higher rate.",
+      "Technical debt is irrelevant in this contract type as only the final delivery date matters.",
+      "The customer is responsible for all technical debt under a graduated contract model."
+    ],
+    "answer": "B",
+    "explanation": "In a traditional fixed-price contract, the vendor might cut corners to save costs. In a graduated model, the financial reward for speed (and the penalty for delay) makes the vendor highly sensitive to factors that slow them down. Since Technical Debt is a primary cause of velocity slowdown, the vendor is incentivized to maintain high quality (Built-in Quality) to ensure they can deliver rapidly and earn the higher rate.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 124,
+    "question": "Halfway through a high-stakes project, the Value Burn-up chart is relatively flat, but the Risk Burndown chart shows a significant, sharp decline in risk exposure. A senior executive expresses concern about the lack of 'features.' What is the best technical explanation for this status?",
+    "options": [
+      "The team is focusing on 'low-hanging fruit' risks that have no impact on feature delivery.",
+      "The team is practicing 'Risk-First' delivery, investing in 'Architectural Runway' and resolving high-uncertainty Spikes to ensure that later feature delivery is rapid and stable.",
+      "The team has hit a technical wall and is using 'risk management' as a way to hide their lack of progress.",
+      "The Product Owner has failed to prioritize user stories over technical tasks."
+    ],
+    "answer": "B",
+    "explanation": "In complex environments, Agile teams often tackle high-risk, high-uncertainty items first (Risk-First). This often results in 'technical' progress (e.g., a working prototype, a resolved security concern, a proven integration) that doesn't yet look like a user-visible feature. This 'de-risks' the project, ensuring that when the team starts building features, they won't be derailed by fundamental architectural failures.",
+    "domain": "Problem Detection and Resolution",
+    "difficulty": "hard"
+  },
+  {
+    "id": 125,
+    "question": "In a 'LeSS Huge' implementation involving thousands of developers, 'Requirement Areas' are used to categorize work. What is a critical requirement for how these areas are defined to maintain Agile principles?",
+    "options": [
+      "They must be defined by technical expertise (e.g., the 'Java Area', the 'Database Area').",
+      "They must be defined by organizational hierarchy (e.g., the 'Marketing Department Area').",
+      "They must be customer-centric and represent a major functional area of the product from the user's perspective.",
+      "They must be temporary and reorganized every three Sprints to prevent silos."
+    ],
+    "answer": "C",
+    "explanation": "LeSS Huge Requirement Areas must be customer-centric. If areas are defined technically (e.g., UI vs. Backend), it creates 'component teams' and massive dependencies. By defining areas around customer needs (e.g., 'Payments', 'Search', 'User Profile'), teams within that area can remain cross-functional and deliver end-to-end value with minimal outside coordination.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "hard"
+  },
+  {
+    "id": 126,
+    "question": "A newly formed Agile team is working on their first Sprint. During the Daily Stand-up, the Scrum Master notices that team members are very formal with each other, avoid any form of healthy conflict, and look to the Scrum Master to resolve every minor technical disagreement. Which stage of team development is this, and what is the primary focus of the leader?",
+    "options": [
+      "Storming; focus on conflict resolution and technical standards.",
+      "Forming; focus on clarifying the project vision, roles, and establishing safety.",
+      "Norming; focus on delegating authority and encouraging self-organization.",
+      "Adjourning; focus on documentation and transition of responsibilities."
+    ],
+    "answer": "B",
+    "explanation": "In the Forming stage, team members are cautious, polite, and observant. They lack a clear sense of how they fit together and rely heavily on the leader for direction and structure. The leader's role is to provide clarity on goals and foster an environment where people feel safe to begin collaborating.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 127,
+    "question": "During a retrospective, two developers are debating whether to use a specific library. They are sharing documentation, benchmarks, and focus purely on the technical merits to reach a consensus. According to Speed Leas' levels of conflict, how should this conflict be classified?",
+    "options": [
+      "Level 1: Problem to Solve",
+      "Level 2: Disagreement",
+      "Level 3: Contest",
+      "Level 4: Crusade"
+    ],
+    "answer": "A",
+    "explanation": "Level 1 conflict is 'constructive conflict.' The parties are focused on the problem, sharing information openly, and working together toward a logical solution. This is healthy and necessary for high-performing Agile teams.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 128,
+    "question": "To improve knowledge sharing and reduce 'silos,' a team adopts a practice where 4-5 people work on the same user story simultaneously, using a single computer and one 'driver' at the keyboard. What is the name of this practice?",
+    "options": [
+      "Pair Programming",
+      "Swarming",
+      "Mob Programming",
+      "Collective Code Ownership"
+    ],
+    "answer": "C",
+    "explanation": "Mob Programming (or 'Ensemble Programming') involves the entire team (or a significant part of it) working on the same thing, at the same time, in the same space, and at the same computer. It is an extreme version of pair programming that maximizes learning and eliminates handoffs.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 129,
+    "question": "A senior architect is assigned to an Agile team. Instead of telling the team how to design the system, they spend time sharing their past experiences with similar architectures and helping junior members understand the 'why' behind certain patterns. This is an example of:",
+    "options": [
+      "Directive Leadership",
+      "Mentoring",
+      "Professional Coaching",
+      "Facilitating"
+    ],
+    "answer": "B",
+    "explanation": "Mentoring is the act of a more experienced person (the mentor) sharing their knowledge and experience to help a less experienced person (the mentee) grow. It is more about 'advice and experience' than the 'facilitated self-discovery' found in professional coaching.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 130,
+    "question": "A Kanban team has a WIP limit of 3 on their 'Testing' column. They currently have 3 items in Testing and 2 more items ready to move in. To maintain flow, the developers who finished the new items decide to stop writing new code and help the testers finish the current items. This is called:",
+    "options": [
+      "Load Balancing",
+      "Swarming",
+      "Resource Smoothing",
+      "Multitasking"
+    ],
+    "answer": "B",
+    "explanation": "Swarming is a behavior where multiple team members focus on a single item (or a bottlenecked column) to get it to 'Done.' In Kanban, this is the primary way to respect WIP limits and ensure flow is maintained across the entire value stream.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 131,
+    "question": "A new team member has just started learning the company's automated deployment tool. They can follow the 'step-by-step' guide perfectly but get stuck immediately if the tool throws an error not covered in the guide. According to the Dreyfus model, this person is a:",
+    "options": [
+      "Novice",
+      "Advanced Beginner",
+      "Competent",
+      "Proficient"
+    ],
+    "answer": "A",
+    "explanation": "A Novice relies on context-free rules and recipes. They lack the experience to handle exceptions or understand the broader context of why they are performing certain steps. They need clear, 'if-then' instructions to be effective.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 132,
+    "question": "As an Agile Leader, you find that the team is blocked because they cannot get access to a required testing environment. You spend your morning negotiating with the IT Operations manager to secure this access. This is a practical application of:",
+    "options": [
+      "Command and Control",
+      "Transactional Leadership",
+      "Servant Leadership",
+      "Laissez-faire Leadership"
+    ],
+    "answer": "C",
+    "explanation": "Servant Leadership involves the leader serving the team's needs. One of the primary roles of a servant leader (like a Scrum Master) is 'Removing Impediments'—taking on the organizational 'noise' and administrative hurdles so the team can focus on delivering value.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 133,
+    "question": "After a few months of friction and clashing over technical standards, an Agile team has finally agreed on a set of 'Working Agreements' and a shared 'Definition of Done.' They are starting to trust each other's expertise. Which Tuckman stage does this represent?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "answer": "C",
+    "explanation": "Norming is the stage where the team moves past their initial conflicts (Storming) and begins to establish common goals, shared values, and agreed-upon processes. Trust begins to build, and the team starts to function as a cohesive unit.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 134,
+    "question": "A Scrum Master notices that during planning, team members have become very cautious. They use phrases like 'I think we can, but...' and are clearly withholding their true opinions to avoid being blamed if things go wrong. According to Speed Leas, which level of conflict is this?",
+    "options": [
+      "Level 1: Problem to Solve",
+      "Level 2: Disagreement",
+      "Level 3: Contest",
+      "Level 4: Crusade"
+    ],
+    "answer": "B",
+    "explanation": "At Level 2 (Disagreement), the focus shifts from the problem to self-protection. People become guarded in their communication, use cautious language, and withhold information to avoid vulnerability or future blame. The goal is no longer just solving the problem, but ensuring they are 'safe.'",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "question": "An Agile Coach is working with a team that is struggling with self-organization. Instead of giving them a new schedule, the coach asks: 'What changes to our current workflow would give you more focus time?' This is an example of which stance?",
+    "options": [
+      "Mentoring",
+      "Consulting",
+      "Professional Coaching",
+      "Teaching"
+    ],
+    "answer": "C",
+    "explanation": "Professional Coaching is characterized by 'staying in the question.' Instead of providing answers (Teaching/Mentoring), the coach uses powerful, open-ended questions to trigger the team's own critical thinking and problem-solving abilities, leading to sustainable self-organization.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 136,
+    "question": "A developer has reached a level where they can plan their own day, troubleshoot most issues independently, and feel a strong sense of personal responsibility for their code. However, they still lack the 'intuition' to immediately spot architectural flaws in new requirements. According to Dreyfus, they are at the level of:",
+    "options": [
+      "Advanced Beginner",
+      "Competent",
+      "Proficient",
+      "Expert"
+    ],
+    "answer": "B",
+    "explanation": "A Competent person can work independently, prioritize tasks, and handle complex situations by following a conscious plan. They take responsibility for their work but do not yet have the 'big picture' intuitive recognition of patterns that characterizes the Proficient and Expert levels.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "question": "What is the primary benefit of Mob Programming in terms of 'Resource Efficiency' vs. 'Flow Efficiency'?",
+    "options": [
+      "It maximizes Resource Efficiency by ensuring every person is constantly typing.",
+      "It maximizes Flow Efficiency by ensuring the highest-priority item is finished as fast as possible with zero handoffs or wait times.",
+      "It balances both by allowing people to work on different tasks while sitting together.",
+      "It reduces Flow Efficiency because multiple people are doing the work of one person."
+    ],
+    "answer": "B",
+    "explanation": "Mob Programming sacrifices 'Resource Efficiency' (the idea that everyone should be busy all the time) in favor of 'Flow Efficiency' (the speed at which a single item moves through the system). By having the whole team on one item, you eliminate the delays caused by questions, reviews, and handoffs, getting the value to the customer much faster.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 138,
+    "question": "In a team conflict, you hear phrases like 'Those people in QA always ruin our velocity' and 'The developers don't care about quality.' Factions are forming, and the goal seems to be 'winning' the argument. According to Speed Leas, which level is this?",
+    "options": [
+      "Level 2: Disagreement",
+      "Level 3: Contest",
+      "Level 4: Crusade",
+      "Level 5: World War"
+    ],
+    "answer": "B",
+    "explanation": "Level 3 (Contest) is where 'winning' becomes more important than solving the problem. It is characterized by 'We vs. They' language, the formation of factions, and personal attacks replacing technical arguments.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 139,
+    "question": "An Agile team is in the 'Storming' stage. Two members are constantly arguing over coding styles. What is the most effective approach for the Scrum Master?",
+    "options": [
+      "Ignore it; the team must learn to self-organize without any interference.",
+      "Tell the two members to stop arguing and just follow the senior developer's style.",
+      "Facilitate a session where the team defines their own coding standards as part of their 'Working Agreement.'",
+      "Report the conflict to their functional managers for disciplinary action."
+    ],
+    "answer": "C",
+    "explanation": "In the Storming stage, the leader should not be passive. The goal is to help the team move through the conflict by facilitating the creation of shared norms (like coding standards). This resolves the friction while reinforcing the team's autonomy and self-governance.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 140,
+    "question": "A team decides to 'Swarm' on the top 2 items in their backlog instead of having each person pick their own story. How will this change most likely reflect on their Kanban board and metrics?",
+    "options": [
+      "WIP will increase and Cycle Time will increase.",
+      "WIP will decrease and Lead Time for those stories will decrease.",
+      "Throughput will immediately double.",
+      "The board will look 'empty' and the team will be less productive."
+    ],
+    "answer": "B",
+    "explanation": "Swarming reduces the number of items in flight (WIP). According to Little's Law, lower WIP leads to lower Lead Time. By focusing more people on fewer items, those specific items reach 'Done' much faster than if they were worked on individually.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 141,
+    "question": "An Agile Coach identifies that the team is struggling with automated testing because they have never used the company's new testing framework. Which stance should the coach adopt for the next few days?",
+    "options": [
+      "Professional Coaching: Ask the team how they plan to solve their lack of knowledge.",
+      "Teaching/Mentoring: Provide a hands-on workshop and direct guidance on how to use the framework.",
+      "Facilitating: Set up a meeting for the team to discuss their feelings about testing.",
+      "Observing: Wait for the team to figure it out on their own to build resilience."
+    ],
+    "answer": "B",
+    "explanation": "When there is a 'knowledge gap' (the team literally doesn't know how to do something), professional coaching is ineffective. The coach must pivot to Teaching or Mentoring to provide the necessary skills before the team can return to self-organizing around the task.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 142,
+    "question": "In the Dreyfus model, which level is reached when an individual no longer relies on analytical principles to connect their understanding of the situation to an appropriate action, but instead acts almost intuitively based on deep experience?",
+    "options": [
+      "Competent",
+      "Proficient",
+      "Expert",
+      "Master"
+    ],
+    "answer": "C",
+    "explanation": "The Expert level is characterized by 'transcendence' of rules. They have such a vast library of experiences that they can intuitively recognize patterns and 'feel' the right course of action without needing to go through a conscious, step-by-step analytical process.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 143,
+    "question": "At Level 4 of Speed Leas' conflict model (Crusade), the conflict has become ideological. What is the typical behavior of the parties involved?",
+    "options": [
+      "They are looking for a compromise that saves face for everyone.",
+      "They believe the other party is 'evil' or 'incapable' and the goal is to get them removed from the team.",
+      "They are focused on winning the technical argument at all costs.",
+      "They are using sarcasm and 'safe' jokes to hide their true feelings."
+    ],
+    "answer": "B",
+    "explanation": "At Level 4, the conflict is no longer about facts or even winning; it's about 'us vs. them' on a moral or ideological level. Parties begin to see the other side as the problem itself, leading to attempts to purge the 'wrong' people from the group.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 144,
+    "question": "A company brings in an 'Agile Transformation Lead' who defines the mandatory Scrum events, roles, and artifacts for all 20 teams. They provide a specific 'Playbook' that must be followed. This person is acting as a:",
+    "options": [
+      "Coach",
+      "Consultant",
+      "Servant Leader",
+      "Mentor"
+    ],
+    "answer": "B",
+    "explanation": "A Consultant provides expert advice and often prescribes specific solutions or frameworks. Unlike a coach who helps a team find their own way, a consultant is hired for their specific expertise and often 'tells' the organization what to do.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 145,
+    "question": "A 'Performing' team has been together for a year. Due to a budget increase, three new developers are added to the team. What is the most likely immediate effect on the team's dynamics?",
+    "options": [
+      "The team will reach an even higher level of performance immediately.",
+      "The team will revert to the 'Forming' or 'Storming' stage as they re-integrate and re-establish norms.",
+      "The team's velocity will increase by exactly 50% due to the new resources.",
+      "The team will move to the 'Adjourning' stage because the original team structure is gone."
+    ],
+    "answer": "B",
+    "explanation": "Tuckman's model is not a one-way street. Any significant change in team composition (adding or removing members) resets the dynamic. The team must re-negotiate their relationships and working styles, often leading them back into Forming or Storming before they can return to high performance.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 146,
+    "question": "A conflict between two team members has reached Level 5 (World War). One member is actively spreading rumors to get the other fired, and the other has stopped attending meetings. What is the best course of action for the Agile leader?",
+    "options": [
+      "Facilitate a 'mediation' session to find common ground.",
+      "Separate the parties immediately and involve HR or management for potential removal of one or both individuals.",
+      "Assign them to a pair-programming task to force them to work together.",
+      "Ignore it and hope the 'Performing' team culture will fix the issue."
+    ],
+    "answer": "B",
+    "explanation": "At Level 5, the conflict is destructive and beyond the reach of normal facilitation or coaching. The goal of the parties is mutual destruction. The leader's priority must be the safety and health of the rest of the team and the organization, which necessitates separation and formal disciplinary channels.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 147,
+    "question": "According to the Dreyfus model, why do 'Experts' often struggle to teach 'Novices' the basics of a new skill?",
+    "options": [
+      "Experts use 'tacit knowledge' and intuition that is difficult to break down into the rigid, rule-based instructions a Novice needs.",
+      "Novices lack the basic intelligence to understand the complex metaphors used by Experts.",
+      "Experts are often protective of their status and don't want to create 'competition.'",
+      "Experts have forgotten the rules and are therefore no longer technically accurate."
+    ],
+    "answer": "A",
+    "explanation": "Experts act intuitively. They no longer 'think' about the rules they follow. Because a Novice *needs* those rules to function, the Expert often finds it frustrating or impossible to explain their 'feel' for a situation in the simple, context-free terms the Novice requires.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 148,
+    "question": "A team is dealing with a catastrophic failure in their production database. They have 2 hours to fix it before massive financial penalties occur. Which Agile practice is most likely to provide the highest 'Quality' and 'Speed' in this specific high-pressure scenario?",
+    "options": [
+      "Individual work: Everyone researches a different part of the problem and posts updates in Slack.",
+      "Pair Programming: The two most senior people work together while the others wait for instructions.",
+      "Mob Programming: The entire team sits together, one person drives, and everyone contributes to identifying the root cause and reviewing the fix in real-time.",
+      "Outsourcing: Contacting the database vendor and waiting for an expert to log in."
+    ],
+    "answer": "C",
+    "explanation": "In a 'crisis' mode, Mob Programming is highly effective. It ensures that all available brainpower is focused on one thing, reviews happen instantly as the code is written, and everyone is aware of the solution, preventing the 'broken telephone' effect of individual updates.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 149,
+    "question": "An Agile Coach is in a 1-on-1 with a developer who begins to share deep personal issues that are causing them severe distress. As an Agile professional, what is the 'boundary' of your coaching role in this situation?",
+    "options": [
+      "Use your coaching skills to help them resolve the personal trauma so they can get back to work.",
+      "Listen with empathy, but clearly state that professional counseling is outside your expertise and guide them toward HR or an Employee Assistance Program (EAP).",
+      "Stop the meeting and tell them that personal issues have no place in a professional environment.",
+      "Report the specific details of the personal issue to their manager to explain their lower velocity."
+    ],
+    "answer": "B",
+    "explanation": "Professional ethics for Agile Coaches (and the ICF standards they are based on) dictate that coaches must recognize the difference between 'professional coaching' and 'therapy.' While empathy is required, a coach must not attempt to 'fix' personal trauma and should instead help the individual find the right professional support.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 150,
+    "question": "You are leading a team that has been 'Performing' well for months. However, they are now switching from a Java-based backend to a Go-based microservices architecture. How should you adjust your leadership style based on the Dreyfus and Tuckman models?",
+    "options": [
+      "Maintain a hands-off, 'Performing' style; the team is mature and will figure out the new technology.",
+      "Recognize that the team may revert to 'Storming' over new technical choices and that individuals are now 'Novices' or 'Advanced Beginners' in Go, requiring more directive mentoring and teaching.",
+      "Switch to a 'Command and Control' style for the entire project until the first release is successful.",
+      "Replace the team with Go experts to avoid the dip in performance."
+    ],
+    "answer": "B",
+    "explanation": "Leadership is situational. A team can be 'Performing' in terms of collaboration but be 'Novices' in terms of a specific skill. The leader must adjust by providing more structured 'Teaching/Mentoring' for the new technology while still supporting the 'Performing' social dynamics of the team.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  }
+]

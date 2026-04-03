@@ -1,0 +1,702 @@
+[
+  {
+    "id": 251,
+    "question": "A newly formed Agile team is struggling with making decisions during their first few sprints. The Scrum Master decides to facilitate a session to help the team understand how to reach consensus without a formal leader. What Agile leadership quality is the Scrum Master primarily demonstrating?",
+    "options": [
+      "Command and Control",
+      "Servant Leadership",
+      "Transactional Leadership",
+      "Micro-management"
+    ],
+    "answer": "B",
+    "explanation": "Servant leadership involves facilitating the team's growth, removing impediments, and empowering them to make their own decisions. By helping the team learn consensus-building, the Scrum Master is serving the team's need for self-organization.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 252,
+    "question": "During a Sprint Planning meeting, the team is discussing the complexity of several user stories. They decide to use a technique where each member holds up a card with a Fibonacci number to represent their estimate. What is this technique called?",
+    "options": [
+      "Wideband Delphi",
+      "Planning Poker",
+      "Affinity Estimating",
+      "Dot Voting"
+    ],
+    "answer": "B",
+    "explanation": "Planning Poker is a consensus-based estimating technique that uses a deck of cards with numbers (often the Fibonacci sequence: 1, 2, 3, 5, 8, etc.) to represent relative effort or complexity, helping to avoid anchoring bias.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 253,
+    "question": "An Agile team wants to visualize their workflow to identify bottlenecks and improve efficiency. They decide to create a map that shows the flow of materials and information as a product makes its way through the development process. What is this tool called?",
+    "options": [
+      "User Story Map",
+      "Value Stream Map",
+      "Kanban Board",
+      "Burn-up Chart"
+    ],
+    "answer": "B",
+    "explanation": "Value Stream Mapping (VSM) is a Lean-Agile tool used to analyze the current state and design a future state for the series of events that take a product from request to delivery, identifying value-added and non-value-added time (waste).",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 254,
+    "question": "A Product Owner is explaining a new feature to the team. A developer interrupts to ask about the technical implementation. The Scrum Master gently redirects the conversation back to the 'what' and 'why' of the feature. Which Agile leadership skill is being used to manage the meeting's focus?",
+    "options": [
+      "Emotional Intelligence",
+      "Technical Excellence",
+      "Facilitation",
+      "Conflict Resolution"
+    ],
+    "answer": "C",
+    "explanation": "Facilitation is the art of leading a group through a process to a successful outcome. Here, the Scrum Master facilitates the session by keeping the focus on the Product Owner's requirements rather than diving into technical details too early.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 255,
+    "question": "The team is conducting a meeting at the end of the sprint to reflect on what went well, what didn't, and how they can improve in the next sprint. What is this meeting called?",
+    "options": [
+      "Sprint Review",
+      "Daily Stand-up",
+      "Sprint Retrospective",
+      "Backlog Refinement"
+    ],
+    "answer": "C",
+    "explanation": "The Sprint Retrospective is a core Scrum event designed for the team to inspect itself and create a plan for process improvements to be implemented in the next iteration, embodying the principle of 'Inspect and Adapt'.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 256,
+    "question": "A stakeholder is concerned that the project is not following a detailed long-term plan. The Agile Project Lead explains that planning happens at multiple levels, including Strategic, Release, and Iteration. What is this concept known as?",
+    "options": [
+      "Rolling Wave Planning",
+      "Levels of Planning",
+      "Just-in-Time Planning",
+      "Progressive Elaboration"
+    ],
+    "answer": "B",
+    "explanation": "Agile planning occurs at multiple levels (often visualized as the 'Agile Planning Onion'): Strategic, Portfolio, Product, Release, Iteration, and Daily. This ensures appropriate detail at each horizon.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 257,
+    "question": "Which of the following describes the 'I' in the INVEST acronym for high-quality user stories?",
+    "options": [
+      "Incremental",
+      "Independent",
+      "Informative",
+      "Integrated"
+    ],
+    "answer": "B",
+    "explanation": "The INVEST acronym stands for Independent, Negotiable, Valuable, Estimable, Small, and Testable. 'Independent' means stories should be self-contained so they can be developed, tested, and delivered in any order.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 258,
+    "question": "An Agile team is using a method where they group user stories into categories based on their relative size (e.g., XS, S, M, L, XL) without using specific numbers initially. What is this technique called?",
+    "options": [
+      "Planning Poker",
+      "Wideband Delphi",
+      "Affinity Estimating",
+      "T-Shirt Sizing"
+    ],
+    "answer": "D",
+    "explanation": "T-Shirt Sizing is a relative estimation technique that uses non-numerical categories to help teams quickly gauge the effort required for a large number of items without getting bogged down in precise hours or points.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 259,
+    "question": "What is the primary goal of Kaizen in an Agile environment?",
+    "options": [
+      "Increasing the scope of the project",
+      "Continuous, small, incremental improvements",
+      "Reducing the number of team members",
+      "Meeting the project deadline at all costs"
+    ],
+    "answer": "B",
+    "explanation": "Kaizen is a Japanese term meaning 'change for the better'. In Agile, it refers to the philosophy of continuous improvement through small, incremental changes made by the people doing the work.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 260,
+    "question": "During a retrospective, the team realizes that many bugs are being found in production. They decide to implement a practice of writing automated tests before writing the actual code. This is an example of:",
+    "options": [
+      "Test-Driven Development (TDD)",
+      "Refactoring",
+      "Value Stream Mapping",
+      "Continuous Integration"
+    ],
+    "answer": "A",
+    "explanation": "Test-Driven Development (TDD) is an Agile technical practice where a developer writes a failing automated test case before writing the minimum code to pass that test, ensuring quality is built-in from the start.",
+    "domain": "Continuous Improvement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 261,
+    "question": "An Agile practitioner notices two team members having a minor disagreement about a technical approach. The practitioner decides not to intervene, believing the team can resolve it themselves. Which level of conflict is this, according to Speed Leas' model?",
+    "options": [
+      "Level 1: Problem to Solve",
+      "Level 2: Disagreement",
+      "Level 3: Contest",
+      "Level 4: Crusade"
+    ],
+    "answer": "A",
+    "explanation": "According to Speed Leas' Five Levels of Conflict, Level 1 is 'Problem to Solve'. At this level, people use facts and logic, and the leader should let the team handle it to foster self-organization.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 262,
+    "question": "A Scrum Master observes that a team member is feeling overwhelmed. The Scrum Master takes the time to listen and validate their feelings before discussing potential solutions. Which component of Emotional Intelligence (EI) is the Scrum Master demonstrating?",
+    "options": [
+      "Self-Awareness",
+      "Empathy",
+      "Self-Regulation",
+      "Motivation"
+    ],
+    "answer": "B",
+    "explanation": "Empathy involves understanding and sharing the feelings of others. By validating the team member's feelings, the Scrum Master demonstrates the social awareness necessary for effective Agile leadership.",
+    "domain": "Agile Leadership",
+    "difficulty": "easy"
+  },
+  {
+    "id": 263,
+    "question": "Which communication method is considered the most effective for an Agile team according to the Agile Manifesto's principles?",
+    "options": [
+      "Email and instant messaging",
+      "Face-to-face conversation",
+      "Detailed status reports",
+      "Shared document repositories"
+    ],
+    "answer": "B",
+    "explanation": "One of the 12 principles of the Agile Manifesto states: 'The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.'",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 264,
+    "question": "To ensure the product meets user needs, an Agile team invites key stakeholders to a workshop to provide feedback and help prioritize the backlog. This is an example of:",
+    "options": [
+      "Servant Leadership",
+      "Stakeholder Engagement",
+      "Micro-management",
+      "Daily Stand-up"
+    ],
+    "answer": "B",
+    "explanation": "Stakeholder Engagement involves actively involving interested parties in the project to ensure alignment, manage expectations, and deliver the highest possible value.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 265,
+    "question": "The team uses a large physical board in their workspace to show the status of all current tasks, allowing anyone to see progress at a glance. This is an example of a:",
+    "options": [
+      "Gantt Chart",
+      "Information Radiator",
+      "Project Plan",
+      "Risk Register"
+    ],
+    "answer": "B",
+    "explanation": "An Information Radiator is a highly visible display (like a Kanban board or Burn-down chart) that communicates key project information to anyone walking by, promoting transparency.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 266,
+    "question": "A team is estimating a set of user stories that are too large to be estimated with Planning Poker. They decide to lay all the stories out on a table and have the team members move them into piles based on their relative size. What is this technique called?",
+    "options": [
+      "Wideband Delphi",
+      "Affinity Estimating",
+      "Planning Poker",
+      "Fibonacci Sizing"
+    ],
+    "answer": "B",
+    "explanation": "Affinity Estimating is a technique used to quickly group a large number of user stories into related categories or sizes (like T-shirt sizes) by comparing them to each other, often used during initial release planning.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 267,
+    "question": "A Product Owner has a complex feature that needs to be broken down into smaller user stories. They decide to use the SPIDR method. What does the 'P' in SPIDR stand for when slicing stories?",
+    "options": [
+      "Process",
+      "Paths",
+      "Planning",
+      "Priorities"
+    ],
+    "answer": "B",
+    "explanation": "SPIDR is an acronym for Slicing stories: Spikes, Paths, Interface, Data, and Rules. 'Paths' refers to breaking a story down based on different user scenarios or alternative flows.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 268,
+    "question": "During a retrospective, the team identifies a repetitive manual process that takes several hours each sprint. They decide to automate this process in the next sprint to reduce waste. This action is most aligned with which Agile concept?",
+    "options": [
+      "Value Stream Mapping",
+      "Continuous Improvement (Kaizen)",
+      "Servant Leadership",
+      "Rolling Wave Planning"
+    ],
+    "answer": "B",
+    "explanation": "Kaizen is the practice of continuous improvement. Identifying and eliminating a manual, non-value-added task (waste) to improve efficiency is a classic application of this principle.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 269,
+    "question": "A Scrum Master notices that the team is avoiding conflict and being 'too nice' during retrospectives, resulting in no real improvements. According to Agile conflict management principles, what is the most appropriate action?",
+    "options": [
+      "Assign blame to specific individuals for the lack of progress.",
+      "Facilitate a session that encourages healthy debate and addresses underlying issues.",
+      "End the retrospective early since the team seems happy.",
+      "Tell the team exactly what they need to fix to save time."
+    ],
+    "answer": "B",
+    "explanation": "Agile teams need healthy conflict to grow. A Scrum Master should facilitate environment where team members feel safe to provide constructive criticism and challenge each other's ideas to drive improvement.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 270,
+    "question": "An Agile practitioner is managing a project with high uncertainty. They use a technique where they plan the next iteration in detail but leave future iterations at a higher level. What is this technique called?",
+    "options": [
+      "Waterfall Planning",
+      "Rolling Wave Planning",
+      "Strategic Planning",
+      "Gantt Charting"
+    ],
+    "answer": "B",
+    "explanation": "Rolling Wave Planning is an iterative planning technique where work to be accomplished in the near term is planned in detail, while work in the future is planned at a high level, allowing for progressive elaboration.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 271,
+    "question": "Using a Value Stream Map, a team notices that code waits in a 'Ready for QA' queue for an average of 3 days before testing begins. What is this waiting time called in Lean terms?",
+    "options": [
+      "Cycle Time",
+      "Lead Time",
+      "Non-Value-Added Time (Waste)",
+      "Processing Time"
+    ],
+    "answer": "C",
+    "explanation": "In Lean, any time spent waiting in a queue where no work is being performed is considered Non-Value-Added time, also known as 'Muda' (Waste). Reducing this waste improves flow.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 272,
+    "question": "A team member is consistently late to meetings. The Scrum Master pulls them aside and asks, 'I've noticed you've been arriving late. Is everything okay, or is there something I can help with?' This is an example of using which Emotional Intelligence skill?",
+    "options": [
+      "Social Skills",
+      "Self-Regulation",
+      "Self-Awareness",
+      "Conflict Resolution"
+    ],
+    "answer": "A",
+    "explanation": "Social Skills in EI involve managing relationships and building rapport. Addressing a performance issue with empathy and curiosity rather than accusation helps maintain the relationship while resolving the problem.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 273,
+    "question": "In a complex project, the team uses a technique that involves multiple rounds of anonymous estimation followed by discussion until consensus is reached. What is this technique?",
+    "options": [
+      "Planning Poker",
+      "Wideband Delphi",
+      "Affinity Estimating",
+      "Dot Voting"
+    ],
+    "answer": "B",
+    "explanation": "Wideband Delphi is a consensus-based estimation technique that uses multiple rounds of anonymous voting and discussion. Planning Poker is a specific, simplified implementation of this technique.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 274,
+    "question": "Which of the following best describes the 'S' in the INVEST acronym when applied to a user story?",
+    "options": [
+      "Specific: The story should be detailed enough for a developer to start work.",
+      "Small: The story should be small enough to be completed within a single iteration.",
+      "Scalable: The story should be able to handle increased load.",
+      "Simple: The story should be easy to understand."
+    ],
+    "answer": "B",
+    "explanation": "The 'S' in INVEST stands for Small. User stories should be small enough to fit within a single iteration (sprint) to ensure a steady flow of value and accurate estimation.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 275,
+    "question": "During a conflict at Level 2 (Disagreement), team members are starting to use more guarded language and seek allies. What should be the primary goal of an Agile leader at this level?",
+    "options": [
+      "Mandate a solution to stop the argument immediately.",
+      "Facilitate safe communication and empower the individuals to resolve the issue themselves.",
+      "Escalate the issue to the Functional Manager.",
+      "Let the conflict escalate to Level 3 to see who has the better argument."
+    ],
+    "answer": "B",
+    "explanation": "At Level 2 of Speed Leas' model, the leader's role is to facilitate communication and help the parties reach their own agreement before the conflict becomes personalized (Level 3).",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 276,
+    "question": "An Agile team is struggling with frequent interruptions from stakeholders. The Scrum Master decides to track these interruptions to show the impact on the team's velocity. Which Lean concept is the Scrum Master highlighting?",
+    "options": [
+      "Mura (Unevenness)",
+      "Muri (Overburden)",
+      "Muda (Waste)",
+      "Kaizen"
+    ],
+    "answer": "C",
+    "explanation": "Interruptions cause context-switching, which is a form of waste (Muda). By tracking them, the Scrum Master highlights the hidden cost that reduces the team's efficiency.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 277,
+    "question": "A Product Owner is trying to split a user story that involves a complex database migration. They decide to create a small research task to understand the technical constraints. This is an example of slicing by:",
+    "options": [
+      "Data",
+      "Spike",
+      "Interface",
+      "Rules"
+    ],
+    "answer": "B",
+    "explanation": "In the SPIDR method, 'Spikes' are used to conduct research or technical experimentation to reduce uncertainty and gain enough information to estimate and plan the actual work.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 278,
+    "question": "To help a team transition to Agile and move through the 'Forming' and 'Storming' stages, an Agile coach helps them create a 'Working Agreement'. How does this help the team?",
+    "options": [
+      "It allows the Scrum Master to enforce rules and punishments.",
+      "It provides a clear set of self-imposed expectations that foster trust and accountability.",
+      "It replaces the need for the Agile Manifesto.",
+      "It ensures the team follows the Scrum Guide perfectly."
+    ],
+    "answer": "B",
+    "explanation": "Working Agreements (or Team Norms) are created by the team to define how they will work together. This fosters self-organization and helps the team move toward the 'Norming' stage of Tuckman's model.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 279,
+    "question": "In the context of Emotional Intelligence, 'Self-Regulation' for an Agile practitioner means:",
+    "options": [
+      "The ability to control or redirect disruptive impulses and moods.",
+      "The ability to recognize and understand one's own moods.",
+      "A passion to work for reasons that go beyond money or status.",
+      "The ability to manage relationships and build networks."
+    ],
+    "answer": "A",
+    "explanation": "Self-regulation is the second component of Goleman's EI model. It involves the ability to manage one's emotions, especially under stress, to avoid reactive behavior that could harm the team.",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 280,
+    "question": "A team finds that 'Development' takes 4 hours of work, but the task then waits 24 hours for a 'Code Review'. If these are the only two steps, what is the Process Efficiency?",
+    "options": [
+      "14.3%",
+      "16.7%",
+      "83.3%",
+      "25%"
+    ],
+    "answer": "A",
+    "explanation": "Process Efficiency = (Value-Added Time / Total Lead Time) * 100. Value-Added Time = 4 hours. Total Lead Time = 4 + 24 = 28 hours. Efficiency = (4 / 28) * 100 = 14.28%.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 281,
+    "question": "When a conflict reaches Level 3 (Contest) in Speed Leas' model, what is typically the primary objective of the parties involved?",
+    "options": [
+      "To solve the problem and move on.",
+      "To win and ensure the other party loses.",
+      "To protect themselves from being blamed.",
+      "To find a middle ground through compromise."
+    ],
+    "answer": "B",
+    "explanation": "At Level 3 (Contest), the focus shifts from solving the problem to 'winning'. The parties begin to view each other as opponents, and the conflict becomes personalized.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 282,
+    "question": "A team is using the SPIDR method to slice a story about 'User Registration'. They realize they can split it based on whether the user registers via Email, Google, or Facebook. Which slicing category are they using?",
+    "options": [
+      "Spikes",
+      "Paths",
+      "Interface",
+      "Data"
+    ],
+    "answer": "B",
+    "explanation": "Slicing by 'Paths' involves identifying different ways a user can achieve a goal or different scenarios that need to be handled, such as different login methods.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 283,
+    "question": "What is the main advantage of using 'Affinity Estimating' over 'Planning Poker' for a large product backlog of 150 items?",
+    "options": [
+      "It provides more accurate estimates for individual stories.",
+      "It is significantly faster for sizing large volumes of work.",
+      "It requires only the Product Owner and Scrum Master.",
+      "It uses absolute hours which are easier for management to understand."
+    ],
+    "answer": "B",
+    "explanation": "Affinity Estimating is designed for speed and volume. It allows a team to relatively size a large number of items quickly, making it ideal for high-level release planning.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 284,
+    "question": "A Scrum Master observes two team members having a heated argument using personal attacks. They no longer believe the other can change. Which level of conflict is this?",
+    "options": [
+      "Level 2: Disagreement",
+      "Level 3: Contest",
+      "Level 4: Crusade",
+      "Level 5: World War"
+    ],
+    "answer": "C",
+    "explanation": "At Level 4 (Crusade) of Speed Leas' model, the conflict becomes ideological and personal. The parties are focused on 'defeating' the other rather than resolving the issue.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 285,
+    "question": "A story in the backlog is 'Valuable' and 'Small' but cannot be easily verified because the test environment is unavailable. Which INVEST principle is being violated?",
+    "options": [
+      "Negotiable",
+      "Estimable",
+      "Independent",
+      "Testable"
+    ],
+    "answer": "D",
+    "explanation": "The 'T' in INVEST stands for Testable. If a story cannot be tested or verified (due to lack of environment or clear acceptance criteria), it does not meet the criteria for a good user story.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 286,
+    "question": "An Agile practitioner wants to improve team motivation by giving them more autonomy over their tasks and opportunities to master new technologies. This approach is based on which theory?",
+    "options": [
+      "Herzberg's Two-Factor Theory",
+      "Maslow's Hierarchy of Needs",
+      "Daniel Pink's Theory (Drive)",
+      "McGregor's Theory X and Theory Y"
+    ],
+    "answer": "C",
+    "explanation": "Daniel Pink's 'Drive' theory suggests that knowledge workers are motivated by three factors: Autonomy (control over work), Mastery (getting better at something), and Purpose (contributing to something meaningful).",
+    "domain": "Agile Leadership",
+    "difficulty": "medium"
+  },
+  {
+    "id": 287,
+    "question": "If a team's 'Lead Time' is 20 days and the 'Cycle Time' is only 3 days, what is the most likely conclusion about their process?",
+    "options": [
+      "The development team is working too slowly.",
+      "There are significant delays or wait times in the overall value stream.",
+      "The project is highly efficient.",
+      "The team should use more complex tools."
+    ],
+    "answer": "B",
+    "explanation": "Lead Time is from request to delivery; Cycle Time is from work start to finish. A large gap indicates that items spend most of their time waiting in queues rather than being worked on.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 288,
+    "question": "A team member implements a small improvement to the build script that saves the team 10 minutes every day. This is a direct application of which principle?",
+    "options": [
+      "Servant Leadership",
+      "Kaizen",
+      "Value Stream Mapping",
+      "Refactoring"
+    ],
+    "answer": "B",
+    "explanation": "Kaizen is the philosophy of continuous, small, incremental improvements. A small change that improves daily productivity is a perfect example of Kaizen in action.",
+    "domain": "Continuous Improvement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 289,
+    "question": "A stakeholder asks for a fixed delivery date. The Agile leader provides a range of dates with varying confidence levels instead of a single date. This demonstrates:",
+    "options": [
+      "A lack of planning and commitment.",
+      "Honest communication that manages expectations regarding uncertainty.",
+      "A misunderstanding of the Scrum Guide.",
+      "Technique to hide the team's true velocity."
+    ],
+    "answer": "B",
+    "explanation": "Agile planning embraces uncertainty. Providing a range of dates (often based on a 'Cone of Uncertainty') is more accurate and honest than promising a fixed date for a complex project.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 290,
+    "question": "Which level of Agile planning focuses on the features and goals for the next 3 to 6 months?",
+    "options": [
+      "Iteration Planning",
+      "Release Planning",
+      "Product Roadmap",
+      "Strategic Planning"
+    ],
+    "answer": "B",
+    "explanation": "Release Planning looks beyond the current iteration to plan the delivery of features over several months, providing a high-level view of the product's trajectory.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 291,
+    "question": "A team is at Level 5 of conflict (World War) according to Speed Leas. Two members refuse to communicate and are actively sabotaging each other. What is the most appropriate response for the leader?",
+    "options": [
+      "Facilitate a mediation session to help them find common ground.",
+      "Separate the parties to protect the team and the project from further damage.",
+      "Ask the team to vote on who should stay and who should leave.",
+      "Ignore the conflict and focus on the technical tasks."
+    ],
+    "answer": "B",
+    "explanation": "At Level 5 (World War), the conflict is destructive and beyond normal facilitation. The leader's priority is to protect the team, which often requires separating the parties involved.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 292,
+    "question": "During Value Stream Mapping, an organization finds that bureaucratic approval processes cause 'Information Flow' to be much slower than 'Material Flow'. How should they address this using Lean principles?",
+    "options": [
+      "Add more approval steps to ensure higher quality.",
+      "Slow down the material flow to match the information flow.",
+      "Eliminate or automate unnecessary approvals to speed up information flow.",
+      "Ignore the information flow as it doesn't affect the physical product."
+    ],
+    "answer": "C",
+    "explanation": "Lean focuses on optimizing the whole value stream. Bureaucratic delays in information flow are a form of waste (waiting). The goal is to remove these bottlenecks to improve overall flow.",
+    "domain": "Continuous Improvement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 293,
+    "question": "A Product Owner is using the SPIDR method to slice a story about 'Complex Business Rules'. They find that 80% of the value comes from 20% of the rules and decide to deliver those first. This is slicing by:",
+    "options": [
+      "Spikes",
+      "Paths",
+      "Data",
+      "Rules"
+    ],
+    "answer": "D",
+    "explanation": "Slicing by 'Rules' involves identifying the underlying business rules and prioritizing the most valuable or simplest ones first, deferring complexity to later iterations.",
+    "domain": "Adaptive Planning",
+    "difficulty": "hard"
+  },
+  {
+    "id": 294,
+    "question": "A Scrum Master works with a team that has high technical expertise but low Emotional Intelligence, leading to frequent interpersonal friction. What should be the Scrum Master's priority?",
+    "options": [
+      "Focus on improving the team's technical skills further to increase velocity.",
+      "Introduce workshops on EI, active listening, and empathy to improve team dynamics.",
+      "Micro-manage the team's daily interactions to prevent arguments.",
+      "Change the team's composition to include more junior members."
+    ],
+    "answer": "B",
+    "explanation": "High-performing Agile teams require both technical excellence and strong soft skills. A servant leader helps the team develop social and emotional competencies to improve collaboration and sustain performance.",
+    "domain": "Agile Leadership",
+    "difficulty": "hard"
+  },
+  {
+    "id": 295,
+    "question": "When using Wideband Delphi for estimation, why is the 'anonymous' aspect of voting considered critical in a high-pressure environment?",
+    "options": [
+      "It allows team members to hide their lack of knowledge about a task.",
+      "It prevents 'Anchor Bias' and the influence of 'HiPPOs' (Highest Paid Person's Opinion).",
+      "It makes the process faster by avoiding unnecessary discussion.",
+      "It is a legal requirement for certain types of project estimation."
+    ],
+    "answer": "B",
+    "explanation": "Anonymous voting ensures that junior or quieter members aren't influenced by more senior or vocal members (anchoring), leading to more honest and accurate group consensus.",
+    "domain": "Adaptive Planning",
+    "difficulty": "hard"
+  },
+  {
+    "id": 296,
+    "question": "A new stakeholder insists that all 50 items in the backlog are 'Must Have'. How should the Product Owner handle this using Agile prioritization principles?",
+    "options": [
+      "Accept all items as high priority to maintain a good relationship.",
+      "Educate the stakeholder on finite capacity and the necessity of relative ordering to maximize value.",
+      "Ask the team to work overtime to ensure all 'Must Haves' are completed.",
+      "Use a random number generator to prioritize the items fairly."
+    ],
+    "answer": "B",
+    "explanation": "Stakeholder Engagement involves education. If everything is a priority, nothing is. The Product Owner must help stakeholders understand trade-offs and the value of relative prioritization.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 297,
+    "question": "Which of the following scenarios best describes a team demonstrating Level 4 (Crusade) of conflict?",
+    "options": [
+      "The team is arguing about which JavaScript framework to use.",
+      "A developer is upset because their code was criticized during a review.",
+      "Two sub-groups believe their way of working is the only 'right' way and the others are 'destroying' the project.",
+      "The team is frustrated with the Product Owner for changing priorities during the sprint."
+    ],
+    "answer": "C",
+    "explanation": "At Level 4, conflict becomes ideological. It's no longer about a specific issue but about 'us vs. them' and a belief that the 'other side' is fundamentally wrong or harmful.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 298,
+    "question": "A team has a 'Lead Time' of 20 days and a 'Value Added Time' of 2 days. To double their process efficiency, which action would be most effective?",
+    "options": [
+      "Double the development speed (reducing Value Added Time to 1 day).",
+      "Reduce the waiting/queue time by 10 days.",
+      "Hire twice as many developers to work on more tasks.",
+      "Increase the number of testers to find bugs faster."
+    ],
+    "answer": "B",
+    "explanation": "Current efficiency = 2/20 = 10%. To reach 20%, they need (2/X) = 0.2, so X = 10. They must reduce the total Lead Time from 20 to 10 days by removing waste (waiting time). Reducing work time (Option A) would actually lower efficiency to 1/19 = 5.2%.",
+    "domain": "Continuous Improvement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 299,
+    "question": "In the context of 'Adaptive Planning', what is a potential risk of having user stories that are 100% 'Independent' (the I in INVEST)?",
+    "options": [
+      "The stories might become too small to be valuable to the end user.",
+      "Extreme independence can lead to a fragmented product if the overall vision is not maintained.",
+      "There is no risk; stories must always be completely independent.",
+      "They become impossible to estimate using Planning Poker."
+    ],
+    "answer": "B",
+    "explanation": "While independence is good for flow, the Product Owner must ensure that the individual stories still integrate into a cohesive product that fulfills the project vision and goals.",
+    "domain": "Adaptive Planning",
+    "difficulty": "hard"
+  },
+  {
+    "id": 300,
+    "question": "A Scrum Master with high Emotional Intelligence notices a normally quiet team member becoming increasingly withdrawn during the 'Storming' phase. What is the most 'EI-aware' action?",
+    "options": [
+      "Publicly ask the member to share their feelings during the Daily Stand-up.",
+      "Observe interactions and schedule a private 1-on-1 to offer support and understand their perspective.",
+      "Assume they are just focused on work and avoid interrupting them.",
+      "Instruct the rest of the team to be more inclusive of the quiet member."
+    ],
+    "answer": "B",
+    "explanation": "Social awareness (empathy) and relationship management are key. Identifying a subtle change in behavior and addressing it privately and supportively is the hallmark of an emotionally intelligent leader.",
+    "domain": "Agile Leadership",
+    "difficulty": "hard"
+  }
+]

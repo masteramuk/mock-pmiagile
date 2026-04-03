@@ -1,0 +1,168 @@
+<!--
+  PMI-Agile (PMI-ACP) Mock Exam Application
+  
+  Copyright (c) 2026 Haszeli Ahmad
+  
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMI-Agile Mock Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen">
+            <h1>PMI-Agile Certified Practitioner (PMI-ACP) Mock Exam</h1>
+            <p>Test your knowledge with 120 randomized questions from the official domain areas.</p>
+            <div class="exam-info">
+                <p>Select Difficulty Levels:</p>
+                <div class="difficulty-selection">
+                    <label class="diff-option">
+                        <input type="checkbox" name="difficulty" value="easy" checked>
+                        <span>Easy</span>
+                    </label>
+                    <label class="diff-option">
+                        <input type="checkbox" name="difficulty" value="medium" checked>
+                        <span>Medium</span>
+                    </label>
+                    <label class="diff-option">
+                        <input type="checkbox" name="difficulty" value="hard" checked>
+                        <span>Hard</span>
+                    </label>
+                </div>
+
+                <p>Select Exam Mode:</p>
+                <div class="mode-selection">
+                    <label class="mode-option">
+                        <input type="radio" name="exam-mode" value="20" checked>
+                        <span><strong>Quick Quiz</strong> (20 Questions)</span>
+                    </label>
+                    <label class="mode-option">
+                        <input type="radio" name="exam-mode" value="60">
+                        <span><strong>Half Exam</strong> (60 Questions)</span>
+                    </label>
+                    <label class="mode-option">
+                        <input type="radio" name="exam-mode" value="120">
+                        <span><strong>Full Mock Exam</strong> (120 Questions)</span>
+                    </label>
+                </div>
+                <ul>
+                    <li><strong>Passing Score:</strong> 70%</li>
+                    <li><strong>Topics:</strong> All PMI-ACP Domains</li>
+                </ul>
+            </div>
+            <div class="actions">
+                <button id="start-btn" class="btn-primary">Start Exam</button>
+                <button id="history-btn" class="btn-outline">Trial History</button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen hidden">
+            <div class="quiz-header">
+                <span id="progress">Question 1 of 120</span>
+                <div class="timer" id="timer">Time Elapsed: 00:00</div>
+            </div>
+            <div id="question-container">
+                <h3 id="question-text"></h3>
+                <div id="options-container" class="options-grid"></div>
+            </div>
+            <div class="navigation">
+                <button id="prev-btn" class="btn-secondary">Previous</button>
+                <div class="nav-right">
+                    <button id="next-btn" class="btn-primary">Next</button>
+                    <button id="submit-btn" class="btn-success hidden">Submit Exam</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen hidden">
+            <h2 id="result-status">Exam Results</h2>
+            <div class="score-card">
+                <div class="score-box">
+                    <span class="label">Score</span>
+                    <span id="score-value" class="value">0/120</span>
+                </div>
+                <div class="score-box">
+                    <span class="label">Percentage</span>
+                    <span id="percentage-value" class="value">0%</span>
+                </div>
+                <div class="score-box">
+                    <span class="label">Status</span>
+                    <span id="status-value" class="value">PASS</span>
+                </div>
+            </div>
+
+            <div class="time-details">
+                <p><strong>Start Time:</strong> <span id="start-time-display">-</span></p>
+                <p><strong>End Time:</strong> <span id="end-time-display">-</span></p>
+                <p><strong>Total Duration:</strong> <span id="duration-display">-</span></p>
+            </div>
+
+            <div class="actions no-print">
+                <button id="review-btn" class="btn-primary">Review Answers</button>
+                <button id="print-btn" class="btn-secondary">Print Results</button>
+                <button id="restart-btn" class="btn-outline">Restart Exam</button>
+            </div>
+
+            <div id="review-section" class="hidden">
+                <h3>Detailed Review</h3>
+                <div id="review-container"></div>
+            </div>
+        </div>
+
+        <!-- History Screen -->
+        <div id="history-screen" class="screen hidden">
+            <h2>Trial Tracking & Analysis</h2>
+            
+            <div class="analysis-grid">
+                <div class="stat-card">
+                    <span class="label">Total Trials</span>
+                    <span id="total-trials" class="value">0</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Avg. Score</span>
+                    <span id="avg-score" class="value">0%</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Pass Rate</span>
+                    <span id="pass-rate" class="value">0%</span>
+                </div>
+            </div>
+
+            <div class="history-table-container">
+                <table id="history-table">
+                    <thead>
+                        <tr>
+                            <th>Trial No</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                            <th>Difficulty</th>
+                            <th>Duration</th>
+                            <th>Result</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history-body"></tbody>
+                </table>
+            </div>
+
+            <div class="actions no-print">
+                <button id="back-to-start-btn" class="btn-secondary">Back to Start</button>
+                <button id="export-btn" class="btn-outline">Download Result-Track.json</button>
+                <button id="clear-history-btn" class="btn-danger">Clear History</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

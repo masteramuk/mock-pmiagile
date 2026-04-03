@@ -1,0 +1,702 @@
+[
+  {
+    "id": 151,
+    "question": "A large corporation is attempting to transition from a hierarchical Waterfall structure to an Agile mindset. According to Kotter's 8-Step Process for Leading Change, what should the organization's leaders focus on as their very first step?",
+    "options": [
+      "Forming a strategic vision and initiatives for the transformation.",
+      "Generating short-term wins to prove the value of Agile.",
+      "Establishing a sense of urgency by identifying potential crises or major opportunities.",
+      "Enlisting a volunteer army of change agents across all departments."
+    ],
+    "answer": "C",
+    "explanation": "According to Kotter's 8-Step Process for Leading Change, Step 1 is 'Establishing a Sense of Urgency'. This involves identifying and discussing crises, potential crises, or major opportunities. In an Agile transition, leaders must help others see the need for change (e.g., declining market share or slow time-to-market) to overcome complacency and build the necessary momentum for a large-scale mindset shift.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 152,
+    "question": "An Agile team is using the 'INVEST' acronym to evaluate their user stories. They find a story that is highly dependent on another story being finished first. Which INVEST principle is this story failing to meet?",
+    "options": [
+      "Independent",
+      "Negotiable",
+      "Valuable",
+      "Small"
+    ],
+    "answer": "A",
+    "explanation": "The 'I' in the INVEST acronym (Independent, Negotiable, Valuable, Estimable, Small, Testable) stands for Independent. User stories should be as self-contained as possible so that there is no inherent dependency between them. This allows the Product Owner to prioritize stories in any order and enables the team to pull them into a sprint without waiting for other stories to be completed.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 153,
+    "question": "A Product Owner and a developer are discussing a new feature. The developer says, 'As long as the user can see their account balance on the main screen, we've met the requirement.' This interaction best represents which of the '3Cs' of user stories?",
+    "options": [
+      "Card",
+      "Conversation",
+      "Confirmation",
+      "Criteria"
+    ],
+    "answer": "C",
+    "explanation": "The '3Cs' model (Card, Conversation, Confirmation) describes the components of a user story. 'Confirmation' refers to the acceptance criteria that represent the agreement between the Product Owner and the team on what constitutes a successful implementation. By discussing how the feature will be verified (e.g., seeing the balance on the screen), they are defining the Confirmation aspect.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "easy"
+  },
+  {
+    "id": 154,
+    "question": "When using a Stakeholder Power/Interest Grid to manage engagement, which quadrant should the Scrum Master and Product Owner prioritize for 'Managing Closely'?",
+    "options": [
+      "High Power / Low Interest",
+      "Low Power / High Interest",
+      "High Power / High Interest",
+      "Low Power / Low Interest"
+    ],
+    "answer": "C",
+    "explanation": "On a Stakeholder Power/Interest Grid, stakeholders with High Power and High Interest are 'Key Players'. They have significant influence over project resources and direction and are deeply interested in the outcome. These individuals must be managed closely, involving them in key decisions and ensuring regular, high-touch communication to maintain their support.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "easy"
+  },
+  {
+    "id": 155,
+    "question": "A team is using the ADKAR model to help employees adapt to an Agile transition. An employee understands the need for Agile and wants to participate, but they don't know how to write a user story. Which stage of ADKAR is this employee currently stuck in?",
+    "options": [
+      "Awareness",
+      "Desire",
+      "Knowledge",
+      "Ability"
+    ],
+    "answer": "C",
+    "explanation": "In the Prosci ADKAR model (Awareness, Desire, Knowledge, Ability, Reinforcement), 'Knowledge' represents the stage where an individual understands *how* to change. If a team member is willing (Desire) but lacks the specific technical or procedural skills—such as the syntax of a user story or how to use a new tool—the primary barrier is Knowledge, which is typically addressed through training.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 156,
+    "question": "In the '3Cs' (Card, Conversation, Confirmation) model of user stories, the 'Card' component is primarily intended to be a:",
+    "options": [
+      "Detailed technical specification for the developers.",
+      "Legal contract between the customer and the vendor.",
+      "Placeholder for future conversation and a high-level description of value.",
+      "Final and unchangeable list of requirements for the release."
+    ],
+    "answer": "C",
+    "explanation": "The 'Card' is a physical or digital token that captures the 'who, what, and why' of a requirement in a brief format. It is not meant to be an exhaustive specification; rather, it serves as a reminder or placeholder for the 'Conversation' that will occur between the team and the Product Owner to flesh out the details.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 157,
+    "question": "A team is using the SPIDR technique for slicing large user stories. They find a story that can be divided based on the different types of data it handles (e.g., text-only profiles vs. profiles with images). Which slicing strategy are they employing?",
+    "options": [
+      "Spikes",
+      "Paths",
+      "Interfaces",
+      "Data"
+    ],
+    "answer": "D",
+    "explanation": "The 'D' in the SPIDR acronym (Spikes, Paths, Interfaces, Data, Rules) stands for Data. This strategy involves breaking a large story into smaller pieces based on the different types or volumes of data it must process. Delivering a version that handles simple data first allows the team to provide value incrementally.",
+    "domain": "Adaptive Planning",
+    "difficulty": "easy"
+  },
+  {
+    "id": 158,
+    "question": "An organization is following the ADKAR model for change management. Most employees are aware of the need for change and have the knowledge to work in Agile, but they are resistant to giving up their traditional job titles and silos. Which ADKAR stage is failing to be realized?",
+    "options": [
+      "Awareness",
+      "Desire",
+      "Knowledge",
+      "Ability"
+    ],
+    "answer": "B",
+    "explanation": "Resistance to change despite having 'Awareness' of the need and 'Knowledge' of the new process indicates a lack of 'Desire' in the ADKAR model. Desire is the personal decision to support and participate in the change. Factors like fear of losing status, job security, or attachment to traditional titles can hinder this stage, requiring coaching and leadership support to resolve.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 159,
+    "question": "A user story for an e-commerce site reads: 'As a customer, I want to pay for my items so I can receive my order.' The team finds this story is too large for a single sprint. Using the SPIDR technique, they decide to slice it by 'Payment Method' (Credit Card, PayPal, Gift Card). Which SPIDR element is being used?",
+    "options": [
+      "Spikes",
+      "Paths",
+      "Interfaces",
+      "Data"
+    ],
+    "answer": "B",
+    "explanation": "The 'P' in SPIDR stands for Paths. If a user can achieve a goal through multiple distinct workflows, options, or alternative scenarios (like different payment methods), each path can be its own smaller user story. This allows the team to implement the most common path first.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 160,
+    "question": "A Product Owner is evaluating a story using the 'INVEST' criteria. They notice that the story describes a backend database migration but does not clearly state how this benefits the end user or the business. Which INVEST criteria is most likely not being met?",
+    "options": [
+      "Negotiable",
+      "Valuable",
+      "Estimable",
+      "Small"
+    ],
+    "answer": "B",
+    "explanation": "The 'V' in INVEST stands for Valuable. Every user story must provide clear value to a customer, user, or stakeholder. If the story is written as a purely technical task without a connection to business value, it fails this criteria and should be rewritten to emphasize the 'So That' part of the user story template.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 161,
+    "question": "An Agile team is dealing with a 'high power / low interest' stakeholder who is known for making sudden, disruptive requests. What is the most effective strategy for the Product Owner to manage this individual?",
+    "options": [
+      "Ignore them since their interest in the project's daily details is low.",
+      "Keep them satisfied by providing high-level progress updates and ensuring their core concerns are addressed.",
+      "Invite them to every daily stand-up meeting to increase their interest and engagement.",
+      "Wait until they complain before making any effort to communicate project status."
+    ],
+    "answer": "B",
+    "explanation": "According to the Power/Interest Grid, stakeholders with high power but low interest should be 'Kept Satisfied'. Because they have the influence to disrupt or block the project, the Product Owner must proactively manage their expectations and ensure their high-level needs are met, while avoiding overwhelming them with granular information that might lead to micromanagement.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 162,
+    "question": "During a backlog refinement session, the team discovers a story that they cannot estimate because the technology involved is completely new to them. Using the SPIDR method, what is the best next step?",
+    "options": [
+      "Split the story by data types to make the unknown portions smaller.",
+      "Assign it to the most senior developer to figure out during the actual sprint.",
+      "Create a 'Spike' to research the technology and then estimate the story in a future refinement session.",
+      "Ask the Product Owner to remove the story from the backlog until the technology matures."
+    ],
+    "answer": "C",
+    "explanation": "The 'S' in SPIDR (Spikes, Paths, Interfaces, Data, Rules) stands for Spikes. A Spike is a time-boxed research task used to acquire knowledge or reduce technical risk. When a team cannot estimate a story due to unknown technology, they should create a functional or architectural spike to gain enough understanding to confidently estimate the work.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 163,
+    "question": "In Kotter's 8-step process for leading change, Step 5 is 'Empowering Broad-Based Action'. Which of the following activities best aligns with this step during an Agile transformation?",
+    "options": [
+      "Empowering employees by removing organizational obstacles such as rigid hierarchies or outdated policies.",
+      "Immediately celebrating the completion of the first sprint to build momentum.",
+      "Directing the team to work overtime to ensure the first release is on schedule.",
+      "Disbanding the 'Guiding Coalition' once the initial vision has been communicated."
+    ],
+    "answer": "A",
+    "explanation": "Step 5 of Kotter's model, 'Empowering Broad-Based Action', involves removing barriers to change. In an Agile context, this means the 'Guiding Coalition' and leadership work to eliminate systemic obstacles—like conflicting KPIs, silos, or restrictive approval processes—that prevent teams from successfully adopting Agile practices.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 164,
+    "question": "A user story is written as follows: 'The system shall allow users to log in with a username and password.' Why does this story fail the 'N' in the INVEST acronym?",
+    "options": [
+      "It is too small to provide meaningful value to the end user.",
+      "It is written as a rigid requirement rather than a negotiable placeholder for a conversation.",
+      "It is not independent because it depends on the existence of a user database.",
+      "It cannot be tested by the QA team in its current 'shall' format."
+    ],
+    "answer": "B",
+    "explanation": "The 'N' in INVEST stands for Negotiable. User stories should not be written as 'shall' statements or fixed contracts. Instead, they are invitations to a conversation where the team and the Product Owner can negotiate the best way to achieve the underlying goal. Rigid wording limits collaboration and the discovery of better solutions.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 165,
+    "question": "In the 'Confirmation' phase of the 3Cs model, which of the following is the most effective format for ensuring the team understands the story's success criteria?",
+    "options": [
+      "A comprehensive technical design specification document.",
+      "A set of 'Given-When-Then' scenarios (Acceptance Tests) that define expected behavior.",
+      "A verbal agreement during the stand-up that everyone knows what to do.",
+      "A detailed list of sub-tasks assigned to each developer in the tracking tool."
+    ],
+    "answer": "B",
+    "explanation": "The 'Confirmation' component of a user story is best captured through clear, testable acceptance criteria. Using the 'Given-When-Then' format (common in Behavior-Driven Development) provides a shared language for stakeholders and the team to agree on the expected behavior and 'Definition of Done' for the story.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 166,
+    "question": "An Agile team is working with a 'low power / high interest' group of end-users who are very vocal about their daily frustrations with the current system. What is the most appropriate engagement strategy?",
+    "options": [
+      "Ignore them as they have no formal power to change the project direction.",
+      "Keep them informed and involve them in feedback sessions, such as Sprint Reviews, to capture their insights.",
+      "Give them final approval over all architectural and technical decisions.",
+      "Redirect their feedback to the HR department as it is outside the project scope."
+    ],
+    "answer": "B",
+    "explanation": "Stakeholders with Low Power but High Interest should be 'Kept Informed'. These individuals are often the end-users who will be most affected by the product. By involving them in Sprint Reviews and feedback loops, the team ensures the product meets user needs and builds a community of supporters.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 167,
+    "question": "A team is trying to slice a story about 'Searching for a flight'. They realize that a simple search (one-way, one passenger) is much easier than a complex search (multi-city, flexible dates). Which slicing strategy from the SPIDR technique are they using?",
+    "options": [
+      "Paths",
+      "Interfaces",
+      "Data",
+      "Rules"
+    ],
+    "answer": "D",
+    "explanation": "The 'R' in SPIDR stands for Rules. When a story's complexity stems from various business rules, constraints, or edge cases (like multi-city searches vs. one-way), the team can slice it by implementing the simplest rules first and then adding more complex business logic in subsequent stories.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 168,
+    "question": "In the ADKAR model for change management, at which point is the 'Ability' stage considered to be reached by an employee?",
+    "options": [
+      "When the employee successfully completes a formal 3-day Agile certification course.",
+      "When the employee can demonstrate the new skills and Agile behaviors in their daily work.",
+      "When the employee verbally agrees that Agile is a beneficial direction for the company.",
+      "When the manager provides a positive performance review regarding the employee's 'Agile mindset'."
+    ],
+    "answer": "B",
+    "explanation": "In ADKAR, 'Ability' is the fourth stage. It is the transition from *knowing* how to change (Knowledge) to being *able* to perform the new behavior (Ability). It is validated when the individual demonstrates the required skills and competencies in a real-world environment, often requiring practice and coaching.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 169,
+    "question": "A Product Owner realizes a user story is failing the 'S' in INVEST (it is too large). They decide to slice it using the 'Interfaces' strategy from SPIDR. Which of the following actions best illustrates this strategy?",
+    "options": [
+      "Implementing the mobile app interface first and delivering the web browser interface in a later story.",
+      "Implementing the database schema and backend logic before building any user interface.",
+      "Splitting the story based on whether the user is a first-time visitor or a returning customer.",
+      "Creating a research spike to determine which UI framework (React vs. Vue) is most suitable."
+    ],
+    "answer": "A",
+    "explanation": "The 'I' in SPIDR stands for Interfaces. If a feature needs to be delivered across multiple platforms or interfaces (e.g., Web, Mobile, API), the team can slice the story by interface. This allows for incremental delivery and feedback on the user experience for one platform before moving to the next.",
+    "domain": "Adaptive Planning",
+    "difficulty": "medium"
+  },
+  {
+    "id": 170,
+    "question": "A senior stakeholder with high power is consistently missing Sprint Reviews and then demanding major changes at the end of a release cycle. Which Agile principle is being violated, and how should the Product Owner respond?",
+    "options": [
+      "Value-Driven Delivery; the Product Owner should ignore the late requests to protect the release date.",
+      "Business people and developers must work together daily; the Product Owner should engage the stakeholder to explain the value of early feedback.",
+      "Simplicity; the Product Owner should implement the changes as quickly as possible to avoid conflict.",
+      "Self-organization; the team should decide collectively whether or not to allow the stakeholder into future meetings."
+    ],
+    "answer": "B",
+    "explanation": "One of the 12 Agile Principles states that 'Business people and developers must work together daily throughout the project.' The Product Owner must proactively manage stakeholder engagement to ensure feedback is captured in small loops (like Sprint Reviews). This avoids the risk of 'big bang' changes late in the project which are costly and disruptive.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "medium"
+  },
+  {
+    "id": 171,
+    "question": "An organization has successfully completed the first few steps of Kotter's change model. They are now at Step 8: 'Instituting Change'. What is the primary focus of this final stage in an Agile transformation?",
+    "options": [
+      "Establishing a budget for the next phase of the organizational transformation.",
+      "Ensuring that new Agile behaviors and mindsets are anchored in the company's culture and everyday practices.",
+      "Terminating all managers who continue to advocate for traditional Waterfall methodologies.",
+      "Declaring the transformation complete as soon as the first project is delivered using Scrum."
+    ],
+    "answer": "B",
+    "explanation": "Step 8 of Kotter's model, 'Instituting Change' (or Anchoring), is about making the change stick. It involves showing people how the new Agile behaviors have led to improved performance and ensuring these practices become part of the organization's 'social norms' and standard way of operating, rather than a passing trend.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "hard"
+  },
+  {
+    "id": 172,
+    "question": "A team is struggling to estimate a story that fails the 'E' in INVEST (Estimable). They realize they cannot agree on the 'Confirmation' (Acceptance Criteria) for the story. How do the 3Cs and INVEST models interact in this situation?",
+    "options": [
+      "They are independent models; the 3Cs focus on story structure while INVEST focuses on story quality.",
+      "A lack of 'Confirmation' (3Cs) makes a story non-'Estimable' (INVEST) because the team lacks a clear definition of the work's boundaries.",
+      "The 'Card' (3Cs) must contain all the technical details necessary to satisfy the 'Estimable' (INVEST) criteria.",
+      "The 'Conversation' (3Cs) can be bypassed if the story already meets the 'Estimable' (INVEST) criteria."
+    ],
+    "answer": "B",
+    "explanation": "The 3Cs and INVEST are complementary. A story is only 'Estimable' if the team understands the scope and complexity. The 'Confirmation' (acceptance criteria) provides the necessary detail to define what 'done' looks like. Without it, any estimate provided by the team would be a mere guess rather than a professional commitment.",
+    "domain": "Adaptive Planning",
+    "difficulty": "hard"
+  },
+  {
+    "id": 173,
+    "question": "In a complex organizational environment, a Product Owner identifies a 'High Power' stakeholder who is stuck in the 'Awareness' stage of the ADKAR model. What is the most significant risk to the Agile project if this is not addressed?",
+    "options": [
+      "The stakeholder will attend too many meetings and slow down the team's velocity.",
+      "The stakeholder may withdraw funding or support because they do not understand the underlying business case for the Agile transition.",
+      "The stakeholder will attempt to rewrite all existing user stories to match a traditional project plan.",
+      "The stakeholder will become overly interested in the team's daily stand-ups and begin to micromanage tasks."
+    ],
+    "answer": "B",
+    "explanation": "High-power stakeholders who lack 'Awareness' (the first stage of ADKAR) of *why* change is necessary pose a high risk. If they don't see the business benefit of Agile (e.g., faster time-to-market, higher quality), they may view the transition as an unnecessary risk or a loss of control and use their power to stop the initiative entirely.",
+    "domain": "Stakeholder Engagement",
+    "difficulty": "hard"
+  },
+  {
+    "id": 174,
+    "question": "A team is using the SPIDR technique to slice a story. They have tried Paths, Data, and Rules, but the story is still too large and complex. They decide to use a 'Spike'. How does a Spike specifically facilitate the 'slicing' of a user story?",
+    "options": [
+      "It allows the team to complete the entire feature as a single, large research task.",
+      "It reduces technical or functional uncertainty, often revealing 'hidden' paths or rules that can then be used for effective slicing.",
+      "It allows the Product Owner to accept a lower-quality version of the story as a temporary measure.",
+      "It serves as a placeholder to bypass the need for any further slicing or detailed estimation."
+    ],
+    "answer": "B",
+    "explanation": "Often, a story cannot be sliced because the team doesn't know enough about the underlying problem or solution. A Spike (a time-boxed investigation) provides the necessary knowledge to identify natural fault lines in the requirement—such as different data types or business rules—that were previously obscured by uncertainty.",
+    "domain": "Adaptive Planning",
+    "difficulty": "hard"
+  },
+  {
+    "id": 175,
+    "question": "An Agile coach suggests the team use 'Automated Acceptance Tests' to improve their 'Confirmation' phase (3Cs). How does this practice most directly support the 'V' and 'T' in the INVEST acronym?",
+    "options": [
+      "It makes the story smaller (S) and more independent (I) by decoupling it from manual testing cycles.",
+      "It ensures business value (V) is delivered as intended and makes the story 'Testable' (T) by providing a definitive pass/fail criteria.",
+      "It makes the story more negotiable (N) and easier to estimate (E) for the development team.",
+      "It eliminates the need for any further 'Conversation' (C) between the developers and the Product Owner."
+    ],
+    "answer": "B",
+    "explanation": "Automated acceptance tests (often written in a BDD style) confirm that the specific value (V) requested by the Product Owner has been implemented correctly. Because these tests provide a binary result, they directly satisfy the 'Testable' (T) requirement of INVEST—a story is not done until the test passes.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "hard"
+  },
+  {
+    "id": 176,
+    "question": "An Agile team is adopting Test-Driven Development (TDD) to improve code quality. In the standard TDD cycle, which of the following is the correct sequence of steps?",
+    "options": [
+      "Write code, write a test to verify it, then refactor the code for better performance.",
+      "Write a failing automated test, write the minimum code to pass the test, then refactor the code.",
+      "Write a failing test, refactor the test until it is clean, then write the functional code.",
+      "Write the code, refactor the code, then write a test to ensure it still works as expected."
+    ],
+    "answer": "B",
+    "explanation": "TDD follows the 'Red-Green-Refactor' cycle: 1. Write a failing test (Red), 2. Write the simplest code possible to make the test pass (Green), 3. Improve the internal design of the code without changing its external behavior (Refactor). This ensures that all code is covered by tests and is kept clean.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 177,
+    "question": "During a retrospective, the team identifies that some of their older modules are becoming difficult to maintain. They decide to dedicate time to 'Refactoring'. What is the primary goal of this practice?",
+    "options": [
+      "To add new, high-priority features that were recently requested by the Product Owner.",
+      "To fix critical bugs that were discovered by end-users in the previous release.",
+      "To improve the internal structure and readability of the code without altering its external behavior.",
+      "To migrate the codebase to a different programming language to improve execution speed."
+    ],
+    "answer": "C",
+    "explanation": "Refactoring is the practice of improving the internal design, readability, and maintainability of existing code while preserving its external functionality. It is a key technical practice in Agile for managing technical debt and ensuring the system can continue to evolve easily.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 178,
+    "question": "An Agile team is using Pair Programming for a complex task. In this practice, what is the primary responsibility of the person acting as the 'Navigator'?",
+    "options": [
+      "Typing the code and managing the low-level implementation details.",
+      "Thinking strategically about the overall direction and reviewing the code as it is written in real-time.",
+      "Managing the sprint backlog and assigning tasks to other members of the team.",
+      "Updating the team's burndown chart and facilitating the daily stand-up meeting."
+    ],
+    "answer": "B",
+    "explanation": "In Pair Programming, the 'Driver' focuses on the tactical task of writing code. The 'Navigator' focuses on the strategic view, looking for potential errors, suggesting improvements, and thinking about edge cases or how the code fits into the larger system architecture.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 179,
+    "question": "A Scrum Master wants to gauge the team's level of agreement on a proposed change to their team charter. When using the 'Fist of Five' technique, what does it mean if a team member holds up five fingers?",
+    "options": [
+      "They have five major objections that must be addressed before they can agree.",
+      "They are neutral and will support the majority's decision regardless of their own opinion.",
+      "They strongly support the proposal and are willing to take a lead role in its implementation.",
+      "They believe the decision should be postponed until at least five more people have reviewed it."
+    ],
+    "answer": "C",
+    "explanation": "Fist of Five is a consensus-building technique. Holding up five fingers indicates full support and enthusiasm ('I love this and will champion it'). A 'fist' indicates total opposition, while 1 to 4 fingers represent varying levels of support or concern.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 180,
+    "question": "A facilitator asks the group for a 'Roman Vote' to quickly decide on a minor process change. How is a Roman Vote typically conducted?",
+    "options": [
+      "By writing preferred options on a piece of paper and conducting a secret ballot.",
+      "By holding up a thumb: Up for support, Down for opposition, or Sideways for neutral/abstain.",
+      "By assigning points from 1 to 10 to different options and calculating the average score.",
+      "By having team members move to different corners of the room based on their choice."
+    ],
+    "answer": "B",
+    "explanation": "Roman Voting (also known as 'Thumb Voting') is a rapid way to check the 'temperature' of a room or make a quick binary decision. It uses a simple thumb gesture (Up, Down, or Sideways) to indicate agreement, disagreement, or a neutral stance.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 181,
+    "question": "An Agile team has a list of ten possible improvement items and needs to identify the top three to address in the next sprint. Which technique involves giving each member a set number of sticky dots to place on their preferred items?",
+    "options": [
+      "Planning Poker",
+      "Dot Voting",
+      "Fist of Five",
+      "Roman Voting"
+    ],
+    "answer": "B",
+    "explanation": "Dot Voting (or 'Dotmocracy') is a simple prioritization technique. Each participant is given a fixed number of 'dots' (stickers or marks) to place on the options they consider most important. The items with the most dots represent the team's collective priority.",
+    "domain": "Team Performance",
+    "difficulty": "easy"
+  },
+  {
+    "id": 182,
+    "question": "As an organization transitions to Agile, their traditional Project Management Office (PMO) is evolving. What is a key characteristic of a supportive 'Agile PMO'?",
+    "options": [
+      "Enforcing strict compliance with a centralized, multi-year project plan.",
+      "Acting as a 'Center of Excellence' by providing coaching, mentoring, and removing organizational blockers.",
+      "Requiring all teams to submit detailed weekly status reports in a standard Waterfall template.",
+      "Making all technical decisions and architectural choices to ensure consistency across teams."
+    ],
+    "answer": "B",
+    "explanation": "An Agile PMO (sometimes called a Value Management Office) shifts from a 'command and control' role to a 'servant leadership' role. It focuses on enabling teams, standardizing useful metrics (like value delivery), and facilitating organizational change rather than enforcing rigid processes.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "easy"
+  },
+  {
+    "id": 183,
+    "question": "An Agile PMO director is defining the key performance indicators (KPIs) for several teams. To align with Agile values, what should be the primary focus of these metrics?",
+    "options": [
+      "Individual developer productivity measured by lines of code or number of commits.",
+      "Strict compliance with organizational processes and documentation standards.",
+      "The actual delivery of value to the customer and the overall throughput of the value stream.",
+      "The accuracy of initial budget and schedule estimates made at the start of the year."
+    ],
+    "answer": "C",
+    "explanation": "Agile metrics should focus on outcomes (value delivered) rather than outputs (lines of code) or compliance. A supportive PMO tracks things like lead time, cycle time, and business value realized to help the organization optimize its flow of work.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "easy"
+  },
+  {
+    "id": 184,
+    "question": "A developer argues that Test-Driven Development (TDD) is inefficient because it requires writing 'extra' code (the tests). What is the most significant long-term benefit of TDD that counters this argument?",
+    "options": [
+      "It completely eliminates the need for any manual testing by a Quality Assurance team.",
+      "It creates a comprehensive suite of automated regression tests that catch defects early when they are cheapest to fix.",
+      "It allows the team to skip the refactoring phase of development to save time in the long run.",
+      "It guarantees that the code will be 100% bug-free for the entire life of the product."
+    ],
+    "answer": "B",
+    "explanation": "While TDD may seem slower initially, it significantly reduces the 'cost of quality' over time. The automated test suite acts as a safety net, allowing developers to make changes or refactor with confidence, and preventing regressions from reaching production.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 185,
+    "question": "A developer realizes that a module they are working on is becoming cluttered and difficult to understand, although it currently passes all tests. According to Agile best practices, when should they refactor this code?",
+    "options": [
+      "Only after a customer reports a performance issue or a bug in that specific module.",
+      "During a dedicated 'Hardening Sprint' or 'Refactoring Sprint' at the end of the project cycle.",
+      "Continuously and incrementally as part of the daily work (often called 'Opportunistic Refactoring').",
+      "Never, as long as the code meets the current functional requirements and passes its tests."
+    ],
+    "answer": "C",
+    "explanation": "Agile teams practice continuous refactoring. By making small, frequent improvements to the code's design as they work on new features (the 'Boy Scout Rule'), they prevent the accumulation of technical debt and keep the system maintainable.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 186,
+    "question": "A senior developer and a junior developer are pair programming on a critical feature. How does this practice primarily contribute to long-term 'Team Performance'?",
+    "options": [
+      "By ensuring the junior developer performs all the typing while the senior developer focuses on other projects.",
+      "By facilitating real-time knowledge transfer and reducing the team's 'Bus Factor' (dependency on a single person).",
+      "By allowing the team to bill the client for two people's time for a single task to increase revenue.",
+      "By ensuring that the final compiled code executes significantly faster in the production environment."
+    ],
+    "answer": "B",
+    "explanation": "Pair programming is a powerful tool for knowledge sharing and cross-training. It ensures that more than one person understands every part of the system, which improves quality through immediate peer review and reduces the risk associated with individual team members leaving.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 187,
+    "question": "During a 'Fist of Five' consensus check on a new architectural approach, most members hold up 4 or 5 fingers, but one member holds up 2 fingers. What is the most appropriate next step for the facilitator?",
+    "options": [
+      "Proceed with the majority's decision since 90% of the team is in agreement.",
+      "Ask the member with 2 fingers to share their specific concerns and see if adjustments are needed to reach consensus.",
+      "Cancel the proposal entirely, as a '2' indicates that the proposal is fundamentally flawed.",
+      "Explain to the member that they are blocking the team's progress and should follow the majority."
+    ],
+    "answer": "B",
+    "explanation": "In Fist of Five, a '2' (or '1') indicates significant concerns. Agile facilitation values the 'minority voice' because dissenters often identify risks that others have missed. Addressing these concerns leads to a more robust decision and better team buy-in.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 188,
+    "question": "A Product Owner has 20 new feature requests and wants the team to help prioritize them using Dot Voting. To ensure the most effective and unbiased results, what should the facilitator do?",
+    "options": [
+      "Have team members cast their votes simultaneously or privately to avoid the 'Bandwagon Effect'.",
+      "Ask the most senior team member to vote first so others can follow their expert lead.",
+      "Encourage people to place all their dots on a single item to show their extreme passion for it.",
+      "Treat the voting results as a final, binding decision that the Product Owner cannot change."
+    ],
+    "answer": "A",
+    "explanation": "To avoid cognitive biases like the 'Bandwagon Effect' (where people follow the majority) or 'Anchoring' (influence of the first person to vote), facilitators should use techniques like private voting or simultaneous reveal to capture the team's true, independent perspectives.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 189,
+    "question": "During a retrospective, the team is quickly trying to decide whether to adopt a new format for their daily standup meetings. Why might 'Roman Voting' be preferred over 'Fist of Five' in this specific situation?",
+    "options": [
+      "It allows for a more nuanced understanding of everyone's specific levels of support.",
+      "It is the fastest way to get a simple 'Go/No-Go' decision from the group for a low-stakes change.",
+      "It requires a longer, more structured debate before any vote can be taken by the group.",
+      "It ensures that only the Scrum Master and Product Owner make the final decision for the team."
+    ],
+    "answer": "B",
+    "explanation": "Roman Voting is ideal for quick, binary decisions. While Fist of Five is better for high-stakes consensus and Dot Voting is for prioritization, Roman Voting is the most efficient for rapid 'temperature checks' on simple, low-stakes proposals.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 190,
+    "question": "An Agile team is blocked because they need a new server environment, but the traditional IT department requires a complex 30-day approval process. How should a supportive PMO assist the team?",
+    "options": [
+      "Advise the team to work overtime to make up for the 30-day delay in their schedule.",
+      "Use their organizational influence to negotiate a streamlined 'fast-track' process for Agile teams with the IT department.",
+      "Instruct the team to follow the standard process and fill out all required paperwork without complaint.",
+      "Reprimand the team for not forecasting their infrastructure needs six months in advance of the sprint."
+    ],
+    "answer": "B",
+    "explanation": "A key role of an Agile PMO is 'organizational impedance matching.' They bridge the gap between Agile teams and traditional departments, working to remove systemic blockers and streamline processes that were designed for a different way of working.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 191,
+    "question": "Several Agile teams in a large company want to use different project management tools (e.g., Jira vs. Trello). What is the most 'Agile' approach for the PMO to take regarding tool standardization?",
+    "options": [
+      "Mandate a single tool for the entire organization to simplify the PMO's reporting requirements.",
+      "Allow teams to choose the tools that work best for them, provided they can provide the necessary data for transparency.",
+      "Ban all digital tools and require everyone to use physical whiteboards for better visibility.",
+      "Let every individual developer choose their own personal tool for their specific tasks within the team."
+    ],
+    "answer": "B",
+    "explanation": "Agile values 'Individuals and Interactions over Processes and Tools'. A supportive PMO respects team autonomy (self-organization) but ensures that the *information* needed for organizational transparency is available, regardless of the specific tool used.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "medium"
+  },
+  {
+    "id": 192,
+    "question": "A team is transitioning from writing unit tests *after* the code is written to using Test-Driven Development (TDD). What is a primary difference they will likely observe in their code design?",
+    "options": [
+      "The code will likely have more complex logic and more nested conditional statements.",
+      "The code will naturally be more modular and decoupled because it was designed to be testable from the start.",
+      "The code will require significantly more system resources and memory to execute in production.",
+      "The code will no longer need to undergo any future refactoring or maintenance by the team."
+    ],
+    "answer": "B",
+    "explanation": "TDD forces developers to think about the 'interface' and 'testability' before implementation. This 'test-first' mindset naturally leads to cleaner interfaces, better separation of concerns (Single Responsibility Principle), and less 'spaghetti code'.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 193,
+    "question": "A facilitator is running a Dot Voting session to prioritize a product backlog. They notice that team members are clustering their dots around the items that already have several dots. Which cognitive bias is likely occurring here?",
+    "options": [
+      "Confirmation Bias",
+      "The Bandwagon Effect",
+      "Sunk Cost Fallacy",
+      "The Halo Effect"
+    ],
+    "answer": "B",
+    "explanation": "The Bandwagon Effect occurs when individuals align their choices with the majority. In Dot Voting, this can lead to 'clustering' where early votes influence others, potentially obscuring the team's true diverse perspectives and priorities.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 194,
+    "question": "An organization is frustrated that it takes six months to deliver a feature that only requires two weeks of actual coding time. How can an Agile PMO use 'Value Stream Mapping' to address this?",
+    "options": [
+      "By mapping the entire process from 'concept to cash' to identify non-value-added 'wait times' and handoffs between departments.",
+      "By performing a time-and-motion study on individual developers to see who is the most efficient coder.",
+      "By creating a more detailed Gantt chart to ensure every department starts their work exactly on time.",
+      "By replacing the current Agile teams with a more experienced external vendor to speed up delivery."
+    ],
+    "answer": "A",
+    "explanation": "Value Stream Mapping (VSM) helps visualize the flow of work. In many organizations, the biggest delays occur *between* teams or departments (wait times). An Agile PMO uses VSM to identify these bottlenecks and optimize the whole system rather than just local tasks.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "medium"
+  },
+  {
+    "id": 195,
+    "question": "A developer is refactoring a large, complex method by breaking it into several smaller, well-named methods, while keeping the functionality identical. Which design principle are they primarily applying?",
+    "options": [
+      "YAGNI (You Ain't Gonna Need It)",
+      "DRY (Don't Repeat Yourself)",
+      "Single Responsibility Principle / Separation of Concerns",
+      "Big Design Up Front (BDUF)"
+    ],
+    "answer": "C",
+    "explanation": "By breaking a large method into smaller ones, each with a clear name and purpose, the developer is ensuring each piece of code has a 'Single Responsibility'. This makes the system easier to read, test, and maintain, which are core goals of Agile technical excellence.",
+    "domain": "Team Performance",
+    "difficulty": "medium"
+  },
+  {
+    "id": 196,
+    "question": "A team is working on a legacy system with no existing automated tests and significant technical debt. They decide to apply Test-Driven Development (TDD) for all *new* features. How does this strategy contribute to 'Emergent Design'?",
+    "options": [
+      "It allows the team to completely ignore the legacy codebase and build a new, parallel system.",
+      "It creates 'islands of quality' where new code is clean and tested, providing a safe foundation for future refactoring of legacy modules.",
+      "It guarantees that the legacy code will automatically become cleaner without any additional refactoring effort.",
+      "It forces the team to rewrite the entire legacy system before any new value can be delivered to the customer."
+    ],
+    "answer": "B",
+    "explanation": "In legacy environments, TDD ensures that any new additions are high-quality. Over time, as the team adds tests and refactors the legacy code they touch ('refactoring as you go'), the overall design 'emerges' and improves, slowly reducing the total technical debt of the system.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 197,
+    "question": "A traditional PMO is struggling to report progress for ten Agile teams to the CFO, who is used to seeing 'Percent Complete' for a fixed scope. What is the most effective way for an Agile PMO to provide transparency while maintaining Agile integrity?",
+    "options": [
+      "Calculate the total number of tasks in the backlog and report the percentage of tasks marked as 'Done'.",
+      "Shift the reporting focus to 'Value Delivered' using a Value Burn-up chart based on the business value of completed features.",
+      "Require teams to provide a 'percent complete' estimate for every user story in their current and future sprints.",
+      "Explain to the CFO that progress cannot be measured in Agile and they must trust the teams' velocity."
+    ],
+    "answer": "B",
+    "explanation": "In Agile, scope is variable. Reporting 'percent complete' against an evolving backlog is often misleading. An Agile PMO provides better transparency by showing how much actual business value has been delivered over time against the strategic roadmap (Value Burn-up).",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "hard"
+  },
+  {
+    "id": 198,
+    "question": "A team is using 'Fist of Five' to decide on a major technology stack change. After a long discussion, the results are: three '5s', four '4s', two '3s', and one '1'. Why is it critical for the facilitator to address the '1' before proceeding?",
+    "options": [
+      "Because the person with the '1' is likely the project's most senior technical leader and has a veto.",
+      "Because a '1' indicates a belief that the decision could be harmful or that the individual cannot support it, which risks the entire initiative.",
+      "Because Agile principles require 100% unanimous agreement for all technical and architectural decisions.",
+      "Because the facilitator needs to ensure that everyone is equally happy with the decision before moving forward."
+    ],
+    "answer": "B",
+    "explanation": "A '1' in Fist of Five is a 'stop' signal. It means the person sees a significant risk or concern that others may have overlooked. Ignoring a '1' can lead to poor quality, lack of buy-in, or even active resistance during implementation, which is detrimental to team performance.",
+    "domain": "Team Performance",
+    "difficulty": "hard"
+  },
+  {
+    "id": 199,
+    "question": "A key stakeholder pressures the team to skip 'Refactoring' and 'Unit Testing' for the current sprint to meet a critical market window. What is the most professional and 'Agile' way for the team to handle this?",
+    "options": [
+      "Silently perform the quality practices anyway but tell the stakeholder they were skipped to avoid conflict.",
+      "Agree to the trade-off but explicitly document the 'Technical Debt' incurred and add the cleanup work to the next sprint's backlog.",
+      "Agree to skip the practices and focus solely on the market window, as quality is less important than speed in this case.",
+      "Refuse the request entirely, as skipping any quality practice is a direct violation of the Agile Manifesto."
+    ],
+    "answer": "B",
+    "explanation": "Agile is about making informed, transparent trade-offs. While sometimes speed is prioritized, the 'Technical Debt' incurred must be made visible. This allows the business to understand the true cost of accelerated delivery and ensures the debt is managed rather than forgotten.",
+    "domain": "Agile Principles and Mindset",
+    "difficulty": "hard"
+  },
+  {
+    "id": 200,
+    "question": "In an organization moving toward 'Lean Portfolio Management', what is the primary role of the PMO in managing the flow of 'Epics' across multiple value streams?",
+    "options": [
+      "Assigning specific developers to individual epics to ensure maximum resource utilization at all times.",
+      "Establishing 'Guardrails' for investment funding and using 'Weighted Shortest Job First' (WSJF) to prioritize the flow of work.",
+      "Creating a detailed, five-year project plan for every epic currently residing in the portfolio backlog.",
+      "Ensuring that every team in the organization follows the exact same process and uses the same toolset for every task."
+    ],
+    "answer": "B",
+    "explanation": "In Lean Portfolio Management, the PMO (or Value Management Office) focuses on strategy and investment. They ensure the most valuable work is prioritized (using WSJF) and that teams have autonomy to execute within clearly defined strategic and financial 'guardrails'.",
+    "domain": "Value-Driven Delivery",
+    "difficulty": "hard"
+  }
+]
